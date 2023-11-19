@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+     <head>
+      <title>Test page</title>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+       <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+         <script src="https://unpkg.com/leaflet-gpx/gpx.js"></script>
+   </head>
+
+   <body>
+<h1 id="introduction">Introduction</h1>
+<div id="map" style="width: 600px; height: 300px"></div>
+
+<script>
+   // Creating map options
+   var mapOptions = {
+      center: [40.7848927, -77.8685289],
+      zoom: 15
+   }
+
+   // Creating a map object
+   var map = new L.map('map', mapOptions);
+
+   // Creating a Layer object
+   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+   // Adding layer to the map
+  map.addLayer(layer);
+
+  // Load GPX track and add it to the map
+  var gpxTrack = new L.GPX('gpx/test.gpx', {
+    async: true,
+    createMarker: function() { return null; },
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 3,
+      opacity: 0.7,
+    },
+  }).addTo(map);
+</script>
+<p>End</p>
+ </body>
+</html>

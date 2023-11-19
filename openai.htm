@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPX Track on OSM Map</title>
+  <!-- Include Leaflet CSS and JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" integrity="sha512-xwE/Az9zr/8MZGnZx+/p7/EiBpWtPc5gMG0TGjbQS5g9JgfeMeFJ0lEZPKYCW+ZTRtbv2O9WjDBfM2w1Auy3xw=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" integrity="sha512-c+Y5VjQozK1MNN79efkt4TmS5kI0AP/Ztkc8zF0pRMPkVdRuVowS1+9g8X55zQVIZ6onZSgYUmwVzPrF2aQefg=="
+    crossorigin=""></script>
+  <!-- Include Leaflet GPX plugin -->
+  <script src="https://unpkg.com/leaflet-gpx/gpx.js"></script>
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <script>
+    // Initialize the map
+    var map = L.map('map').setView([0, 0], 2);
+
+    // Add OpenStreetMap tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Load GPX track and add it to the map
+    var gpxTrack = new L.GPX('path/to/your/file.gpx', {
+      async: true,
+      marker_options: {
+        startIconUrl: 'path/to/start/icon.png',
+        endIconUrl: 'path/to/end/icon.png',
+        shadowUrl: 'path/to/marker-shadow.png',
+      },
+      polyline_options: {
+        color: 'blue',
+        weight: 3,
+        opacity: 0.7,
+      }
+    }).addTo(map);
+
+    // Fit the map to the bounds of the GPX track
+    gpxTrack.on('loaded', function (e) {
+      map.fitBounds(e.target.getBounds());
+    });
+  </script>
+
+</body>
+</html>
