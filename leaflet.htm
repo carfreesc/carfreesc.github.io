@@ -32,7 +32,6 @@
   // Load GPX track and add it to the map
   var gpxTrack = new L.GPX('gpx/test.gpx', {
     async: true,
-    createMarker: function() { return null; },
     marker_options: {
       startIconUrl: false,
       endIconUrl: false,
@@ -40,7 +39,7 @@
     },
     polyline_options: {
       color: 'blue',
-      weight: 3,
+      weight: 5,
       opacity: 0.7,
     },
   }).addTo(map);
