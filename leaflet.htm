@@ -30,7 +30,7 @@
   map.addLayer(layer);
 
   // Load GPX track and add it to the map
-  var gpxTrack = new L.GPX('gpx/cata/cc_approx.gpx', {
+  var cc_route = new L.GPX('gpx/cata/cc_approx.gpx', {
     async: true,
     marker_options: {
       startIconUrl: false,
@@ -39,6 +39,20 @@
     },
     polyline_options: {
       color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map);
+
+    var rx_route = new L.GPX('gpx/cata/rx_approx.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'red',
       weight: 5,
       opacity: 0.7,
     },
