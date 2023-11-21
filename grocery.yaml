@@ -1,0 +1,19 @@
+---
+waystore:
+  - name: Way Fruit Farm Downtown Market and Cafe
+  - lat: 40.79557
+  - long: -77.85900
+  - desc: The Way Fruit Farm Cafe sells produce from the Way Fruit Farm in Stormstown, along with many general groceries.
+  - type: small
+internationalmarket:
+  - name: State College International Market
+  - lat: 40.7917204
+  - long: -77.8576040
+  - desc: Market carrying a variety of international products
+  - type: small
+weiswesterly:
+  - name: Weis Markets
+  - 40.7814996
+  - -77.8532859
+  - desc: Supermarket
+  - type: supermarket
