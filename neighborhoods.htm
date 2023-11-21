@@ -58,6 +58,16 @@
     },
    }).addTo(map);
 
+  // Create a custom div icon with your text
+  var textIcon = L.divIcon({
+    className: 'text-overlay',
+    html: 'My house',
+    iconSize: [200, 40], // Adjust the size as needed
+  });
+
+  // Add the marker with the custom div icon
+  L.marker([40.7848927, -77.8685289], { icon: textIcon }).addTo(map);
+
 </script>
 <p>End</p>
  </body>
