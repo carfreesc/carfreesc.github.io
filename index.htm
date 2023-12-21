@@ -249,6 +249,42 @@ weekday and come out ahead only if you use the bus even more than that.
 I am surprised anybody buys them at this price point but that’s the
 situation.</p>
 <h2 id="bus-routes">Bus routes</h2>
+<div id="map578079" style="width: 600px; height: 300px">
+
+</div>
+<script>
+  // Creating map options
+  var mapOptions = {
+    center: [40.7848927,-77.8685289],
+    zoom: 15
+  }
+
+  // Creating a map object
+  var map578079 = new L.map('map578079', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+  // Here goes all the stuff specific to this map.
+  var route = new L.GPX('maps/gpx/cata/cc_approx.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map578079);
+
+
+  // Adding layer to the map
+  map578079.addLayer(layer);
+
+</script>
 <h3 id="blwlrl-blue-loopwhite-loopred-link">BL/WL/RL (Blue Loop/White
 Loop/Red Link)</h3>
 <p>These three services are subsidized by Penn State and offer free,
@@ -472,7 +508,7 @@ and cafe. Recommended.</li>
 <li><strong>International Market</strong> on Allen has a pretty wide
 array of international products.</li>
 </ul>
-<div id="map" style="width: 600px; height: 150px">
+<div id="map795425" style="width: 400px; height: 200px">
 
 </div>
 <script>
@@ -483,19 +519,19 @@ array of international products.</li>
   }
 
   // Creating a map object
-  var map = new L.map('map', mapOptions);
+  var map795425 = new L.map('map795425', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
   // Here goes all the stuff specific to this map.
-    var marker = L.marker([40.79557, -77.859]).addTo(map).bindPopup("Way Fruit Farm Downtown Market and Cafe")
-  var marker = L.marker([40.7917204, -77.857604]).addTo(map).bindPopup("State College International Market")
-  var marker = L.marker([40.7814996, -77.8532859]).addTo(map).bindPopup("Weis Markets")
+  var marker = L.marker([40.79557, -77.859]).addTo(map795425).bindPopup("Way Fruit Farm Downtown Market and Cafe");
+  var marker = L.marker([40.7917204, -77.857604]).addTo(map795425).bindPopup("State College International Market");
+  var marker = L.marker([40.7814996, -77.8532859]).addTo(map795425).bindPopup("Weis Markets");
 
 
   // Adding layer to the map
-  map.addLayer(layer);
+  map795425.addLayer(layer);
 
 </script>
 <p>If you are a car-free enthusiast of local foods, do not despair;

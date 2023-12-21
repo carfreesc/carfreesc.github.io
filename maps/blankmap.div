@@ -1,4 +1,4 @@
-<div id="map" style="width: {width}px; height: {height}px"></div>
+<div id="map{id}" style="width: {width}px; height: {height}px"></div>
 
 <script>
   // Creating map options
@@ -8,7 +8,7 @@
   }}
 
   // Creating a map object
-  var map = new L.map('map', mapOptions);
+  var map{id} = new L.map('map{id}', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png');
@@ -17,6 +17,6 @@
 {additions}
 
   // Adding layer to the map
-  map.addLayer(layer);
+  map{id}.addLayer(layer);
 
 </script>

@@ -85,6 +85,11 @@ It is also possible to buy passes directly.  These are very expensive -- you bas
 
 ## Bus routes
 
+``` {.include}
+maps/output/bus.div
+```
+
+
 ### BL/WL/RL (Blue Loop/White Loop/Red Link)
 
 These three services are subsidized by Penn State and offer free, high frequency service around parts of campus and downtown.
