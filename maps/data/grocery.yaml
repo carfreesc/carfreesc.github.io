@@ -1,10 +1,10 @@
 ---
 metadata:
-  width: 400
-  height: 200
-  lat: 40.7848927
-  long: -77.8685289
-  zoom: 15
+  width: 600
+  height: 300
+  lat: 40.79444
+  long: -77.8616040
+  zoom: 13
 waystore:
   type: marker
   name: Way Fruit Farm Downtown Market and Cafe

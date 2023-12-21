@@ -9,8 +9,8 @@ def read_yaml_file(file_path):
   return data
 
 # String for markers.
-marker_str = "var marker = L.marker([{lat}, {long}]).addTo(map{id}).bindPopup(\"{name}\");"
-route_str = """var route = L.GPX('maps/gpx/cata/cc_approx.gpx', {{
+marker_str = "var marker = new L.marker([{lat}, {long}]).addTo(map{id}).bindPopup(\"{name}\");"
+route_str = """var route = new L.GPX('maps/gpx/cata/{file}', {{
     async: true,
     marker_options: {{
       startIconUrl: false,
@@ -18,7 +18,7 @@ route_str = """var route = L.GPX('maps/gpx/cata/cc_approx.gpx', {{
       shadowUrl: false,
     }},
     polyline_options: {{
-      color: 'blue',
+      color: '{color}',
       weight: 5,
       opacity: 0.7,
     }},
@@ -31,7 +31,6 @@ def fill_map_template(info,outfile_name):
   with open(template_path, 'r') as file:
     template = file.read()
 
-
   id_random = str(random.randint(100000, 999999)) # Random ID for this map to avoid collisions on the page.
 
   fill = {}
@@ -42,6 +41,7 @@ def fill_map_template(info,outfile_name):
   fill['height'] = mapinfo['height']
   fill['center_lat'] = mapinfo['lat']
   fill['center_long'] = mapinfo['long']
+  fill['zoom'] = mapinfo['zoom']
   fill['id'] = id_random
 
   # Loop through all the stuff listed in the YAML file.

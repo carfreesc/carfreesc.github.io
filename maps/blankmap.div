@@ -4,7 +4,7 @@
   // Creating map options
   var mapOptions = {{
     center: [{center_lat},{center_long}],
-    zoom: 15
+    zoom: {zoom}
   }}
 
   // Creating a map object

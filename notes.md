@@ -8,18 +8,13 @@ A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-be
 
 The core downtown and campus area of State College is compact enough that you really don't need a car to get around: you can walk from one side to the other in less than an hour, and there are a variety of good bus and bike routes.  However, even if you live nearby, you'll sometimes need to get further out for groceries, medical appointments, recreation, etc.  This can be trickier.
 
-
-The downtown part of State College is roughly laid out in a grid (though the roads don't align with the compass axes).  The busiest east-west street is College Avenue, which is the boundary between
-The main east-west roads through downtown State College are College Avenue and Beaver Avenue. (You will no doubt notice that they do not actually run east and west: the road grid is off-compass here because of the ridges.)  In the downtown area, the north side of College Avenue is the Penn State campus while the south side is the city of State College proper, with all the business and restaurants.
+The downtown part of State College is roughly laid out in a grid (though the roads don't align with the compass axes).  The busiest east-west street is College Avenue, which is the boundary between the downtown area and the Penn State campus.
 
 TODO: Very basic map of downtown
 
+There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go.
 
-There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected painted lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go, official lanes or no.  
-
-The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA mostly offers fixed-line bus service between the denser housing developments and downtown, with more far-flung areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.
-
-Residential neighborhoods and developments can be found in many directions.  I won't attempt to make an exhaustive list here, but hopefully this map gives you a basic idea.
+The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers fixed-line bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, but unfortunately it is difficult to rely on it.
 
 TODO: A map with labelings of main neighborhoods and the bigger apartment complexes.
 
@@ -85,10 +80,11 @@ It is also possible to buy passes directly.  These are very expensive -- you bas
 
 ## Bus routes
 
+(Many of the letters are suggestive of where the bus goes: you can guess what the "V" and ".  The "N" is for "Northland", for example.  Some are a bit more mysterious; I think the "H" served Hills Plaza a long time ago.)
+
 ``` {.include}
 maps/output/bus.div
 ```
-
 
 ### BL/WL/RL (Blue Loop/White Loop/Red Link)
 
@@ -118,9 +114,8 @@ These routes serve the apartment complexes off Vairo Blvd with service to downto
 
 This bus runs all over the place late at night when the other routes have ended (about 10 PM to 2 AM).  The route is nuts and not a very practical way to get anywhere, but if you're drunk and trying to get home it will probably get you there, eventually, no matter where you live.
 
-### R (wauplelani
+### R (Wauplelani)
 
-(Many of the letters are suggestive of where the bus goes: you can guess what the "V" and ".  The "N" is for "Northland", for example.  Some are a bit more mysterious; I think the "H" served Hills Plaza a long time ago
 
 
 # Biking considerations
@@ -275,7 +270,7 @@ There are doctors and dentists in many other places too.  Mount Nittany has some
 
 * **Meyer Dairy** on South Atherton is a local landmark.  It is not easy to reach despite being across from the bike path: I think the easiest route is to take Rolling Ridge north, ride through the KBB parking lot, and then jump a curb and cross a little grass to get to the dairy.
 
-* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future.  It is possible to bike, but it is pretty unpleasant.  If somebody reading this knows a better option please tell me.
+* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future either.  It is possible to bike (or even walk), but it is pretty unpleasant.  If somebody reading this knows a better option please tell me.
 
 ## Car math
 
