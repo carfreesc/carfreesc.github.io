@@ -1,69 +1,33 @@
-# Introduction
+# Do I need a car in State College?
 
-<div id = "map" style = "width: 400px; height: 200px">
-<script>
-   // Creating map options
-   var mapOptions = {
-   
-	  center: [40.78570,-77.83720],
-	  zoom: 15
-   }
+It depends.  But probably not.
 
-   // Creating a map object
-   var map = new L.map('map', mapOptions);
+A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is perhaps a bit optimistic, it is certainly possible to get by here without a car, and many people do, both PSU students and others.  On this page I attempt to collect some practical advice and share some of the many resources available.  This is of course shaped by my own location, commute, tastes, fitness, budget,.. and won't apply to everyone; I welcome other perspectives, which you can share by making a pull request to or emailing carfreesc@gmail.com. (I would especially appreciate student perspectives!)
 
-   // Creating a Layer object
-   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+# Orientation
 
-   // Adding layer to the map
-   map.addLayer(layer);
-      
-   // Try adding a tag.
-   var geojsonFeature = {
-     "type": "Feature",
-     "properties": {
-        "name": "My house",
-        "amenity": "Bathrooms",
-        "popupContent": "We live here."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates":  [40.78570,-77.83720]
-      }
-    };
-   
-   L.geoJSON(geojsonFeature).addTo(map);
-</script>
-</div>
+The core downtown and campus area of State College is compact enough that you really don't need a car to get around: you can walk from one side to the other in less than an hour, and there are a variety of good bus and bike routes.  However, even if you live nearby, you'll sometimes need to get further out for groceries, medical appointments, recreation, etc.  This can be trickier.
 
 
-A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living based on the very large number of car-free residents.  If you're moving here and anticipating a tranquil car-free existence, you're in for a rude awakening: what the study fails to mention is that nearly all of those car-free residents are undergraduates living in dormitories who seldom need to stray far from campus.  Living in State College without a car past the age of 22 is indeed possible, but it takes some dedication and planning.
+The downtown part of State College is roughly laid out in a grid (though the roads don't align with the compass axes).  The busiest east-west street is College Avenue, which is the boundary between
+The main east-west roads through downtown State College are College Avenue and Beaver Avenue. (You will no doubt notice that they do not actually run east and west: the road grid is off-compass here because of the ridges.)  In the downtown area, the north side of College Avenue is the Penn State campus while the south side is the city of State College proper, with all the business and restaurants.
 
-I've tried to collect some practical advice and basic information about car-free commuting in the State College area, along with some editorialization.  The advice here is of course shaped by my own location, commute, tastes, fitness, budget,.. and won't apply to everyone.  There are many parts of town where I don't bike often, and I don't know the best streets.  I am often pulling a toddler in a trailer and may be more traffic-averse than you are.  Or less traffic-averse; my nerves are well-fried from a decade of big-city commuting.  If you'd like to share your own advice or correct mine you can make a pull request at, or just email carfreesc@gmail.com.
-
-I don't claim to know much about car-free student life.  Certainly many students don't have cars, and you realistically won't need one unless you have a very far-off apartment or job.  If any student out there wants to write a bit about student life without a car let me know.  A similar offer applies to graduate students and postdocs.
-
-# The basics
-
-Although State College is relatively compact, it is probably not quite small enough that you can get away with walking everywhere.  In the absence of a car, you will need to rely on buses and biking (and maybe the occasional taxi/Uber).  Below is a map showing downtown, campus, and what are to my mind the "major" bike and bus routes.  The darker the color of a route, the more I like it.  Dark bus routes have regular and frequent service throughout the day, while light ones are designed for commuters and may have only morning and evening service.  Dark bike routes are separated off-road paths, and light ones or roads I like to ride (with or without bike lanes).  There are many other routes (bus and bike alike) not shown here; you should look at a map to see what's in your neighborhood.
-
-There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of separated bike lanes.  In the actual downtown core, there is not really any bike infrastructure save for "sharrows" painted on the road in a few places.  The "Next Generation Safety and Mobility Plan" envisions some improvements in this area -- stay tuned.
-
-Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go, official lanes or no.  But it is important to understand that it is no cycling utopia: pedestrians and cyclists are injured and killed with some regularity.
-
-The Centre Region Council of Governments provides [an interactive bike map](https://centrecog.maps.arcgis.com/apps/webappviewer/index.html?id=b9264927503843b1a0c6836b50d99cc0) showing both off- and on-road options.  OpenStreetMaps has better coverage of local bike connections than Google maps.  (I don't know who is responsible, but thank you!)  OSM does not provide routing, but various third-party sites do.  I use [OpenRouteService](https://maps.openrouteservice.org/).  The suggestions are occasionally a little wonky, but so are Google's and at least OSM isn't tracking me.
-
-Residential neighborhoods and developments can be found in many directions.  There are three ``historic'' neighborhoods that are easily walkable to campus: the Highlands (to the south), Holmes-Foster (to the west), and College Heights (to the north).  I suspect going car-free is easiest if you live in in one of these areas. But they are also more expensive and louder.  Park Forest is a large, mostly residential neighborhood northwest of downtown.  There is a good bike path to campus, but it may be a couple miles.  a variety of other neighborhoods also offer connections to convenient off-road bike paths, at the cost of being a little further away.
-
-Much recent development has been along North Atherton Street, to the northwest side of town.  This (st)road is unfortunately a car-centric hellscape, and [$33,000,000 of recent "upgrades"](https://www.statecollege.com/atherton-street-project-cost-soars-past-estimate/)  have left it even more hostile to humans than it used to be. Your tax dollars at work.  It is often possible to reach destinations on N Atherton either by bus, or by biking in on a cross street through Park Forest, or by taking the Valley Vista path.
-
-The bus network in town is [CATA](https://catabus.com/) (the Centre Area Transit Authority); the [Spring 2022 service map](http://catabus.com/wp-content/uploads/System-Map-Spring-2022.pdf) is here.  The buses are better than you would expect in a city of this size, but the schedules are still not always convenient depending on what you're trying to do.  All the routes are to/from campus or downtown, so if you're trying to get somewhere else you will probably need a (lengthy) connection.
-
-There are two main types of routes: some "circulator" routes with fairly direct and relatively frequent service, and some "commuter" lines that go from a particular neighborhood to downtown or campus, but tend to be pretty slow since they take indirect routes.  A few of the routes downtown or on campus are subsidized and don't cost anything; for most of the others you'll need tokens, which cost a couple bucks each.
+TODO: Very basic map of downtown
 
 
+There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected painted lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go, official lanes or no.  
+
+The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA mostly offers fixed-line bus service between the denser housing developments and downtown, with more far-flung areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.
+
+Residential neighborhoods and developments can be found in many directions.  I won't attempt to make an exhaustive list here, but hopefully this map gives you a basic idea.
+
+TODO: A map with labelings of main neighborhoods and the bigger apartment complexes.
+
+Much recent development has been along North Atherton Street, to the northwest side of town. Unfortunately this road is very unpleasant to walk or bike on, and a round of recent upgrades did not help. It is generally possible to reach destinations on N Atherton either by taking the bus, or by biking in on a cross street through Park Forest.
 
 # Bike routes
+
+The Centre Region Council of Governments provides [an interactive bike map](https://centrecog.maps.arcgis.com/apps/webappviewer/index.html?id=b9264927503843b1a0c6836b50d99cc0) showing both off- and on-road options.  OpenStreetMaps has more accurate coverage of local bike connections than Google maps.  I don't know who is responsible for keeping it so up-to-date, but thank you!  OSM does not provide routing, but various third-party sites provide routing on their maps.  I use [OpenRouteService](https://maps.openrouteservice.org/).  The suggestions are occasionally a little wonky, but so are Google's and at least OSM isn't tracking me.
 
 ## Off-road
 
@@ -105,40 +69,93 @@ Headed south, you should resist the temptation to bomb down the hill to Easterly
 
 ## Campus
 
-There are relatively few roads on campus, but most of them are fine to ride on.  In areas without roads, biking on the sidewalks is permitted as long as you ride like a sane person and yield to pedestrians.  As in all things, there is an official PSU policy with the details: [SY16 Regulations for Bicycles / Skateboards / Scooters / In-Line Skates / Roller Skates / Electric Personal Assistive Mobility Devices](https://policy.psu.edu/policies/sy16).
+There are relatively few roads on campus, but most of them are fine to ride on.  The basic PSU biking rule is that riding on the sidewalks is allowed, but when you're on a sidewalk next to a road, you should be on the road instead.  As with all things, there is an official PSU policy with the details: [SY16 Regulations for Bicycles / Skateboards / Scooters / In-Line Skates / Roller Skates / Electric Personal Assistive Mobility Devices](https://policy.psu.edu/policies/sy16).
 
 * **Pollock** cuts east-west across campus (this is the road in front of the HUB).  It has no bike lane, but gates in the middle mean it is closed to cars for most of the day (except for OPP and bigwigs with a permit to park at Old Main).  It also connects to the IST building, a (walk-your-)bikable bridge over Atherton.
 
 * **Curtin** is another east-west street, but a lot busier.  It's basically rideable, but prefer Pollock when you can.
 
-* **Shortlidge** is the extension of Garner onto campus.  It has a bike lane and is a fine option to go north/south or connect back into town.
+* **Shortlidge** is the extension of Garner onto campus.  It has a climbing lane for bikes and is a fine option to go north/south or connect back into town.
+
+# Bus service
+
+CATA provides a variety of bus routes around town, as well as CATAGO! and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  In most cases these passes are good only for the route serving the apartment complex in question, but a shift may be underway toward passes providing access to the entire CATA network.  In any case,
+
+It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  I am surprised anybody buys them at this price point but that's the situation.
+
+## Bus routes
+
+### BL/WL/RL (Blue Loop/White Loop/Red Link)
+
+These three services are subsidized by Penn State and offer free, high frequency service around parts of campus and downtown.
+
+### AC  (Atherton Street Connector)
+
+This bus offers increasingly infrequent, but fairly direct, service back and forth on Atherton St between (roughly) Hills Plaza to the south and Colonnade to the north.  It has connections to CATAGO! at:
+
+### CC (College Avenue Connector)
+
+This bus offers service along College Ave from Nittany Mall to the east to (currently) Buckhout St to the west (near the new "Haus" apartment building).  It used to run all the way to Cato Park, and one hopes that someday it will again.
+
+### N/NE (Martin St/Aaron Dr)
+
+These routes serve several apartment complexes in the vicinity of Aaron Drive.  They also serve **N**orthland Center (the source of the initialism, I believe) which has some supermarket options.
+
+### H (Toftrees)
+
+The H shuttles between Toftrees and campus.
+
+### V/VE (Vairo Blvd express)
+
+These routes serve the apartment complexes off Vairo Blvd with service to downtown.  The express VE skips some inbound stops.)
+
+### NV (late night loop)
+
+This bus runs all over the place late at night when the other routes have ended (about 10 PM to 2 AM).  The route is nuts and not a very practical way to get anywhere, but if you're drunk and trying to get home it will probably get you there, eventually, no matter where you live.
+
+### R (wauplelani
+
+(Many of the letters are suggestive of where the bus goes: you can guess what the "V" and ".  The "N" is for "Northland", for example.  Some are a bit more mysterious; I think the "H" served Hills Plaza a long time ago
 
 
 # Biking considerations
 
-## Facilities
+## Bike repairs and shops
 
-There are two bicycle shops in town: **Freeze Thaw Cycles** downtown near College & Allen, and **The Bicycle Shop** a few blocks to the west at Beaver and Barnard.  Both are excellent, but can also have very long waits, especially during peak seasons.   These are not the only options for repairs.  **Blacklist Bicycles** is a mobile repair shop, who I gather will show up at your house with a van and fix your bikes.  **The Bike Den** is located in a PSU parking garage on the west end of campus and has a variety of tools and classes available.
-There are also a lot of little "bike repair stations" around, in case you just need an Allen Wrench or a pump. (PS: Does anybody actually use these things?  They have always struck me as a useless way for the powers that be to appear to be doing something pro-bike, or maybe to check a box to get that prized silver-medal designation.  But I would be happy to be wrong.)
+There are several bicycle shops in and around State College:
 
-You are supposed to register your bicycle and put on a little sticker on the frame; you can do it at any of the bike shops or online.  I think in theory you could be fined if you don't, but mostly it helps the police track the bike if it's stolen.  Speaking of which, a good bike lock is essential.
+* **Freeze Thaw Cycles** downtown near College & Allen
+* **The Bicycle Shop** a few blocks to the west at Beaver and Barnard is now a Specialized storen
+* **The Bike Roost** in Boalsburg.  They also operate **Blacklist Bicycles** and will come to you with a van to pick up your bike and make repairs.
+* **A Trek store** is coming near the mall
+* **The Bike Den** is a great resource on campus (inside the west parking deck) with classes and tools available to the public.
 
-## Terrain
+I won't opine on these here. You can read some reviews online to get a feel for which might be the most up your alley.
+
+## Bike rules
+
+* You need to follow [state law](https://www.penndot.pa.gov/TravelInPA/active-transportation/Pages/Bicycle-Safety-and-Pennsylvania-Laws.aspx) for biking.  This is basic stuff about riding on the right side of the road and stopping at signals.  You need a front light and rear reflector if riding at night.
+
+* Cycling in town is covered by [Chapter III: Pedalcycles](https://ecode360.com/32695144) of the Municipal Code.  Summary: Riding on sidewalks is not allowed downtown (defined to be College to Beaver from Atherton to High, plus an extra block toward Foster on each of Pugh, Fraser, and Allen).  Riding on sidewalks is fine outside of that area.  Don't lock to a public bike rack for more than 72 hours or they might cut your lock.
+
+* Cycling on campus is regulated by [Policy: SY16 Regulations for Bicycles and Personal Mobility Devices](https://policy.psu.edu/policies/sy16).  Summary: Don't ride like a maniac.  Yield to pedestrians at every opportunity.  You can ride on the sidewalk if it's not next to a road; these are "shared use paths".  Don't lock your bike to things that aren't bike racks or bring it inside a building.
+
+* The Borough and PSU both require that you register your bicycle; you can do it at any of the bike shops or online.  I think in theory you could be fined if you don't, but mostly it helps the police track the bike if it's stolen.  Speaking of which, a good bike lock is essential.
+
+## Snow and hills
+
+Snow is typically cleared pretty quickly and the roads are salted to the point that they are fine to bike on, but you'll probably want to take extra care to avoid ice and traffic after a storm.  Most of the major off-road paths are theoretically cleared in the winter.  The exceptions I am aware of are in the golf course (both the gravel path parallel to College, and the rump Corl Street through the golf course) and the path along 322 from Scenery Park towards Lemont. A short stretch of the connection from the S Atherton bike path to Garner runs on private sidewalks, which have not reliably been cleared the last couple years.
+In my experience the other paths are  cleared pretty quickly, but people who actually commute on them might have better information.  I did have a couple very icy trips on S Atherton in 2022.  Sidewalks and roads on campus are reliably cleared early and quickly.
+
+It can get pretty cold here in the winter.  If you're commuting in the morning, you are looking at a couple months below freezing, and sometimes a day or two a year where the temperature dips below 0 F.  Dress appropriately, but it's really not so bad to commute year-round.  I am a true believer in pogies, e.g. the [Bar Mitts](https://barmitts.com/) brand.  I know they have them at Freeze Thaw.
+
+CRPR offers classes about winter cycling, as does PSU transportation.
+
+It gets dark early in the winter.  It will be totally dark by the time of the evening commute.  Good bike lights, front and back, are necessary.
 
 State College is fairly hilly.  If you don't think you'll be able to make it up the hills, you might consider an eBike, or using the "Spin" eBike sharing program that's available in many parts of town.
 
 If you're ever feeling nervous about traffic, you usually have the option of riding on the sidewalk.  In the borough, sidewalk riding is allowed everywhere except the "downtown business district", defined in ordinances as the area shaded below.  On campus, sidewalk riding is allowed outside the "Bicycle Exclusion Zone", which is bounded by Curtin to the north and Pollock to the south.  You can also just walk your bike on the sidewalk.
-
-
-### Seasonal issues
-
-It can get pretty cold here in the winter.  If you're commuting in the morning, you are looking at a couple months below freezing, and sometimes a day or two a year where the temperature dips below 0 F.  You'll want to dress appropriately.  I am a convert to [Bar Mitts](https://barmitts.com/).  I know they have them at Freeze Thaw.
-
-Snow is typically cleared pretty quickly and the roads are salted to the point that they are fine to bike on, but you'll probably want to take extra care to avoid ice and traffic after a storm.
-Most of the major off-road paths are theoretically cleared in the winter.  The exceptions I am aware of are in the golf course (both the gravel path parallel to college, anjd the remains of Corl St) and the path along 322 from Scenery Park towards Lemont. A short stretch of the connection from the S Atherton bike path to Garner runs along private sidewalks, and these have not reliably been cleared the last couple years.
-In my experience the other paths are  cleared pretty quickly, but people who actually commute on them might have better information.  I did have a couple very icy trips on S Atherton in 2022.  Sidewalks and roads on campus are reliably cleared early and quickly.
-
-It gets dark early in the winter.  It will be totally dark by the time of the 5 o'clock trip home.  Good bike lights, front and back, are called for, both by the law and by common sense.
 
 On football weekends, Arts Fest, and the first couple weeks of every semester, State College is flooded with tourists and students who don't know the roads.  Expect all manner of crazy driving: wrong-way drivers, drivers speeding down unsigned alleys and blowing across real streets, etc.
 
@@ -148,32 +165,47 @@ On football weekends, Arts Fest, and the first couple weeks of every semester, S
 
 There is a network of shared eBikes available for rent all over town and campus, Spin bikes.  I have never ridden one, but the service seems to be very popular and I see the bikes all over the place.  I do not know exactly what area has reliable coverage.
 
-## Car rental
+## Rental cars
 
 It is probably unavoidable: sometimes you need a car.  There are several car rental options not too remote from downtown.  If you're a PSU employee, you can get outstanding deals on personal car rentals through [National and Enterprise using the Big Ten discount](https://pennstateoffice365.sharepoint.com/sites/NationalEnterpriseCarRentalAgreement) (at time of writing, the base rate is about $200/wk).  They have a rental office at College and Blue Course which is a couple miles walking or can be reached by several bus lines from downtown.  Note: you can rent a car for quite a few week(ends)s per year before you would save money by owning one.
 
-Zipcar and the Enterprise carshare in town both appear to be defunct and I am not aware of any alternative carshare.
+## Carshares
+
+Zipcar and the Enterprise Carshare used to operate here, but we inexplicably no longer have a carshare of any kind.
+
+## Long-distance buses
+
+A number of bus companies operate in town.  Fullington and Greyhound offer trips from a bus station near downtown, just to the west of Atherton.  Megabus offers trips starting at the N Atherton  Walmart parking lot.
 
 ## Amtrak
 
-State College does not have direct train service on Amtrak.  The closest stations are in Lewistown and Tyrone, which are both about 35 minutes from here, but in opposite directions.  If you're traveling west (to Pittsburgh and beyond), it usually makes sense to catch the train in Tyrone.  If you're traveling east (Harrisburg or Philadelphia), you can catch the train in Lewistown.  Both of these are served by the Amtrak *Pennsylvanian* route and have just a single train per day each direction; this is expected to go up to two trains daily within the next couple years, [thanks to the 2022 infrastructure bill](https://www.post-gazette.com/news/transportation/2022/06/27/penndot-norfolk-southern-reach-deal-expand-train-service-pittsburgh-harrisburg-western-pennsylvania/stories/202206270059).
+State College does not have a train station, so you will need to get to another city to catch the train.  Fortunately, you do not have to go too far.  There are two Amtrak routes passing through central PA:
 
-You can also buy a ticket directly from State College on amtrak.com.  These tickets involve a "Thru-Way" bus: you board a bus downtown and then transfer to a train, usually about 90 minutes away in Harrisburg.  Harrisburg has frequent train service (Amtrak owns the track from there to Philly) and the bus-train transfer is inside the same building, so this tends to be pretty convenient.  Recent cuts to bus service have greatly reduced the number of schedules available, but it's still worth checking.
+<ul>
+<li>the *Pennsylvanian*, which passes closer to State College and offers service both west to Pittsburgh and east to Philadelphia/NYC, but with only one daily train each way. (A second daily Pennsylvanian should start up in the next couple years.)</li>
+<li>the *Keystone*, which offers much more frequent service between Harrisburg and Philadelphia</li>
+</ul>
+(Diehards have also been known to drive just across the border to Cumberland, MD and catch the Capitol Limited to Chicago to avoid the long late-night layover in Pittsburgh entailed by the Pennsylvanian+Capitol Limited connection.)
 
-## Taxi
+The closest stations are in Lewistown and Tyrone, which are both about 35 minutes from here, but in opposite directions.  These have service only on the less frequent *Pennsylvanian*.  If you're traveling west (to Pittsburgh and beyond), it usually makes sense to catch the train in Tyrone.  If you're traveling east (Harrisburg or Philadelphia), you can catch the train in Lewistown.  
 
-Local taxi service unfortunately took a big hit during the pandemic.  The only company still standing is Nittany Express, and they only have a couple cars running at any given time.  I don't do Uber/Lyft/... but my impression is that they are viable options.
+You can also buy a ticket directly from "State College" (STC) on amtrak.com.  These tickets involve a "Thru-Way" bus: you board a bus downtown and then transfer to a train in either Harrisburg or Altoona (depending on east/west).  Amtrak sells the tickets, but the actual buses are contracted out; you'll just be riding the Greyhound to Harrisburg.  Recent cuts to our bus service have greatly reduced the number of schedules available, but it's still worth checking this option.
+
+## Taxi, Ubers, and Lyfts
+
+Local taxi service took a big hit during the pandemic.  The only company still standing is Nittany Express, which provides a limited taxi service.  Uber and Lyft are available and generally viable.
+
+If you are a student, you are eligible for [Penn State's late-night Lyft service](https://transportation.psu.edu/lyft-programs).  They will give you eight $10 vouchers per semester for rides from downtown back to campus, valid only between 2 AM and 7 AM.
 
 ## Airport
 
-The local airport is University Park (SCE), located about five miles north of town.  Although it is a scenic bike ride to get there, this is not very practical with luggage.  There is no bus service: you will need to get a taxi or a ride.  Nittany Express will let you reserve an airport shuttle, but you need to book ahead.
-
+The local airport is the State College Regional Airport (SCE), located about five miles north of town.  Although it is a scenic bike ride to get there, this is not very practical with luggage.  If you're really committed, there are a couple Fullington buses each day that make a stop there on the way out of town, but this is a case where you probably want to find a ride.
 
 # Specific Destinations
 
 ## Groceries and Markets
 
-Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections are likely to be challenging unless you happen to live a short walk from one of the stores.
+Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging unless you happen to live a short walk from one of the stores.
 
 My own strategy is to make only infrequent trips to the supermarket (every three or four weeks) and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options in town.
 
@@ -210,17 +242,19 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
 
-* The hospital in town is **Mount Nittany Medical Center**.  It's a couple miles bike ride, some of it on Park Avenue and fairly unpleasant. CATA service to the hospital was recently discontinued; the Penn State Campus shuttle now stops there during business hours and may be the only option.
+* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves a pretty unpleasant stretch on Park Avenue.  CATA no longer serves the hospital, but the public can use the PSU Campus Shuttle via Beaver Avenue to get out there.
 
 * Geisinger Healthplex State College (a.k.a. **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.   Fairly frequent bus service is available on the W route.  Although it is a bit far, it is easily bikable via the Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end.
 
-* **Scenery Park** has a variety of medical facilities.  There is easy access via the South Atherton bike path.
+* **Scenery Park** has a variety of medical facilities.  There is easy access via the AC bus, which turns around in the vicinity, or by the S Atherton bike path.
 
 There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which has good bike access.  There are optometrists and dentists downtown and in Scenery Park.
 
 ## Entertainment
 
-* One of the great advantages of living in State College is our proximity to the woods.  Unfortunately, your options are somewhat limited if you need to bus/bike to the trailhead.  There are various connections to the Scotia gamelands, e.g. at the western terminus of the Tudek/Circleville path on Sleepy Hollow Rd.  Easy places to get in (which are also busier) are Musser Gap and Shingletown Gap.  (There are of course many other beautiful places to bike, but the bike part starts to become the trip instead of just the transit.)
+* One of the great advantages of living in State College is our proximity to the woods.  A few trailheads are reachable by biking or transit, though this may be a case where you want to rent a car.  The Penn State-Circleville bike path gives you access to the Scotia gamelands off Sleepy Hollow road.
+
+* You can also bike to Musser Gap or Shingletown Gap, and these are both served by CATAGO!'s Boalsburg zone.
 
 * The **State College Spikes** play at Lubrano Park, which is easy to reach by various bus routes (e.g. the Red Link), or by biking through campus.
 
@@ -232,11 +266,15 @@ There are doctors and dentists in many other places too.  Mount Nittany has some
 
 * **Meyer Dairy** on South Atherton is a local landmark.  It is not easy to reach despite being across from the bike path: I think the easiest route is to take Rolling Ridge north, ride through the KBB parking lot, and then jump a curb and cross a little grass to get to the dairy.
 
-* The **DMV** is located in Pleasant Gap, about eight miles out of town.  There is no longer bus service, but there is (for the time being) service on CATAGO.  Even this may end with Spring Township withdrawing from CATA.  It is possible to bike, but the road is deeply unpleasant as you get closer to State College. You also have to ride through the grounds of the Rockview state prison; I have done this a handful of times and never saw any signage that it's not allowed, but I wouldn't swear that it is.  For this one, I recommend driving.
+* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future.  It is possible to bike, but it is pretty unpleasant.  If somebody reading this knows a better option please tell me.
 
-# Other resources
+## Car math
 
-I am not a serious road or mountain cyclist and can't tell you much about non-commuter aspects of the local cycling scene.  Here are some links:
+If you're deciding whether get a car here, you should bear in mind that parking will be quite expensive, even if you don't drive much.  If you anticipate only having a car for grocery trips, you would probably save a lot of money by just taking a taxi to the grocery store every trip
+
+AAA estimates the annual average cost of car ownership at [more than $12,000 per year](https://newsroom.aaa.com/2023/08/annual-new-car-ownership-costs-boil-over-12k/).  That will pay for a great many Ubers and rental cars.  Even if you are coming as a student and have a car back home already, a parking pass in a downtown garage costs $100/month.  Unless you are doing a lot of driving you are likely to come out ahead by Ubering everywhere.
+
+# Links
 
 * **CentreBike** is the main local advocacy group.
 
@@ -244,9 +282,7 @@ I am not a serious road or mountain cyclist and can't tell you much about non-co
 
 * **Organized rides** take place all the time.
 
-* **Bellefonte** is the closest other really separate city.  You can take a bus.
-
-* The **State College Borough Council** is responsible for much of this mess and you should attend their meetings and complain.
+* The **State College Borough Council** are the people with the ability to make things better for us.  You should attend their meetings and complain.
 
 * Other nearby cities are difficult to reach without a car. CATA organizes commuter carpools to some.
 
