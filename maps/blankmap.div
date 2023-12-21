@@ -1,0 +1,22 @@
+<div id="map" style="width: {width}px; height: {height}px"></div>
+
+<script>
+  // Creating map options
+  var mapOptions = {{
+    center: [{center_lat},{center_long}],
+    zoom: 15
+  }}
+
+  // Creating a map object
+  var map = new L.map('map', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png');
+
+  // Here goes all the stuff specific to this map.
+{additions}
+
+  // Adding layer to the map
+  map.addLayer(layer);
+
+</script>

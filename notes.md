@@ -216,6 +216,10 @@ My own strategy is to make only infrequent trips to the supermarket (every three
 * **Way Fruit Farm** from Stormstown has a new farm store and cafe.  Recommended.
 * **International Market** on Allen has a pretty wide array of international products.
 
+``` {.include}
+maps/output/grocery.div
+```
+
 If you are a car-free enthusiast of local foods, do not despair; there are several ways to get local produce without driving.  Sometimes you have to eat a delivery fee; at these times, it may help to reflect on how much money you are saving by not having a car.
 
 * The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall. In the late summer, it runs on Tuesday as well.  (There also used to be a winter market in the borough building but it seems to have ended with COVID.)  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the bumps are a bit rough on fruit) and one on North Atherton on Saturdays (probably doable on the Valley Vista path, but again with the bumps).  
