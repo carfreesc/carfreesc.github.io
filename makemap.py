@@ -79,6 +79,8 @@ def refresh_map( map_name ):
 
   fill_map_template(map_data,map_out)
 
+  return
+
 for thismap in allmaps:
   print(f"Updating map \"{thismap}\".")
   refresh_map( thismap )
