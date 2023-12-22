@@ -1,0 +1,35 @@
+<div id="map643820" style="width: 300px; height: 150px"></div>
+
+<script>
+  // Creating map options
+  var mapOptions = {
+    center: [40.7754,-77.8629],
+    zoom: 12
+  }
+
+  // Creating a map object
+  var map643820 = new L.map('map643820', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+  // Here goes all the stuff specific to this map.
+  var route = new L.GPX('maps/gpx/bike/orchard.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map643820);
+
+
+  // Adding layer to the map
+  map643820.addLayer(layer);
+
+</script>

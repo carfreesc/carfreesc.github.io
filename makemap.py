@@ -1,7 +1,7 @@
 import yaml
 import random
 
-allmaps = ["grocery","bus"]
+allmaps = ["grocery","bus","path-orchard"]
 
 def read_yaml_file(file_path):
   with open(file_path, 'r') as infile:
@@ -10,7 +10,7 @@ def read_yaml_file(file_path):
 
 # String for markers.
 marker_str = "var marker = new L.marker([{lat}, {long}]).addTo(map{id}).bindPopup(\"{name}\");"
-route_str = """var route = new L.GPX('maps/gpx/cata/{file}', {{
+route_str = """var route = new L.GPX('maps/gpx/{file}', {{
     async: true,
     marker_options: {{
       startIconUrl: false,

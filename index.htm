@@ -11,11 +11,11 @@
 <body>
 <h1 id="do-i-need-a-car-in-state-college">Do I need a car in State
 College?</h1>
-<p>It depends. But probably not.</p>
+<p>It depends. But maybe not.</p>
 <p>A <a
 href="https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free">2019
 CityLab study</a> ranked State College as the #2 city in the nation for
-car-free living. While this is perhaps a bit optimistic, it is certainly
+car-free living. While this is surely a bit optimistic, it is certainly
 possible to get by here without a car, and many people do, both PSU
 students and others. On this page I attempt to collect some practical
 advice and share some of the many resources available. This is of course
@@ -32,34 +32,26 @@ need to get further out for groceries, medical appointments, recreation,
 etc. This can be trickier.</p>
 <p>The downtown part of State College is roughly laid out in a grid
 (though the roads don’t align with the compass axes). The busiest
-east-west street is College Avenue, which is the boundary between The
-main east-west roads through downtown State College are College Avenue
-and Beaver Avenue. (You will no doubt notice that they do not actually
-run east and west: the road grid is off-compass here because of the
-ridges.) In the downtown area, the north side of College Avenue is the
-Penn State campus while the south side is the city of State College
-proper, with all the business and restaurants.</p>
+east-west street is College Avenue, which is the boundary between the
+downtown area and the Penn State campus.</p>
 <p>TODO: Very basic map of downtown</p>
 <p>There is a network of bicycle routes of various kinds. There are a
 few nice off-road, fairly long distance routes that connect various
 parts of town over distances of a couple miles. Closer to downtown, the
-bike options consist primarily of unprotected painted lanes on roadways.
-The <a
+bike options consist primarily of unprotected lanes on roadways. The <a
 href="https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan">“Next
 Generation Safety and Mobility Plan”</a> envisions some improvements in
 this area – stay tuned. Really, State College’s greatest bicycling asset
 is that it’s just not that big and you can usually find a combination of
 quiet residental streets and the bike paths to take you where you need
-to go, official lanes or no.</p>
+to go.</p>
 <p>The local bus service is provided by the Centre Area Transit
-Authority (CATA). CATA mostly offers fixed-line bus service between the
-denser housing developments and downtown, with more far-flung areas
-served by CATAGO! paratransit, in which you request a ride and a smaller
-vehicle will be dispatched to pick you up and deliver you to a stop to
-transfer to a regular bus.</p>
-<p>Residential neighborhoods and developments can be found in many
-directions. I won’t attempt to make an exhaustive list here, but
-hopefully this map gives you a basic idea.</p>
+Authority (CATA). CATA nowadays offers fixed-line bus service between
+the denser housing developments and downtown, with other areas served by
+CATAGO! paratransit, in which you request a ride and a smaller vehicle
+will be dispatched to pick you up and deliver you to a stop to transfer
+to a regular bus. This can be convenient, but unfortunately it is
+difficult to rely on it.</p>
 <p>TODO: A map with labelings of main neighborhoods and the bigger
 apartment complexes.</p>
 <p>Much recent development has been along North Atherton Street, to the
@@ -70,20 +62,65 @@ the bus, or by biking in on a cross street through Park Forest.</p>
 <h1 id="bike-routes">Bike routes</h1>
 <p>The Centre Region Council of Governments provides <a
 href="https://centrecog.maps.arcgis.com/apps/webappviewer/index.html?id=b9264927503843b1a0c6836b50d99cc0">an
-interactive bike map</a> showing both off- and on-road options.
-OpenStreetMaps has more accurate coverage of local bike connections than
-Google maps. I don’t know who is responsible for keeping it so
-up-to-date, but thank you! OSM does not provide routing, but various
-third-party sites provide routing on their maps. I use <a
-href="https://maps.openrouteservice.org/">OpenRouteService</a>. The
-suggestions are occasionally a little wonky, but so are Google’s and at
+interactive bike map</a> showing both off- and on-road options. There is
+also a <a
+href="https://www.crcog.net/vertical/Sites/%7B6AD7E2DC-ECE4-41CD-B8E1-BAC6A6336348%7D/uploads/1117_Bike_Facilities_Winter_Maintenance_2023.pdf">static
+version</a> updated every year that shows which paths are cleared in the
+winter.</p>
+<p>The crowdsourced site OpenStreetMaps has more accurate coverage of
+the local bike connections than Google Maps does. I don’t know who is
+responsible for keeping it so up-to-date, but thank you! OSM does not
+provide routing, but various third-party sites provide routing on their
+maps. I use <a
+href="https://maps.openrouteservice.org/">OpenRouteService</a>. The maps
+on this site were generated by OpenStreetMap+OpenRouteService. The
+suggestions are occasionally a little wonky, but so are Google’s, and at
 least OSM isn’t tracking me.</p>
 <h2 id="off-road">Off-road</h2>
 <ul>
-<li><p>The <strong>Orchard Park</strong> bike path runs from near the
-high school out to the southwest side of town (Cato Park, Harner Farm,
-YMCA,…). It has an easy connection to downtown and campus via Gill
-St.</p></li>
+<li>The <strong>Orchard Park</strong> bike path runs from near the high
+school out to the southwest side of town (Cato Park, Harner Farm,
+YMCA,…). At the north end it connects to Gill St which provides a
+pleasant (if hilly) route onto the west side of campus, with access to
+Pollock over the IST bridge.</li>
+</ul>
+<div id="map643820" style="width: 300px; height: 150px">
+
+</div>
+<script>
+  // Creating map options
+  var mapOptions = {
+    center: [40.7754,-77.8629],
+    zoom: 12
+  }
+
+  // Creating a map object
+  var map643820 = new L.map('map643820', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+  // Here goes all the stuff specific to this map.
+  var route = new L.GPX('maps/gpx/bike/orchard.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map643820);
+
+
+  // Adding layer to the map
+  map643820.addLayer(layer);
+
+</script>
+<ul>
 <li><p>Several paths go through and around the PSU <strong>golf
 courses</strong>. A north/south route along the old Corl St connects the
 western edge of downtown to the Tudek/Circleville and Blue Course paths.
@@ -250,7 +287,11 @@ weekday and come out ahead only if you use the bus even more than that.
 I am surprised anybody buys them at this price point but that’s the
 situation.</p>
 <h2 id="bus-routes">Bus routes</h2>
-<div id="map629530" style="width: 600px; height: 300px">
+<p>(Many of the letters are suggestive of where the bus goes: you can
+guess what the “V” and “. The”N” is for “Northland”, for example. Some
+are a bit more mysterious; I think the “H” served Hills Plaza a long
+time ago.)</p>
+<div id="map120392" style="width: 600px; height: 300px">
 
 </div>
 <script>
@@ -261,7 +302,7 @@ situation.</p>
   }
 
   // Creating a map object
-  var map629530 = new L.map('map629530', mapOptions);
+  var map120392 = new L.map('map120392', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -279,7 +320,7 @@ situation.</p>
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map629530);
+  }).addTo(map120392);
   var route = new L.GPX('maps/gpx/cata/rx_approx.gpx', {
     async: true,
     marker_options: {
@@ -292,11 +333,11 @@ situation.</p>
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map629530);
+  }).addTo(map120392);
 
 
   // Adding layer to the map
-  map629530.addLayer(layer);
+  map120392.addLayer(layer);
 
 </script>
 <h3 id="blwlrl-blue-loopwhite-loopred-link">BL/WL/RL (Blue Loop/White
@@ -329,11 +370,7 @@ have ended (about 10 PM to 2 AM). The route is nuts and not a very
 practical way to get anywhere, but if you’re drunk and trying to get
 home it will probably get you there, eventually, no matter where you
 live.</p>
-<h3 id="r-wauplelani">R (wauplelani</h3>
-<p>(Many of the letters are suggestive of where the bus goes: you can
-guess what the “V” and “. The”N” is for “Northland”, for example. Some
-are a bit more mysterious; I think the “H” served Hills Plaza a long
-time ago</p>
+<h3 id="r-wauplelani">R (Wauplelani)</h3>
 <h1 id="biking-considerations">Biking considerations</h1>
 <h2 id="bike-repairs-and-shops">Bike repairs and shops</h2>
 <p>There are several bicycle shops in and around State College:</p>
@@ -522,7 +559,7 @@ and cafe. Recommended.</li>
 <li><strong>International Market</strong> on Allen has a pretty wide
 array of international products.</li>
 </ul>
-<div id="map858774" style="width: 600px; height: 300px">
+<div id="map742070" style="width: 600px; height: 300px">
 
 </div>
 <script>
@@ -533,19 +570,19 @@ array of international products.</li>
   }
 
   // Creating a map object
-  var map858774 = new L.map('map858774', mapOptions);
+  var map742070 = new L.map('map742070', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
   // Here goes all the stuff specific to this map.
-  var marker = new L.marker([40.79557, -77.859]).addTo(map858774).bindPopup("Way Fruit Farm Downtown Market and Cafe");
-  var marker = new L.marker([40.7917204, -77.857604]).addTo(map858774).bindPopup("State College International Market");
-  var marker = new L.marker([40.7814996, -77.8532859]).addTo(map858774).bindPopup("Weis Markets");
+  var marker = new L.marker([40.79557, -77.859]).addTo(map742070).bindPopup("Way Fruit Farm Downtown Market and Cafe");
+  var marker = new L.marker([40.7917204, -77.857604]).addTo(map742070).bindPopup("State College International Market");
+  var marker = new L.marker([40.7814996, -77.8532859]).addTo(map742070).bindPopup("Weis Markets");
 
 
   // Adding layer to the map
-  map858774.addLayer(layer);
+  map742070.addLayer(layer);
 
 </script>
 <p>If you are a car-free enthusiast of local foods, do not despair;
@@ -645,9 +682,9 @@ grass to get to the dairy.</p></li>
 <li><p>The <strong>DMV</strong> is located in Pleasant Gap, about eight
 miles out of town. The former G bus route is long-gone, and with the
 pending withdrawal of Spring Township from CATA you probably won’t even
-be able to get there on CATAGO! in the future. It is possible to bike,
-but it is pretty unpleasant. If somebody reading this knows a better
-option please tell me.</p></li>
+be able to get there on CATAGO! in the future either. It is possible to
+bike (or even walk), but it is pretty unpleasant. If somebody reading
+this knows a better option please tell me.</p></li>
 </ul>
 <h2 id="car-math">Car math</h2>
 <p>If you’re deciding whether get a car here, you should bear in mind

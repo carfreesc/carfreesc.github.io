@@ -9,13 +9,13 @@ cc:
   type: route
   name: College Avenue Connector
   color: blue
-  file: cc_approx.gpx
+  file: cata/cc_approx.gpx
   desc: The College Avenue Connector
 rx:
   type: route
   name: R/RC/RP
   color: red
-  file: rx_approx.gpx
+  file: cata/rx_approx.gpx
   desc: Buses to Waupelani area
 
 
