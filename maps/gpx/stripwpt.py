@@ -14,7 +14,8 @@ def delete_wpt( pathname ):
 
     # Write the modified content back to the file
     with open(path_out, 'w') as file:
-        file.write(modified_content)
+      file.write(modified_content)
 
+    return
 
-delete_wpt("bike/path-orchard")
+delete_wpt("bike/orchard")

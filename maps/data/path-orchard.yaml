@@ -1,10 +1,10 @@
 ---
 metadata:
-  width: 300
-  height: 150
+  width: 400
+  height: 250
   lat: 40.7754
   long: -77.8629
-  zoom: 12
+  zoom: 13
 orchard:
   type: route
   name: Orchard Park Path

@@ -1,14 +1,14 @@
-<div id="map643820" style="width: 300px; height: 150px"></div>
+<div id="map452206" style="width: 400px; height: 250px"></div>
 
 <script>
   // Creating map options
   var mapOptions = {
     center: [40.7754,-77.8629],
-    zoom: 12
+    zoom: 13
   }
 
   // Creating a map object
-  var map643820 = new L.map('map643820', mapOptions);
+  var map452206 = new L.map('map452206', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -26,10 +26,10 @@
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map643820);
+  }).addTo(map452206);
 
 
   // Adding layer to the map
-  map643820.addLayer(layer);
+  map452206.addLayer(layer);
 
 </script>
