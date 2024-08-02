@@ -194,11 +194,15 @@ It is probably unavoidable: sometimes you need a car.  There are several car ren
 
 ## Carshares
 
-Zipcar and the Enterprise Carshare used to operate here, but we inexplicably no longer have a carshare of any kind.
+Zipcar and the Enterprise Carshare used to operate here, but we no longer have a carshare of any kind.  If you are a PSU employee, there is the PSU Fleet program, but those cars are only available to use for university purposes.
 
 ## Long-distance buses
 
 A number of bus companies operate in town.  Fullington and Greyhound offer trips from a bus station near downtown, just to the west of Atherton.  Megabus offers trips starting at the N Atherton  Walmart parking lot.
+
+It is not very easy to find the schedules for outbound buses.
+
+Fullington operates several "express routes" on certain weekends during the school year.  These do not run every weekend.  Unfortunately there is no public list of which weekends they run, and even Fullington can't really tell you.  The only way to know for sure is to simply search every weekend you are interested in on the trailways.com ticket-buying site.
 
 ## Amtrak
 
@@ -216,13 +220,15 @@ You can also buy a ticket directly from "State College" (STC) on amtrak.com.  Th
 
 ## Taxi, Ubers, and Lyfts
 
-Local taxi service took a big hit during the pandemic.  The only company still standing is Nittany Express, which provides a limited taxi service.  Uber and Lyft are available and generally viable.
+Local taxi service took a big hit during the pandemic.  The only company still standing is Nittany Express, which still provides a limited taxi service.  They are also available to drive you to the nearby Amtrak stations or larger airports.  Call ahead to get a quote.
+
+Uber and Lyft are available and generally reliable.
 
 If you are a student, you are eligible for [Penn State's late-night Lyft service](https://transportation.psu.edu/lyft-programs).  They will give you eight $10 vouchers per semester for rides from downtown back to campus, valid only between 2 AM and 7 AM.
 
 ## Airport
 
-The local airport is the State College Regional Airport (SCE), located about five miles north of town.  Although it is a scenic bike ride to get there, this is not very practical with luggage.  If you're really committed, there are a couple Fullington buses each day that make a stop there on the way out of town, but this is a case where you probably want to find a ride.
+The local airport is the State College Regional Airport (SCE), located about five miles north of town.  There is no transit service to the airport except a few hotel shutles.  Although it is a scenic bike ride to get there, this is not very practical with luggage.  If you're really committed, there are a couple Fullington buses each day that make a stop there on the way out of town, but for most flights the timing is extremely inconvenient.  This is a case where you'll probably want to just get a ride.
 
 # Specific Destinations
 
