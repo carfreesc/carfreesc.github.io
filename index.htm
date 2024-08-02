@@ -84,7 +84,7 @@ YMCA,…). At the north end it connects to Gill St which provides a
 pleasant (if hilly) route onto the west side of campus, with access to
 Pollock over the IST bridge.</li>
 </ul>
-<div id="map452206" style="width: 400px; height: 250px">
+<div id="map224802" style="width: 400px; height: 250px">
 
 </div>
 <script>
@@ -95,7 +95,7 @@ Pollock over the IST bridge.</li>
   }
 
   // Creating a map object
-  var map452206 = new L.map('map452206', mapOptions);
+  var map224802 = new L.map('map224802', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -113,11 +113,11 @@ Pollock over the IST bridge.</li>
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map452206);
+  }).addTo(map224802);
 
 
   // Adding layer to the map
-  map452206.addLayer(layer);
+  map224802.addLayer(layer);
 
 </script>
 <ul>
@@ -137,6 +137,44 @@ see the more hardcore cyclists riding on the road instead, but not me.
 The crossing signal at Rolling Ridge has been removed for months and a
 no pedestrian signs has been put up in its place. Maybe we are not
 supposed to use the path anymore? Baffling.</p></li>
+</ul>
+<div id="map124762" style="width: 400px; height: 250px">
+
+</div>
+<script>
+  // Creating map options
+  var mapOptions = {
+    center: [40.7836,-77.8183],
+    zoom: 13
+  }
+
+  // Creating a map object
+  var map124762 = new L.map('map124762', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+  // Here goes all the stuff specific to this map.
+  var route = new L.GPX('maps/gpx/bike/south_atherton.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map124762);
+
+
+  // Adding layer to the map
+  map124762.addLayer(layer);
+
+</script>
+<ul>
 <li><p>The <strong>Blue Course</strong> bike path follows Blue Course
 Dr, from Radio Park elementary, skirting the western edge of the golf
 course, and ending near Orchard Park.</p></li>
@@ -147,7 +185,45 @@ easy connections to both the golf course paths (leading to campus and
 downtown) and the blue course path. At the western end, it connects to
 the Valley Vista multi-use path, which provides a route north towards
 Grays Woods.</p></li>
-<li><p>There are two parallel north/south paths on the western side of
+</ul>
+<div id="map686452" style="width: 400px; height: 250px">
+
+</div>
+<script>
+  // Creating map options
+  var mapOptions = {
+    center: [40.7891,-77.8927],
+    zoom: 13
+  }
+
+  // Creating a map object
+  var map686452 = new L.map('map686452', mapOptions);
+
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+
+  // Here goes all the stuff specific to this map.
+  var route = new L.GPX('maps/gpx/bike/circleville_to_psu.gpx', {
+    async: true,
+    marker_options: {
+      startIconUrl: false,
+      endIconUrl: false,
+      shadowUrl: false,
+    },
+    polyline_options: {
+      color: 'blue',
+      weight: 5,
+      opacity: 0.7,
+    },
+  }).addTo(map686452);
+
+
+  // Adding layer to the map
+  map686452.addLayer(layer);
+
+</script>
+<ul>
+<li>There are two parallel north/south paths on the western side of
 town, one along <strong>Valley Vista</strong> and one on
 <strong>Circleville</strong>. The path on Valley Vista connects to the
 Tudek path and the rest of the network at the intersection with Science
@@ -156,7 +232,7 @@ to Grays Woods. You can get from Valley Vista to the Circleville path by
 cutting through Circleville Park; take the turn-off for “Little Lion
 Drive” which is Park Forest Middle School. Together, these paths will
 get you from downtown all the way to Grays Woods with virtually no
-riding on a road. It’s about seven or eight miles.</p></li>
+riding on a road. It’s about seven or eight miles.</li>
 </ul>
 <h2 id="roads">Roads</h2>
 <p>The most difficult place to navigate on a bike is downtown, where
@@ -291,7 +367,7 @@ situation.</p>
 guess what the “V” and “. The”N” is for “Northland”, for example. Some
 are a bit more mysterious; I think the “H” served Hills Plaza a long
 time ago.)</p>
-<div id="map821842" style="width: 600px; height: 300px">
+<div id="map241919" style="width: 600px; height: 300px">
 
 </div>
 <script>
@@ -302,7 +378,7 @@ time ago.)</p>
   }
 
   // Creating a map object
-  var map821842 = new L.map('map821842', mapOptions);
+  var map241919 = new L.map('map241919', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -320,7 +396,7 @@ time ago.)</p>
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map821842);
+  }).addTo(map241919);
   var route = new L.GPX('maps/gpx/cata/rx_approx.gpx', {
     async: true,
     marker_options: {
@@ -333,11 +409,11 @@ time ago.)</p>
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map821842);
+  }).addTo(map241919);
 
 
   // Adding layer to the map
-  map821842.addLayer(layer);
+  map241919.addLayer(layer);
 
 </script>
 <h3 id="blwlrl-blue-loopwhite-loopred-link">BL/WL/RL (Blue Loop/White
@@ -559,7 +635,7 @@ and cafe. Recommended.</li>
 <li><strong>International Market</strong> on Allen has a pretty wide
 array of international products.</li>
 </ul>
-<div id="map802404" style="width: 600px; height: 300px">
+<div id="map696633" style="width: 600px; height: 300px">
 
 </div>
 <script>
@@ -570,19 +646,19 @@ array of international products.</li>
   }
 
   // Creating a map object
-  var map802404 = new L.map('map802404', mapOptions);
+  var map696633 = new L.map('map696633', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 
   // Here goes all the stuff specific to this map.
-  var marker = new L.marker([40.79557, -77.859]).addTo(map802404).bindPopup("Way Fruit Farm Downtown Market and Cafe");
-  var marker = new L.marker([40.7917204, -77.857604]).addTo(map802404).bindPopup("State College International Market");
-  var marker = new L.marker([40.7814996, -77.8532859]).addTo(map802404).bindPopup("Weis Markets");
+  var marker = new L.marker([40.79557, -77.859]).addTo(map696633).bindPopup("Way Fruit Farm Downtown Market and Cafe");
+  var marker = new L.marker([40.7917204, -77.857604]).addTo(map696633).bindPopup("State College International Market");
+  var marker = new L.marker([40.7814996, -77.8532859]).addTo(map696633).bindPopup("Weis Markets");
 
 
   // Adding layer to the map
-  map802404.addLayer(layer);
+  map696633.addLayer(layer);
 
 </script>
 <p>If you are a car-free enthusiast of local foods, do not despair;

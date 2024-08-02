@@ -2,7 +2,9 @@
 
 It depends.  But maybe not.
 
-A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is surely a bit optimistic, it is certainly possible to get by here without a car, and many people do, both PSU students and others.  On this page I attempt to collect some practical advice and share some of the many resources available.  This is of course shaped by my own location, commute, tastes, fitness, budget,.. and won't apply to everyone; I welcome other perspectives, which you can share by making a pull request to or emailing carfreesc@gmail.com. (I would especially appreciate student perspectives!)
+A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is surely a bit optimistic, it is certainly possible to do many things here without a car, using the robust bus and bike networks.  Many people -- mostly, but not exclusively students -- get by without having a car at all.
+
+On this page I attempt to collect some practical advice and share some of the many resources available.  This is of course shaped by my own location, commute, tastes, fitness, budget,.. and won't apply to everyone; I welcome other perspectives, which you can share by making a pull request to or emailing carfreesc@gmail.com. (I would especially appreciate student perspectives!)
 
 # Orientation
 
@@ -14,7 +16,7 @@ TODO: Very basic map of downtown
 
 There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go.
 
-The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers fixed-line bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, but unfortunately it is difficult to rely on it.
+The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers fixed-line bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
 
 TODO: A map with labelings of main neighborhoods and the bigger apartment complexes.
 
@@ -39,9 +41,18 @@ maps/output/path-orchard.div
 
 * The **South Atherton** bike path goes from around Atherton/University out to Boalsburg, about five miles.  It connects to downtown via a cut-through to Garner St.  It is not the best path, crossing a lot of turn-offs for businesses and featuring a couple rather violent curb cuts, but it's the best option in this direction. You will see the more hardcore cyclists riding on the road instead, but not me.  The crossing signal at Rolling Ridge has been removed for months and a no pedestrian signs has been put up in its place.   Maybe we are not supposed to use the path anymore?  Baffling.
 
+``` {.include}
+maps/output/path-atherton.div
+```
+
+
 * The **Blue Course** bike path follows Blue Course Dr, from Radio Park elementary, skirting the western edge of the golf course, and ending near Orchard Park.
 
 * The **Tudek/Circleville** bikeway runs from Tudek Park and Radio Park west to Valley Vista (and a bit beyond, with access to the Scotia gamelands off Sleepy Hollow).  At the eastern end, it has easy connections to both the golf course paths (leading to campus and downtown) and the blue course path.  At the western end, it connects to the Valley Vista multi-use path, which provides a route north towards Grays Woods.
+
+``` {.include}
+maps/output/path-circlevillepsu.div
+```
 
 * There are two parallel north/south paths on the western side of town, one along **Valley Vista** and one on **Circleville**.   The path on Valley Vista connects to the Tudek path and the rest of the network at the intersection with Science Park. The Circleville Park begins further north but reaches all the way to Grays Woods. You can get from Valley Vista to the Circleville path by cutting through Circleville Park; take the turn-off for "Little Lion Drive" which is Park Forest Middle School.  Together, these paths will get you from downtown all the way to Grays Woods with virtually no riding on a road.  It's about seven or eight miles.
 
@@ -51,13 +62,13 @@ The most difficult place to navigate on a bike is downtown, where there are few 
 
 Let me opine on a few specific roads.
 
-* **Foster Avenue** is just a block up from Beaver Ave and is my go-to route for getting places in town: take Foster to the correct cross street and then head in. (Yes, I live south of downtown.) It is a designated bike route for (almost) its entire length, although there is no bike lane except for one small stretch.  However, it is not a through street for cars, which are blocked by Central Parklet and an island in Atherton St.  It is usually pretty quiet traffic-wise, although party-wise it gets a little rowdy on the weekends through frat row.  For some reason Google Maps is not aware that you can bike Foster end-to-end so it spits out some weird routes; ignore it.
+* **Foster Avenue** is just a block up from Beaver Ave and is my go-to route for getting places in town: take Foster to the correct cross street and then head in. (Yes, I live south of downtown.) It is a designated bike route for (almost) its entire length, although there is no bike lane except for one small stretch.  However, it is not a through street for cars, which are blocked by Central Parklet and an island in Atherton St.  It is usually pretty quiet traffic-wise, although party-wise it gets a little rowdy on the weekends through frat row.  For some reason Google Maps is not aware that you can bike Foster end-to-end so it spits out some weird detours; ignore it.
 
-The worst crossing on this route is at Atherton, which does not have a light but does have a pedestrian island in the middle.  There also is some kind of sign suspended over the road suggesting that cars might consider yielding to pedestrians.  Having made this crossing afoot or apedal several thousand times since the installation of the sign, I can say with some confidence that it has no impact on driver behavior whatsoever; you can stand in the middle of the road in a thunderstorm and still watch a dozen cars go by.  Nevertheless the planning commission is considering dropping $60k of precious transit money installing another one of these gadgets at Fairmount, another dangerous and popular crossing in need of actual improvement.
+The worst crossing on this route is at Atherton, which does not have a light but does have a pedestrian island in the middle, wide enough to accommodate a bike.  There is also a sign suspended over the road gently suggesting that cars might consider yielding to pedestrians, though it seems to have little effect.
 
-* **Calder Way** is an alley between Beaver and College with a lot less traffic than either.  However, many businesses receive their deliveries there and riding can still be a little dicey.  It is also one-way through much of downtown.  I think there have been some rumblings in borough council about bike and pedestrian improvements to Calder, which would be great, but I am not plugged-in enough to know what (if anything) is actually going to happen.  For now, it's a fine option if you just want to go a couple blocks downtown.
+* **Calder Way** is an alley between Beaver and College with a lot less traffic than either.  However, many businesses receive their deliveries there and riding can still be a little dicey.  It is also one-way through much of downtown.  There are rumblings about turning it into a better bike and ped route in the future, but this is years down the road.  Note that Calder is now blocked by a fence at Atherton for reasons beyond my understanding.
 
-* Most cross streets to Beaver and College in the downtown area are basically fine to ride on.  Some I find especially convenient depending on how far west I am and which one-ways are the right way are **Gill**, **Garner**, **Allen**, **Hetzel**, and **Locust**.  The big roads to avoid are **Atherton** and **University**.  On the west side, **Buckhout** is bad between College and Beaver.
+* Most cross streets to Beaver and College in the downtown area are basically fine to ride on.  Some I find especially convenient depending on how far west I am and which one-ways are the right way are **Gill**, **Garner**, **Allen**, **Hetzel**, and **Locust**.  The big roads to avoid are **Atherton** and **University**.  On the west side, **Buckhout** is bad between College and Beaver, as this block is part of State Route 26.
 
 * **Allen St** is a conundrum.  On the downtown side of Foster, it has no bike lane, but I ride it all the time.  Just take the whole lane if you need to.  On the out-of-town side of Foster, it has a bike lane, but I avoid it: cars often blast down the hill and there's a weird intersection at McCormick.  I find Pugh a block over to be a bit more peaceful.
 
@@ -81,13 +92,9 @@ There are relatively few roads on campus, but most of them are fine to ride on. 
 
 # Bus service
 
-CATA provides a variety of bus routes around town, as well as CATAGO! and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  In most cases these passes are good only for the route serving the apartment complex in question, but a shift may be underway toward passes providing access to the entire CATA network.  In any case,
-
-It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  I am surprised anybody buys them at this price point but that's the situation.
+CATA provides a variety of bus routes around town, as well as CATAGO! and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  If you are a PSU faculty, staff, or graduate student, and you agree to forego having a good parking spot on campus, you can participate in the RidePASS program and get a pass at a more reasonable rate, subsidized by PSU.
 
 ## Bus routes
-
-(Many of the letters are suggestive of where the bus goes: you can guess what the "V" and ".  The "N" is for "Northland", for example.  Some are a bit more mysterious; I think the "H" served Hills Plaza a long time ago.)
 
 ``` {.include}
 maps/output/bus.div
@@ -95,33 +102,43 @@ maps/output/bus.div
 
 ### BL/WL/RL (Blue Loop/White Loop/Red Link)
 
-These three services are subsidized by Penn State and offer free, high frequency service around parts of campus and downtown.
+These three routes are subsidized by Penn State and offer free (for everybody), high frequency service around parts of campus and downtown. The RL is geared toward getting people from the 
 
 ### AC  (Atherton Street Connector)
 
-This bus offers increasingly infrequent, but fairly direct, service back and forth on Atherton St between (roughly) Hills Plaza to the south and Colonnade to the north.  It has connections to CATAGO! at:
+This bus offers service back and forth on Atherton St between (roughly) Hills Plaza to the south and Colonnade to the north.  It has connections to CATAGO! at:
 
 ### CC (College Avenue Connector)
 
 This bus offers service along College Ave from Nittany Mall to the east to (currently) Buckhout St to the west (near the new "Haus" apartment building).  It used to run all the way to Cato Park, and one hopes that someday it will again.
 
+### Beaver Avenue Shuttle / College Avenue Shuttle
+
+These two buses are run by PSU Transportation, not CATA, but they are free for anybody to ride.  Ignore the names, which have almost no connection to their current routes.
+
+The schedules for these buses are listed here.  Unfortunately PSU has not made the necessary route and tracking data publicly available, so they are unknown to Google maps.  It will tell you that there is no way to reach the hospital, Innovation Park, or even the Palmer Museum using transit.  This is not true!  Remember the PSU shuttles.
+
 ### N/NE (Martin St/Aaron Dr)
 
 These routes serve several apartment complexes in the vicinity of Aaron Drive.  They also serve **N**orthland Center (the source of the initialism, I believe) which has some supermarket options.
-
-### H (Toftrees)
-
-The H shuttles between Toftrees and campus.
 
 ### V/VE (Vairo Blvd express)
 
 These routes serve the apartment complexes off Vairo Blvd with service to downtown.  The express VE skips some inbound stops.)
 
+### H/HU (Toftrees)
+
+The HU shuttles between Toftrees and campus, while the H runs from downtown, through campus, through Toftrees, and out to Colonnade.  If you are at College and Allen and trying to get to Colonnade, you may be tempted to get on the H when you see the headsign that reads "Trader Joe's".  This is a trap -- this is an extremely slow way to get to Trader Joe's.  Just keep waiting for the next N, V, or AC.
+
 ### NV (late night loop)
 
-This bus runs all over the place late at night when the other routes have ended (about 10 PM to 2 AM).  The route is nuts and not a very practical way to get anywhere, but if you're drunk and trying to get home it will probably get you there, eventually, no matter where you live.
+This bus runs all over the place late at night when the other routes have ended (about 10 PM to 2 AM).  The route is nuts and not a very practical way to get anywhere unless you really luck out with your origin and destination, but if you're drunk and trying to get home it will probably get you there, eventually, no matter where you live.  The VN is an experimental route (Summer '24) running more or less the same gigantic loop in the opposite direction.  It may continue.
 
-### R (Wauplelani)
+### R/RC/RP (Waupelani)
+
+These three routes cover various parts of the Waupelani Drive area and environs.
+
+The schedules are scientifically designed 
 
 
 
@@ -137,7 +154,7 @@ There are several bicycle shops in and around State College:
 * **A Trek store** is coming near the mall
 * **The Bike Den** is a great resource on campus (inside the west parking deck) with classes and tools available to the public.
 
-I won't opine on these here. You can read some reviews online to get a feel for which might be the most up your alley.
+I won't opine on these here.  I've had good experiences at every single one.  You can read some reviews online to get a feel for which might be the most up your alley.
 
 ## Bike rules
 
@@ -151,8 +168,7 @@ I won't opine on these here. You can read some reviews online to get a feel for 
 
 ## Snow and hills
 
-Snow is typically cleared pretty quickly and the roads are salted to the point that they are fine to bike on, but you'll probably want to take extra care to avoid ice and traffic after a storm.  Most of the major off-road paths are theoretically cleared in the winter.  The exceptions I am aware of are in the golf course (both the gravel path parallel to College, and the rump Corl Street through the golf course) and the path along 322 from Scenery Park towards Lemont. A short stretch of the connection from the S Atherton bike path to Garner runs on private sidewalks, which have not reliably been cleared the last couple years.
-In my experience the other paths are  cleared pretty quickly, but people who actually commute on them might have better information.  I did have a couple very icy trips on S Atherton in 2022.  Sidewalks and roads on campus are reliably cleared early and quickly.
+Snow is typically cleared pretty quickly and the roads are salted to the point that they are fine to bike on, but you'll probably want to take extra care to avoid ice and traffic after a storm.  Most of the major off-road paths are theoretically cleared in the winter.  The exceptions I am aware of are in the golf course (both the gravel path parallel to College, and the rump Corl Street running north/south) and the path along 322 from Scenery Park towards Lemont. A short stretch of the connection from the S Atherton bike path to Garner runs on private sidewalks, which have not reliably been cleared the last couple years.  In my experience the other paths are  cleared pretty quickly, but people who actually commute on them might have better information.  I did have a couple very icy trips on S Atherton in 2022.  Sidewalks and roads on campus are reliably cleared early and quickly.
 
 It can get pretty cold here in the winter.  If you're commuting in the morning, you are looking at a couple months below freezing, and sometimes a day or two a year where the temperature dips below 0 F.  Dress appropriately, but it's really not so bad to commute year-round.  I am a true believer in pogies, e.g. the [Bar Mitts](https://barmitts.com/) brand.  I know they have them at Freeze Thaw.
 

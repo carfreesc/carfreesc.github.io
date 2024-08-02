@@ -1,7 +1,7 @@
 import yaml
 import random
 
-allmaps = ["grocery","bus","path-orchard"]
+allmaps = ["grocery","bus","path-orchard","path-atherton","path-circlevillepsu"]
 
 def read_yaml_file(file_path):
   with open(file_path, 'r') as infile:

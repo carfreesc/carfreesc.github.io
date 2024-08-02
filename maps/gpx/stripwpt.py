@@ -1,4 +1,6 @@
 import re
+import sys
+
 
 def delete_wpt( pathname ):
 
@@ -18,4 +20,11 @@ def delete_wpt( pathname ):
 
     return
 
-delete_wpt("bike/orchard")
+# Grab the actual path name from the unix filepath.
+first_argument = sys.argv[1]
+pattern = re.compile(r'\./(.*?)_raw.gpx')
+matched = pattern.search(first_argument)
+short = matched.group(1)
+
+# Clear out waypoints from the path.
+delete_wpt(short)
