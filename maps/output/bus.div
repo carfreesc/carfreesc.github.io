@@ -1,4 +1,4 @@
-<div id="map241919" style="width: 600px; height: 300px"></div>
+<div id="map579578" style="width: 600px; height: 300px"></div>
 
 <script>
   // Creating map options
@@ -8,7 +8,7 @@
   }
 
   // Creating a map object
-  var map241919 = new L.map('map241919', mapOptions);
+  var map579578 = new L.map('map579578', mapOptions);
 
   // Creating a Layer object
   var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
@@ -26,7 +26,7 @@
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map241919);
+  }).addTo(map579578);
   var route = new L.GPX('maps/gpx/cata/rx_approx.gpx', {
     async: true,
     marker_options: {
@@ -39,10 +39,10 @@
       weight: 5,
       opacity: 0.7,
     },
-  }).addTo(map241919);
+  }).addTo(map579578);
 
 
   // Adding layer to the map
-  map241919.addLayer(layer);
+  map579578.addLayer(layer);
 
 </script>

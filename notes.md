@@ -1,22 +1,21 @@
-# Do I need a car in State College?
+# Getting around State College and Penn State without a car
 
-It depends.  But maybe not.
+A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is probably a bit too optimistic, it is certainly possible to do many things here without a car, using the robust bus and bike networks.  
+This page aims to provide some practical information about getting around the area without a car.  It includes an overview of how to use bus networks, the bike path networks, and other mobility options to get around.
 
-A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is surely a bit optimistic, it is certainly possible to do many things here without a car, using the robust bus and bike networks.  Many people -- mostly, but not exclusively students -- get by without having a car at all.
+# Basic orientation
 
-On this page I attempt to collect some practical advice and share some of the many resources available.  This is of course shaped by my own location, commute, tastes, fitness, budget,.. and won't apply to everyone; I welcome other perspectives, which you can share by making a pull request to or emailing carfreesc@gmail.com. (I would especially appreciate student perspectives!)
+The core downtown and campus area of State College is compact enough that you really don't need a car to get around: you can walk from one side to the other in less than an hour, and there are a variety of bus and bike routes if you don't want to walk.  However, even if you live nearby, you'll sometimes need to get further out for groceries, medical appointments, recreation, etc.  This can be trickier.
 
-# Orientation
-
-The core downtown and campus area of State College is compact enough that you really don't need a car to get around: you can walk from one side to the other in less than an hour, and there are a variety of good bus and bike routes.  However, even if you live nearby, you'll sometimes need to get further out for groceries, medical appointments, recreation, etc.  This can be trickier.
-
-The downtown part of State College is roughly laid out in a grid (though the roads don't align with the compass axes).  The busiest east-west street is College Avenue, which is the boundary between the downtown area and the Penn State campus.
+The downtown part of State College is roughly laid out in a grid -- though the roads are aligned with the local mountain ridges rather than on a compass grid.  The busiest "east-west" street is College Avenue (really SW-NE).  This forms the boundary between the downtown area and the Penn State campus.
 
 TODO: Very basic map of downtown
 
 There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go.
 
-The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers fixed-line bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
+A few roads have been designated as "bicycle routes".  These are generally places where connectivity of the biking network would favor bicycle infrastructure, but where for practical/financial/political reasons none actually exists.  In my estimation these routes are generally no better for riding than other random roads -- and in some cases, like Easterly/Westerly, are arguably worse -- and I have omitted them from the map.
+
+The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers regular bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
 
 TODO: A map with labelings of main neighborhoods and the bigger apartment complexes.
 
@@ -35,7 +34,6 @@ The crowdsourced site OpenStreetMaps has more accurate coverage of the local bik
 ``` {.include}
 maps/output/path-orchard.div
 ```
-
 
 * Several paths go through and around the PSU **golf courses**.  A north/south route along the old Corl St connects the western edge of downtown to the Tudek/Circleville and Blue Course paths.  Another path follows College Avenue  most of the way from campus to Blue Course, with connections possible to Gill St and others.  To the east one has access to campus, including through the IST bridge to Pollock Rd.
 
@@ -76,9 +74,9 @@ The worst crossing on this route is at Atherton, which does not have a light but
 
 Headed south, you should resist the temptation to bomb down the hill to Easterly since a) there is a stop sign at the bottom and b) cars tend thorough to roll the stop signs at the crosses; I usually take the middle of lane.  Note that at end the of the bike lane you can cut through to the path on S Atherton after a small bit of sidewalk.
 
-* **Sparks** is a designated bike route for some reason and has some sharrows, with bike lanes on a couple random blocks, only ever on one side of the street at a time.  It's the busiest north/south street in this vicinity since it connects College to Westerly.  There is no reason to ride here unless it's your destination; go a block over to Gill, which also connects College to Westerly, but not for cars.  (I guess the one advantage is that it does buy you a light across Beaver.)
+* **Sparks** is a designated bike route for some reason and has some sharrows and climbing lanes on a couple blocks.  It's the busiest north/south street in this vicinity since it connects College to Westerly.  There is no reason to ride here unless it's your destination; go a block over to Gill, which also connects campus to Westerly, but not for cars. 
 
-* **Easterly/Westerly Parkway** is designated as a bicycle route on the COG map.  Again they did slap down some sharrows, but it's a narrow, curving road with a not unfast traffic and not much of a shoulder.  That is nothing about it deserving of a bicycle designation, but there is not any good alternative.   There is now  [$1.1 million funding](https://www.statecollege.com/three-centre-county-transportation-alternatives-projects-receive-more-than-2-million-in-funding/) for an off-road multi-use path along Westerly, so this should improve in the next few years.  (Don't let this lift your spirits too much; in comparison, the borough will soon blow $2.55 million(!) on a totally unneeded new surface lot(!) on Nittany.)
+* **Easterly/Westerly Parkway** is designated as a bicycle route on the COG map.  Again they did slap down some sharrows, but it's a narrow, curving road with a not unfast traffic and not much of a shoulder.  A bike path should be built in 2025 from University Dr in the east to the existing Orchard Park path, which should make this a pleasant ride through that stretch.  West of the high school and out to Greentree will not improve and I don't recommend it.
 
 ## Campus
 
@@ -198,7 +196,13 @@ Zipcar and the Enterprise Carshare used to operate here, but we no longer have a
 
 ## Long-distance buses
 
-A number of bus companies operate in town.  Fullington and Greyhound offer trips from a bus station near downtown, just to the west of Atherton.  Megabus offers trips starting at the N Atherton  Walmart parking lot.
+A number of bus companies operate in town.  Fullington and Greyhound offer trips from a bus station near downtown, just to the west of Atherton.  Ageebus runs from the Walmart parking lot.  You may have used Megabus in the past, the company went bankrupt and ended service to State College in August 2024.
+
+Here is a list of 
+
+| Company | Route | Origin | Destination | Departure time | Other stops | Schedule link |
+| --- | --- | --- | --- | --- | --- | --- | 
+| Fullington | FAB 600 | Pittsburgh (airport) | 05:30 |   | https://www.fullingtontours.com/daily-bus-departures/ |
 
 It is not very easy to find the schedules for outbound buses.
 
@@ -209,12 +213,12 @@ Fullington operates several "express routes" on certain weekends during the scho
 State College does not have a train station, so you will need to get to another city to catch the train.  Fortunately, you do not have to go too far.  There are two Amtrak routes passing through central PA:
 
 <ul>
-<li>the *Pennsylvanian*, which passes closer to State College and offers service both west to Pittsburgh and east to Philadelphia/NYC, but with only one daily train each way. (A second daily Pennsylvanian should start up in the next couple years.)</li>
-<li>the *Keystone*, which offers much more frequent service between Harrisburg and Philadelphia</li>
-</ul>
-(Diehards have also been known to drive just across the border to Cumberland, MD and catch the Capitol Limited to Chicago to avoid the long late-night layover in Pittsburgh entailed by the Pennsylvanian+Capitol Limited connection.)
+<li>the *Pennsylvanian*, which passes closer to State College and offers service both west to Pittsburgh and east to Philadelphia/NYC, but with only one daily train each way. (A second daily Pennsylvanian should start up in the next couple years, having been funded by the Inflation Reduction Act)</li>
+<li>the *Keystone*, which offers much more frequent service between Harrisburg and Philadelphia (14 trains per day each way)</li>
+</ul>nn
+(Diehards have also been known to drive just across the border to Cumberland, MD and catch the Capitol Limited to Chicago to avoid the four-hour late-night layover in Pittsburgh entailed by the Pennsylvanian+Capitol Limited connection.)
 
-The closest stations are in Lewistown and Tyrone, which are both about 35 minutes from here, but in opposite directions.  These have service only on the less frequent *Pennsylvanian*.  If you're traveling west (to Pittsburgh and beyond), it usually makes sense to catch the train in Tyrone.  If you're traveling east (Harrisburg or Philadelphia), you can catch the train in Lewistown.  
+The closest stations are in Lewistown and Tyrone, which are both about 35 minutes from here, but in opposite directions.  These have service only on the less frequent *Pennsylvanian*.  If you're traveling west (to Pittsburgh and beyond), it usually makes sense to catch the train in Tyrone.  If you're traveling east (Harrisburg or Philadelphia), you can catch the train in Lewistown.  Note that neither of these stations is staffed, which means they can't handle checked luggage.  If you need to check bags, you will the closest options are Altoona (45 minutes west) and Harrisburg (90 minutes east).
 
 You can also buy a ticket directly from "State College" (STC) on amtrak.com.  These tickets involve a "Thru-Way" bus: you board a bus downtown and then transfer to a train in either Harrisburg or Altoona (depending on east/west).  Amtrak sells the tickets, but the actual buses are contracted out; you'll just be riding the Greyhound to Harrisburg.  Recent cuts to our bus service have greatly reduced the number of schedules available, but it's still worth checking this option.
 
@@ -228,17 +232,33 @@ If you are a student, you are eligible for [Penn State's late-night Lyft service
 
 ## Airport
 
-The local airport is the State College Regional Airport (SCE), located about five miles north of town.  There is no transit service to the airport except a few hotel shutles.  Although it is a scenic bike ride to get there, this is not very practical with luggage.  If you're really committed, there are a couple Fullington buses each day that make a stop there on the way out of town, but for most flights the timing is extremely inconvenient.  This is a case where you'll probably want to just get a ride.
+The local airport is the State College Regional Airport (SCE), located about five miles north of town.  There is not really any transit service to the airport.  A couple Fullington long-distance buses swing by on the way out of town, so if you're lucky with the timing of your flight this is an option. Otherwise, you probably need a rideshare or a hotel shuttle.
 
 # Specific Destinations
 
+## Medical
+
+Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
+
+* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves an unpleasant stretch on Park Avenue.  CATA no longer serves the hospital with fixed-route service.  The options are to use CATAGO -- which will serve this destination from any origin in any of the CATAGO zones -- or to take the PSU Beaver Avenue shuttle, which runs from the west side of campus out to the hospital and Innovation Park for a little more than normal working hours.
+
+* The are a few urgent care facilities.  One is operated by Mount Nittany medical in Hills Plaza, reachable from downtown by taking Garner to the S Atherton bike path.  You can also get there on the AC bus.
+
+* The **Geisinger Healthplex State College** (better known as **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.  The facility also lost CATA service recently, but can still be reached by CATAGO.  If you are not actually sick, it's a pretty pleasant but uphill bike ride via the Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end.
+
+TODO: Map
+
+* **Scenery Park** has a variety of medical facilities.  There is easy access via the AC bus, which turns around in the vicinity, or by the S Atherton bike path.
+
+* Mount Nittany specialties are increasingly being consolidated into **Mount Nittany Toftrees**.  This is served by CATA's H route.  I haven't biked out there myself, but it's probably not terrible if you ride through Toftrees (possibly on gravel) and then ride up Waddle Rd.  This avoids the stretch on Waddle around the I-99 interchange, which is a horrible place.
+
+* There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which is very easily accessed from downtown by bike or on the CC bus.  There are optometrists and dentists downtown and in Scenery Park.
+
 ## Groceries and Markets
 
-Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging unless you happen to live a short walk from one of the stores.
+Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  My own strategy is to make only infrequent trips to the supermarket and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options near downtown.
 
-My own strategy is to make only infrequent trips to the supermarket (every three or four weeks) and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options in town.
-
-* **McLanahan's** is a smaller grocery store right downtown at Beaver and Allen.  Locals may perceive it as a student grocery store and never set foot there.  Don't make this mistake!  It has a nice if somewhat small selection of groceries and is a great place to pick up a couple items without a full shopping trip.
+* **McLanahan's** is a smaller grocery store right downtown at Calder and Allen.  Some locals  perceive it as a student grocery store and never set foot there.  Don't make this mistake -- it has a nice if somewhat small selection of groceries and is a great place to pick up a couple items without a full shopping trip.
 * **Target** has a smaller store in town with many useful things that will save you a trip to the land of big boxes out N Atherton.
 * **The Cheese Shoppe** sells cheeses and coffee.  They have better cheese than any of the supermarkets.
 * **Gemelli** bakery has good bread.
@@ -249,9 +269,9 @@ My own strategy is to make only infrequent trips to the supermarket (every three
 maps/output/grocery.div
 ```
 
-If you are a car-free enthusiast of local foods, do not despair; there are several ways to get local produce without driving.  Sometimes you have to eat a delivery fee; at these times, it may help to reflect on how much money you are saving by not having a car.
+If you are a car-free enthusiast of local foods, do not despair; there are several ways to get local produce without driving.  Sometimes this may entail a delivery fee; at these times, it may help to reflect on how much money you are saving by not having a car.
 
-* The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall. In the late summer, it runs on Tuesday as well.  (There also used to be a winter market in the borough building but it seems to have ended with COVID.)  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the bumps are a bit rough on fruit) and one on North Atherton on Saturdays (probably doable on the Valley Vista path, but again with the bumps).  
+* The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall. In the late summer, it runs on Tuesday as well.  (There also used to be a winter market in the borough building but it seems to have ended with COVID.)  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the brutal curb cuts will not be kind to ripe fruit) and one on North Atherton on Saturdays, which should be reachable by the extended AC bus (starting Fall '24).
 
 * [**Centre Markets**](https://www.centremarkets.com/) lets you place an order ahead of the farmers market and have it delivered.  They have a wide range of produce and meat, as well as prepared foods from local vendors. You can also combine your order with an order from Nature's pantry, a  natural foods store out E College that is not a great ride but is now accessible via the College Ave circulator)
 
@@ -259,7 +279,7 @@ If you are a car-free enthusiast of local foods, do not despair; there are sever
 
 * Several **CSAs** offer weekly delivery of boxes of produce and dairy that help reduce the number of grocery trips you need; I use and recommend [GroundWork Farms](https://www.centremarkets.com/).
 
-* **Vale Woods Farm** offers delivery of milk and other dairy products.
+* **Vale Woods Farm** offers delivery of milk and other dairy products. (I think)
 
 * **Mark's Custom Meats** in Howard delivers to State College a couple times a week.
 
@@ -271,35 +291,24 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * **Wegman's**, **Trader Joe's**, and **Weis** all have locations in the vicinity of North Atherton.  It is possible to access all of these through Park Forest or using the Atherton Connector.
 
-## Medical
-
-Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
-
-* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves a pretty unpleasant stretch on Park Avenue.  CATA no longer serves the hospital, but the public can use the PSU Campus Shuttle via Beaver Avenue to get out there.
-
-* Geisinger Healthplex State College (a.k.a. **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.   Fairly frequent bus service is available on the W route.  Although it is a bit far, it is easily bikable via the Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end.
-
-* **Scenery Park** has a variety of medical facilities.  There is easy access via the AC bus, which turns around in the vicinity, or by the S Atherton bike path.
-
-There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which has good bike access.  There are optometrists and dentists downtown and in Scenery Park.
 
 ## Entertainment
 
-* One of the great advantages of living in State College is our proximity to the woods.  A few trailheads are reachable by biking or transit, though this may be a case where you want to rent a car.  The Penn State-Circleville bike path gives you access to the Scotia gamelands off Sleepy Hollow road.
+* One of the great advantages of living in State College is our proximity to the woods.  A few trailheads are reachable by biking or transit, though this may be a case where you want to rent a car.  The Penn State-Circleville bike path gives you access to the Scotia gamelands off Sleepy Hollow road, and the Blue Course path will put you pretty near the entrance to Musser Gap (especially once the extension of this path is completed, hopefully in 2025).
 
 * You can also bike to Musser Gap or Shingletown Gap, and these are both served by CATAGO!'s Boalsburg zone.
 
-* The **State College Spikes** play at Lubrano Park, which is easy to reach by various bus routes (e.g. the Red Link), or by biking through campus.
+* The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)g
 
 * **Penn State football** plays at Beaver Stadium.  I stay as far as possible away from the stadium on game days and have no advice to offer.
 
 ## Miscellany
 
-* The easiest hardware store to get to is **Ace Hardware** in Hills Plaza off South Atherton.  Lowe's and Home Depot are reachable via the Valley Vista path or the W bus.
+* The easiest hardware store to get to from downtown is **Ace Hardware** in Hills Plaza off South Atherton.  Lowe's and Home Depot are reachable via the Valley Vista path or the AC bus.
 
 * **Meyer Dairy** on South Atherton is a local landmark.  It is not easy to reach despite being across from the bike path: I think the easiest route is to take Rolling Ridge north, ride through the KBB parking lot, and then jump a curb and cross a little grass to get to the dairy.
 
-* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future either.  It is possible to bike (or even walk), but it is pretty unpleasant.  If somebody reading this knows a better option please tell me.
+* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future either.  It is possible to bike (or even walk), but it is pretty unpleasant and involves a stretch through the grounds of the state prison.  If somebody reading this knows a better option please tell me.
 
 ## Car math
 
@@ -318,4 +327,15 @@ AAA estimates the annual average cost of car ownership at [more than $12,000 per
 * The **State College Borough Council** are the people with the ability to make things better for us.  You should attend their meetings and complain.
 
 * Other nearby cities are difficult to reach without a car. CATA organizes commuter carpools to some.
+
+
+# The future
+
+Several exciting projects are in the works.
+
+## **The Next Generation Safety and Mobility Plan** was adopted by the State College Borough in 2024.  This lays out a longer-term version for the expansion of transportation alternatives in the borough.  The adoption of the plan does not actually get anything specific budgeted or scheduled for construction.
+
+## The **E College Avenue Path** has received state funding and is in the early stages of planning.  It will provide an off-road bike path from campus along E College as far as Puddintown Rd.  This is currently a pretty major corridor with extremely poor conditions for cycling and pedestrian.
+
+## The **Westerly Parkway Path** should be built in 2024.
 
