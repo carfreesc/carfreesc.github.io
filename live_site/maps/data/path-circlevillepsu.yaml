@@ -1,0 +1,13 @@
+---
+metadata:
+  width: 400
+  height: 250
+  lat: 40.7891
+  long: -77.8927
+  zoom: 13
+orchard:
+  type: route
+  name: PSU to Circleville Bike Path
+  color: blue
+  file: bike/circleville_to_psu.gpx
+  desc: PSU to Circleville Bike Path

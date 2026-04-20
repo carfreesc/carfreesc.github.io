@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Do I need a car in State College?</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet-gpx/gpx.js"></script>
+</head>
+
+<body>
+<h1 id="getting-to-state-college-and-penn-state-without-driving">Getting
+to State College and Penn State (without driving)</h1>
+<h2 id="by-bus">By bus</h2>
+<p>There are currently four companies operating regular intercity bus
+service to and from State College: Fullington Trailways, Greyhound,
+Flixbus, and Agee Bus (better known as the “gotobus” after the platform
+where its tickets are available). In total there are roughly ten daily
+arrivals and departures. Since I do not think any website correctly
+tracks all of them, here is an attempt to list current bus service.
+Please let me know if this is out of date.</p>
+<table>
+<thead>
+<tr>
+<th>Departure</th>
+<th>Route</th>
+<th>Destination</th>
+<th>Time</th>
+<th>Stops and notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1:55 AM</td>
+<td>Flixbus</td>
+<td>New York</td>
+<td>6:30 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>2:50 AM</td>
+<td>AgeeBus</td>
+<td>New York</td>
+<td>6:50 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>6:00 AM</td>
+<td>FAB 600</td>
+<td>Pittsburgh</td>
+<td>11:00 AM</td>
+<td>continues to PGH</td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>FAB 201</td>
+<td>New York</td>
+<td>1:45 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>9:00 AM</td>
+<td>FAB 203</td>
+<td>Philadelphia</td>
+<td>1:30 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>9:45 AM</td>
+<td>FAB 805</td>
+<td>Wilkes-Barre</td>
+<td>1:10 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>10:25 AM</td>
+<td>Flixbus</td>
+<td>New York</td>
+<td>4:25 PM</td>
+<td>Harrisburg</td>
+</tr>
+<tr>
+<td>12:35 PM</td>
+<td>Greyhound</td>
+<td>New York</td>
+<td>6:45 PM</td>
+<td>Harrisburg</td>
+</tr>
+<tr>
+<td>1:25 PM</td>
+<td>Greyhound</td>
+<td>Pittsburgh</td>
+<td>6:10 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>1:50 PM</td>
+<td>Greyhound</td>
+<td>Philadelphia</td>
+<td>6:15 PM</td>
+<td>Harrisburg</td>
+</tr>
+<tr>
+<td>3:40 PM</td>
+<td>Flixbus</td>
+<td>New York</td>
+<td>10:20 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>4:25 PM</td>
+<td>Flixbus</td>
+<td>Pittsburgh</td>
+<td>7:25 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>6:55 PM</td>
+<td>Flixbus</td>
+<td>Pittsburgh</td>
+<td>9:30 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>7:20 PM</td>
+<td>FAB 202</td>
+<td>Pittsburgh</td>
+<td>9:50 PM</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Here are the arrivals</p>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Arrival</th>
+<th>Route</th>
+<th>Origin</th>
+<th>Time</th>
+<th>Stops and notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1:50 AM</td>
+<td>Flixbus</td>
+<td>Newark</td>
+<td>10:05 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>8:45 AM</td>
+<td>FAB 201</td>
+<td>Pittsburgh</td>
+<td>6:15 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>10:20 AM</td>
+<td>Flixbus</td>
+<td>Pittsburgh</td>
+<td>7:30 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>1:15 PM</td>
+<td>Greyhound</td>
+<td>Philadelphia</td>
+<td>9:00 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>1:40 PM</td>
+<td>Greyhound</td>
+<td>Pittsburgh</td>
+<td>9:20 AM</td>
+<td></td>
+</tr>
+<tr>
+<td>2:00 PM</td>
+<td>FAB 204</td>
+<td>Philadelphia</td>
+<td>1:30 PM</td>
+<td>Harrisburg</td>
+</tr>
+<tr>
+<td>4:20 PM</td>
+<td>Flixbus</td>
+<td>Newark Airport</td>
+<td>11:30 AM</td>
+<td>Allentown, Harrisburg</td>
+</tr>
+<tr>
+<td>5:15 PM</td>
+<td>FAB 815</td>
+<td>Wilkes-Barre</td>
+<td>1:10 PM</td>
+<td>Lock Haven, Williamsport</td>
+</tr>
+<tr>
+<td>7:05 PM</td>
+<td>FAB 202</td>
+<td>New York</td>
+<td>2:05 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>7:20 PM</td>
+<td>Greyhound</td>
+<td>Newark</td>
+<td>1:40 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>8:20 PM</td>
+<td>FAB 605</td>
+<td>Pittsburgh</td>
+<td>3:30 PM</td>
+<td></td>
+</tr>
+<tr>
+<td>9:25 PM</td>
+<td>AgeeBus</td>
+<td>New York</td>
+<td>5:00 PM</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Greyhound State College 12:35 PM, NYC 6:45 PM (via Hburg) Greyhound
+State College 1:50 PM, Philly 6:15 PM (via Hburg) Greyhound State
+College 1:25 PM, Pittsburgh 6:10 PM</p>
+<p>AgeeBus State College 2:50 AM NYC 6:50 AM AgeeBus NYC 5:00 PM SC 9:25
+PM</p>
+<p>Flixbus Newark Airport 11:30 AM SC 4:20 PM (via Allentown, Hburg)
+Greyhound Newark 1:40 PM SC 7:20 PM (via Allentown, Hburg) Flixbus
+Newark 10:05 PM SC 1:50 AM</p>
+<p>Flixbus State College 1:55 AM, NYC (31st and 8th) 6:30 AM Flixbus
+State College 10:25 AM, NYC 4:25 PM (via Hburg) Flixbus State College
+3:40 PM, NYC 10:20 PM Flixbus State College 4:25 PM, Pittsburgh 7:25 PM
+Flixbus State College 6:55 Pm, Pittsburgh 9:30 PM</p>
+<p>Flixbus Pittsburgh 7:30 AM, SC 10:20 AM Greyhound Pittsburgh 9:20 AM,
+SC 1:40 PM Greyhound Philly 9:00 AM, SC 1:15 PM</p>
+<ul>
+<li>FAB 201: Pittsburgh Greyhound 6:15 AM, to State College 8:45/9:00
+AM, New York 1:45 PM.</li>
+<li>FAB 202: New York 2:05 PM, State College 7:05/7:20 PM, Pittsburgh
+9:50 PM.</li>
+<li>FAB 203: State College 9:00 AM, Philadelphia 1:30 PM
+(+Harrisburg)</li>
+<li>FAB 204: Philadelphia 2:00 PM, State College 6:30 PM *FAB 600: State
+College 6:00 AM, Pittsburgh 11:00 AM (PGH airport 11:40 AM)</li>
+<li>FAB 605: Pittsburgh 3:30 PM, State College 8:20 PM (via
+airport)</li>
+<li>FAB 805: State College 9:45 AM, Wilkes-Barre 1:10 PM</li>
+<li>FAB 815: Wilkes-Barre 1:36 PM, State College 5:15 PM (Lock Haven,
+Williamsport, etc)</li>
+</ul>
+<p>Note that Fullington and Greyhound routes use the bus station
+downtown, located just off North Atherton near the Westgate building.
+Flixbus only serves the airport, so you need to arrange transport from
+the airport; it’s about a 15-minute drive to campus, and an Uber will
+run about $25. Agee Bus drops in the Walmart parking lot on North
+Atherton; downtown is then a short CATA ride away. Fullington,
+Greyhound, and Flixbus operate standard passenger coaches, with a
+bathroom on board; AgeeBus runs (at least sometimes?) smaller 10-seater
+vans.</p>
+<p>In addition to these regularly scheduled routes, Fullington some
+sporadic “tour” routes. If you’re hoping to go to NYC and are flexible
+on the dates, these are a good option. The Big Apple express leaves
+State College at 4 PM on a Friday and a return route leaves New York at
+4 PM on Sunday, giving you the better part of a weekend in the city.</p>
+<h3 id="a-note-on-megabus">A note on Megabus</h3>
+<p>From 201? until 2024, State College was served by Megabus. However,
+Megabus ceased operations in the United States in 2024 following the
+bankruptcy. The Megabus brand and website are now owned by a holding
+company, the Renco Group. Megabus continues to operate as a third-party
+ticketing platform, but the company no longer runs any buses to State
+College. It is indeed still possible to buy “Megabus” tickets on
+megabus.com, but these are nothing more than Fullington tickets. (I am
+not aware of any reason to book through Megabus instead of directly
+through Fullington.)</p>
+<h2 id="by-train">By train</h2>
+<p>State College does not have a train station, so you will need to get
+to another city to catch the train. Fortunately, you do not have to go
+too far. There are two Amtrak routes passing through central PA.</p>
+<ul>
+<li>
+the <em>Pennsylvanian</em>, which passes closer to State College and
+offers service both west to Pittsburgh and east to Philadelphia/NYC, but
+with only one daily train each way. (A second daily Pennsylvanian is
+planned to begin later this year.)
+</li>
+<li>
+the <em>Keystone</em>, which offers much more frequent service between
+Harrisburg and Philadelphia/New York(14 trains per day each way)
+</li>
+</ul>
+<p>A third, long-distance route, useful for rail diehards, stops just
+across the border in Cumberland, MD:</p>
+<ul>
+<li>
+the <em>Capitol Limited</em> – currently operating an extended route as
+the <em>Floridian</em> due to construction in New York – offers direct
+service between Chicago and Miami.
+</ul>
+<p>The closest stations are in Lewistown and Tyrone, which are both
+about 35 minutes from downtown State College, but in opposite
+directions. Both of these have service only on the less frequent
+<em>Pennsylvanian</em>. If you’re traveling west (to Pittsburgh and
+beyond), it usually makes sense to catch the train in Tyrone. If you’re
+traveling east (to Harrisburg or Philadelphia), you can catch the train
+in Lewistown. Note that neither of these stations is staffed, which
+means they can’t handle checked luggage. If you need to check bags, you
+will the closest options are Altoona (45 minutes west) and Harrisburg
+(90 minutes east). Note that Amtrak has a very generous luggage
+allowance compared to airlines and bus operators.</p>
+<p>You can also buy a ticket directly from “State College” (STC) on
+amtrak.com. These tickets involve a “Thru-Way” bus: you board a bus
+downtown and then transfer to a train in either Harrisburg or Altoona
+(depending on east/west). Amtrak sells the tickets, but the actual buses
+are contracted out; you’ll just be riding the Greyhound to Harrisburg.
+Recent cuts to our bus service have greatly reduced the number of
+schedules available, but it’s still worth checking this option.</p>
+<h2 id="taxi-ubers-and-lyfts">Taxi, Ubers, and Lyfts</h2>
+<p>Local taxi service took a big hit during the pandemic. The only
+company still standing is Nittany Express, which still provides a
+limited taxi service. They are also available to drive you to the nearby
+Amtrak stations or larger airports. Call ahead to get a quote.</p>
+<p>Uber and Lyft are available and generally reliable.</p>
+<p>If you are a student, you are eligible for <a
+href="https://transportation.psu.edu/lyft-programs">Penn State’s
+late-night Lyft service</a>. They will give you eight $10 vouchers per
+semester for rides from downtown back to campus, valid only between 2 AM
+and 7 AM.</p>
+<h2 id="airport">Airport</h2>
+<p>The local airport is the State College Regional Airport (SCE),
+located about five miles north of town. There is not really any transit
+service to the airport. A couple Fullington long-distance buses swing by
+on the way out of town, so if you’re lucky with the timing of your
+flight this is an option. Otherwise, you will probably need a rideshare
+($25) or a friend.</p>
+<h2 id="spring-break-service">Spring break service</h2>
+<h2 id="specific-destinations">Specific destinations</h2>
+<h3 id="new-york-city">New York City</h3>
+<h3 id="philadelphia">Philadelphia</h3>
+<h3 id="pittsburgh">Pittsburgh</h3>
+</body>
+</html>
