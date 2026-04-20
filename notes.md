@@ -1,10 +1,13 @@
 # Getting to State College and Penn State (without driving)
 
+State College can be a bit difficult to reach by any means other than a car.
+Happily, several options are available.  Intercity bus service remains fairly robust, and Amtrak trains are not too far away.  This page is an attempt to organize the various options for getting to and from town.
+
+Please report any errors, updates, or suggestions by email.  I am just an interested traveler with a day job and no connection to any of these companies, so double-check any suggestions here.
+
 ## By bus
 
-There are currently four companies operating regular intercity bus service to and from State College: Fullington Trailways, Greyhound, Flixbus, and Agee Bus (better known as the "gotobus" after the platform where its tickets are available).  In total there are roughly ten daily arrivals and departures.  Since I do not think any website correctly tracks all of them, here is an attempt to list current bus service.  Please let me know if this is out of date.
-
-
+There are currently four companies operating regular intercity bus service to and from State College: Fullington Trailways, Greyhound, Flixbus, and Agee Bus (better known as "Gotobus", after the platform where its tickets are available).  In total there are about a dozen daily arrivals and departures.  Since I do not think any website correctly tracks all of them, here is an attempt to list current bus service.  
 
 | Departure | Route | Destination | Time | Stops and notes |
 | ---- | ---- | ---- | ---- | ---- |
@@ -23,8 +26,7 @@ There are currently four companies operating regular intercity bus service to an
 | 6:55 PM | Flixbus | Pittsburgh | 9:30 PM |   |
 | 7:20 PM | FAB 202 | Pittsburgh | 9:50 PM |   |
 
-Here are the arrivals
-
+Here are the arrivals:
 
 | Arrival | Route | Origin | Time | Stops and notes |
 | ---- | ---- | ---- | ---- | ---- |
@@ -42,60 +44,79 @@ Here are the arrivals
 | 9:25 PM | AgeeBus | New York | 5:00 PM |   |
 
 
-
-
 Note that Fullington and Greyhound routes use the bus station downtown, located just off North Atherton near the Westgate building.  Flixbus only serves the airport, so you need to arrange transport from the airport; it's about a 15-minute drive to campus, and an Uber will run about $25.  Agee Bus drops in the Walmart parking lot on North Atherton; downtown is then a short CATA ride away.  Fullington, Greyhound, and Flixbus operate standard passenger coaches, with a bathroom on board; AgeeBus runs (at least sometimes?) smaller 10-seater vans.
 
 In addition to these regularly scheduled routes, Fullington operates some sporadic "tour" routes.  If you're hoping to go to NYC and are flexible on the dates, these are a good option.  The Big Apple express leaves State College at 4 PM on a Friday and a return route leaves New York at 4 PM on Sunday, giving you the better part of a weekend in the city.
-
-
-### A note on Megabus
-
-From 201? until 2024, State College was served by Megabus.  However, Megabus ceased operations in the United States in 2024 following the bankruptcy.  The Megabus brand and website are now owned by a holding company, the Renco Group.  Megabus continues to operate as a third-party ticketing platform, but the company no longer runs any buses to State College.  It is indeed still possible to buy "Megabus" tickets on megabus.com, but these are nothing more than Fullington tickets.  (I am not aware of any reason to book through Megabus instead of directly through Fullington.)
 
 ### OurBus
 
 There is also OurBus, which is a bit of a mystery to me.
 
+### A note on Megabus
+
+From 201? until 2024, State College was served by Megabus.  However, Megabus ceased operations in the United States in 2024 following bankruptcy.  The Megabus brand and website are now owned by a holding company, the Renco Group.  Megabus continues to operate as a third-party ticketing platform, but the company no longer runs any buses to State College.  It is still possible to buy "Megabus" tickets on megabus.com, but these are nothing more than Fullington tickets, and I am not aware of any compelling reason to book through Megabus instead of directly through Fullington.
+
 ## By train
 
-State College does not have a train station, so you will need to get to another city to catch the train.  Fortunately, you do not have to go too far.  There are two Amtrak routes passing through central PA.
-
+State College does not have a train station, so you will need to get to another city to catch the train.  Fortunately, you do not have to go too far. Pennsylvania is served by a total of four Amtrak routes, of which two pass through Central PA:
 <ul>
-<li>the *Pennsylvanian*, which passes closer to State College and offers service both west to Pittsburgh and east to Philadelphia/NYC, but with only one daily train each way. (A second daily Pennsylvanian is planned to begin later this year.)</li>
+<li>the *Pennsylvanian*, which passes closest to State College, offers service from Pittsburgh to NYC via Philadelphia, but has only one daily train in each direction. (This should soon increase to two.)
+</li>
 <li>the *Keystone*, which offers much more frequent service between Harrisburg and Philadelphia/New York(14 trains per day each way)</li>
 </ul>
-
-A third, long-distance route, useful for rail diehards, stops just across the border in Cumberland, MD:
-
-<ul>
-<li> the *Capitol Limited* -- currently operating an extended route as the *Floridian* due to construction in New York -- offers direct service between Chicago and Miami.
+<li>the *Northeast Corridor* is by far Amtrak's busiest, reaching from Boston to Virginia.  Riders from the State College can connect to NEC trains in either Philadelphia or New York.</li>
+<li>the *Capitol Limited* travels from Chicago to Washington DC, cutting through the southwest corner of Pennsylvania with a stop in Pittsburgh.  At time of writing, the Capitol Limited has been combined with the Silver service into a single extended route from Chicago to Miami, the *Floridian*.  This is a temporary situation related to track construction near NYC.
 </ul>
 
-The closest stations are in Lewistown and Tyrone, which are both about 35 minutes from downtown State College, but in opposite directions.  Both of these have service only on the less frequent *Pennsylvanian*.  If you're traveling west (to Pittsburgh and beyond), it usually makes sense to catch the train in Tyrone.  If you're traveling east (to Harrisburg or Philadelphia), you can catch the train in Lewistown.  Note that neither of these stations is staffed, which means they can't handle checked luggage.  If you need to check bags, you will the closest options are Altoona (45 minutes west) and Harrisburg (90 minutes east).  Note that Amtrak has a very generous luggage allowance compared to airlines and bus operators.
+If you're headed east, you have basically two options: either catch the train in Lewistown (which has only one train per day, the Pennsylvanian), or make the longer trip to Harrisburg (which has fourteen on the Keystone service).  If you're headed west, the sensible option is generally to catch the train in Tyrone.
+Since the routes are a bit circuitous in the vicinity of State College, a map of the nearby stations may help clarify.
 
-You can also buy a ticket directly from "State College" (STC) on amtrak.com.  These tickets involve a "Thru-Way" bus: you board a bus downtown and then transfer to a train in either Harrisburg or Altoona (depending on east/west).  Amtrak sells the tickets, but the actual buses are contracted out; you'll just be riding the Greyhound to Harrisburg.  Recent cuts to our bus service have greatly reduced the number of schedules available, but it's still worth checking this option.
+Huntington and Altoona stations are also nearby and could make sense depending on your starting point.  Note that Altoona is the only staffed station in the vicinity, so if you want to check bags on the Pennsylvanian, you need to go here or Harrisburg.  The stations in Lewistown, Tyrone, and Hungtingdon are more akin to bus shelters by the tracks.  
+
+A final option is the "Thruway bus" service operated by Amtrak.  You can buy a ticket directly from "State College" (STC) on amtrak.com.  What you receive is a single booking that puts you on bus from downtown State College to a train station, where you transfer to the next train. The bus is actually one of the Greyhound or Fullington routes enumerated above, not a special bus operated by Amtrak.
+If you're headed east, the transfer takes place in Harrisburg, where the bus and train stations are respectively the first and second floors of the same building, so transferring is very simple.  Booking both tickets through Amtrak entitles you to a replacement ticket in case you miss the connection, though low bus frequencies mean you may be stuck awhile.
+
+As of April 2026 the Thruway services appear to be:
 
 ## Taxi, Ubers, and Lyfts
 
 Local taxi service took a big hit during the pandemic.  The only company still standing is Nittany Express, which still provides a limited taxi service.  They are also available to drive you to the nearby Amtrak stations or larger airports.  Call ahead to get a quote.
 
-Uber and Lyft are available and generally reliable.
+Uber and Lyft are available and generally reliable, including from the Amtrak stations at Tyrone and Lewistown (~$65).
 
-If you are a student, you are eligible for [Penn State's late-night Lyft service](https://transportation.psu.edu/lyft-programs).  They will give you eight $10 vouchers per semester for rides from downtown back to campus, valid only between 2 AM and 7 AM.
-
-## Airport
+## Airports
 
 The local airport is the State College Regional Airport (SCE), located about five miles north of town.  There is not really any transit service to the airport.  A couple Fullington long-distance buses swing by on the way out of town, so if you're lucky with the timing of your flight this is an option. Otherwise, you will probably need a rideshare ($25) or a friend.
 
 ## Spring break service
 
-
-
 ## Specific destinations
 
-### New York City
+### New York
+
+Outbound
+
+| Departure | Route | Destination | Duration |
+| ---- | ---- | ---- | ---- | ---- |
+| 1:55 AM | Flixbus | New York |  |  |
+| 2:50 AM | AgeeBus | New York |  |  |
+| 9:00 AM | FAB 201 | New York |  |  |
+| 10:25 AM | Flixbus | New York | | Harrisburg |
+| 12:35 PM | Greyhound | New York |  | Harrisburg |
+| 3:40 PM | Flixbus | New York |  |   |
+
+
+#### JFK
+
+Several operators have in the past offered bus routes directly from State College to JFK airport.  I don't believe that any such routes exist at this time; you have to get to Manhattan and then use the subway + AirTrain.
 
 ### Philadelphia
 
+### Washington DC / Baltimore
+
+With the advent of Flixbus, it is once again possible to reach Washington DC by bus.  Take the 10:25 AM Flixbus from the State College airport, then transfer to Greyhound in Harrisburg.  Trip duration is 5:20.  The return is more awkward, requiring a second transfer in Baltimore: check greyhound.com for schedules.
+
 ### Pittsburgh
+
+### Chicago
+
