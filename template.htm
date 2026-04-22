@@ -1,14 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Do I need a car in State College?</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet-gpx/gpx.js"></script>
+<title>Getting to/from State College without a car</title>
+
+<style>
+  body {
+    margin: 0;
+    background: #fdfdfd;
+    color: #222;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  .page {
+    max-width: 640px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 2.4em;
+    font-weight: normal;
+    margin-bottom: 0.2em;
+  }
+
+  .byline {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 2em;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2em 0;
+  }
+
+  p {
+    line-height: 1.7;
+    margin: 1.2em 0;
+    font-size: 1.05em;
+  }
+
+  blockquote {
+    margin: 2em 0;
+    padding-left: 1em;
+    border-left: 2px solid #ccc;
+    color: #555;
+    font-style: italic;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 2em auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    font-size: 0.95em;
+  }
+
+  td, th {
+    border-bottom: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+  }
+
+</style>
 </head>
 
 <body>
+<div class="page">
 $for(include-before)$
 $include-before$
 $endfor$
@@ -16,5 +81,7 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
+</div>
+
 </body>
 </html>

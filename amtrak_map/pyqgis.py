@@ -21,7 +21,8 @@ print()
 
 # Amtrak map
 print("Adding layer: Amtrak")
-amtrak_layer = QgsVectorLayer("amtrak_routes.geojson", "amtrak", "ogr")
+# amtrak_layer = QgsVectorLayer("amtrak_routes.geojson", "amtrak", "ogr")
+amtrak_layer = QgsVectorLayer("amtrak.gpkg", "amtrak", "ogr")
 if not amtrak_layer or not amtrak_layer.isValid():
   print("Layer failed to load!")
 
@@ -45,42 +46,28 @@ amtrak_layer.triggerRepaint()
 # Now generate a layer for the Pennsylvanian, and color it blue.
 # To make sure it's not a temporary layer, clone Amtrak and filter it.
 project = QgsProject.instance()
-penn_layer = amtrak_layer.clone()
-penn_layer.setName("Pennsylvanian")
-penn_layer.setSubsetString("\"name\" = 'Pennsylvanian'")
-penn_features = list(penn_layer.getFeatures())
-for station in penn_features:
-  print(station.attributes())
-# Now color it.
-penn_styles = [ 'blue','1.0'] 
-penn_rule = QgsRuleBasedRenderer.Rule(None)
-symbol = QgsLineSymbol.createSimple({'color': penn_styles[0], 'width': penn_styles[1], 'offset': '-0.8'}) # offset is where we shift it
-rule = QgsRuleBasedRenderer.Rule(symbol)
-penn_rule.appendChild(rule)
-# Apply the rule-based renderer to the layer
-renderer = QgsRuleBasedRenderer(penn_rule)
-penn_layer.setRenderer(renderer)
-penn_layer.triggerRepaint()
+route_layers = []
+routes = [ ['Pennsylvanian', 'blue', '1.0'], ['Keystone Service', 'yellow', '0'], ['NEC', 'red', '2.0' ], ['Capitol Limited', 'green', '0.0' ] ]
 
-# Now generate a layer for the Keystone, and color it red.
-# To make sure it's not a temporary layer, clone Amtrak and filter it.
-project = QgsProject.instance()
-keystone_layer = amtrak_layer.clone()
-keystone_layer.setName("keystone")
-keystone_layer.setSubsetString("\"name\" = 'Keystone Service'")
-keystone_features = list(keystone_layer.getFeatures())
-for station in keystone_features:
-  print(station.attributes())
-# Now color it.
-keystone_styles = [ 'blue','1.0'] 
-keystone_rule = QgsRuleBasedRenderer.Rule(None)
-symbol = QgsLineSymbol.createSimple({'color': keystone_styles[0], 'width': keystone_styles[1], 'offset': '+0.8'}) # offset is where we shift it
-rule = QgsRuleBasedRenderer.Rule(symbol)
-keystone_rule.appendChild(rule)
-# Apply the rule-based renderer to the layer
-renderer = QgsRuleBasedRenderer(keystone_rule)
-keystone_layer.setRenderer(renderer)
-keystone_layer.triggerRepaint()
+for jj in range(len(routes)):
+
+  thisroute = routes[jj]
+  
+  new_route_layer = amtrak_layer.clone()
+  new_route_layer.setName(thisroute[0])
+  new_route_layer.setSubsetString(f"\"name\" = '{thisroute[0]}'")
+
+  # Now color it.
+  new_route_rule = QgsRuleBasedRenderer.Rule(None)
+  symbol = QgsLineSymbol.createSimple({'color': thisroute[1], 'width': '1.0', 'offset': thisroute[2]}) # offset is where we shift it
+  rule = QgsRuleBasedRenderer.Rule(symbol)
+  new_route_rule.appendChild(rule)
+  # Apply the rule-based renderer to the layer
+  renderer = QgsRuleBasedRenderer(new_route_rule)
+  new_route_layer.setRenderer(renderer)
+  new_route_layer.triggerRepaint()
+
+  route_layers.append(new_route_layer)
 
 
 
@@ -98,11 +85,15 @@ stations_layer_temp.updateFields()
 stations = [
     ("Altoona",     -78.3947, 40.5150),
     ("Tyrone",      -78.2388, 40.6709),
-    ("Harrisburg",  -76.8867, 40.2615),
     ("Huntingdon",  -78.0096, 40.4842),
     ("Lewistown",   -77.5765, 40.5992),
-    ("State College", -77.8617, 40.7943), 
+    ("State College", -77.8617, 40.7943),
+    ("Pittsburgh", -79.9933, 40.4440),
+    ("Philadelphia", -75.1820, 39.9556),
+    ("New York", -73.9935, 40.7506),
+    ("Harrisburg", -76.8827, 40.2615)
 ]
+
 
 features = []
 for name, lon, lat in stations:
@@ -133,19 +124,20 @@ stations_layer = QgsVectorLayer(path, "stations", "ogr")
 field = "name"
 categories = []
 colors = {
-    "Philadelphia": "red",
+    "Philadelphia": "black",
     "State College": "red",
-    "Harrisburg": "blue",
-    "Pittsburgh": "green",
-    "Altoona": "orange",
-    "Tyrone": "purple",
-    "Huntingdon": "brown",
-    "Lewistown": "pink"
+    "Harrisburg": "black",
+    "New York": "black",
+    "Pittsburgh": "black",
+    "Altoona": "black",
+    "Tyrone": "black",
+    "Huntingdon": "black",
+    "Lewistown": "black"
 }
 
 for name, color in colors.items():
     symbol = QgsMarkerSymbol.createSimple({
-        "name": "square",
+        "name": "circle",
         "size": "5",
         "color": color,
         "outline_color": "black"
@@ -184,7 +176,7 @@ for station in stations_features:
 
 # Now style the stations a bit.
 symbol = QgsMarkerSymbol.createSimple({
-    "name": "square",      # try: circle, square, triangle, star
+    "name": "black",      # try: circle, square, triangle, star
     "size": "3",           # in mm (try 5–7 for visibility)
     "color": "red",
     "outline_color": "black",
@@ -201,12 +193,13 @@ stations_layer.triggerRepaint()
 tms = r'type=xyz&url=https://tile.openstreetmap.org/{z}/{x}/{y}.png'
 osm_layer = QgsRasterLayer(tms,'OSM', 'wms')
 
-# tms = r'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
-# osm_layer = QgsRasterLayer(tms,'OSM', 'xyz')
+# tms = r'type=xyz&url=https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
+# tms = r'type=xyz&url=https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png'
+# osm_layer = QgsRasterLayer(tms, 'Carto Positron', 'wms')
 
 # Add those layers to the map.
 # mylayers = [ osm_layer, amtrak_layer, stations_layer ]
-mylayers = [ osm_layer, keystone_layer, penn_layer, stations_layer ]
+mylayers = [ osm_layer, stations_layer ]+route_layers
 for thislayer in mylayers:
   QgsProject.instance().addMapLayer(thislayer)
 
@@ -232,7 +225,7 @@ map_item.setRect(20, 20, 200, 200)
 
 # Set the extent of the map to include all layers
 map_item.setExtent(amtrak_layer.extent())
-map_item.setLayers([amtrak_layer, stations_layer, osm_layer])
+map_item.setLayers([stations_layer, amtrak_layer, osm_layer])
 
 # Print the order of layers
 layers = QgsProject.instance().layerTreeRoot().children()
