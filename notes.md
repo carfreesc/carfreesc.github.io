@@ -4,7 +4,7 @@ State College can be a bit difficult to reach by any means other than a long dri
 
 ## By bus
 
-There are currently four companies operating regular intercity bus service to and from State College: [Fullington Trailways](https://www.fullingtontours.com/), [Greyhound](https://www.greyhound.com/), [Flixbus](https://www.flixbus.com/), and [Agee Bus](https://www.gotobus.com/) (often known as "Gotobus", after the platform where its tickets are available).  In total there are about a dozen daily arrivals and departures.  Tickets can be booked at the websites of the respective companies; note that Flixbus is now the corparate parent of Greyhound, and Greyhound and Fullington cross-list tickets between their sites, so all three of these lines can be booked through any of the three sites.  Agee Bus tickets can only be purchased at gotobus.com.
+There are currently four companies operating regular intercity bus service to and from State College: [Fullington Trailways](https://www.fullingtontours.com/), [Greyhound](https://www.greyhound.com/), [Flixbus](https://www.flixbus.com/), and [Agee Bus](https://www.gotobus.com/) (often known as "Gotobus", after the platform where its tickets are available).  In total there are about a dozen daily arrivals and departures, more than there are flights!  Tickets can be booked at the websites of the respective companies; note that Flixbus is now the corparate parent of Greyhound, and Greyhound and Fullington cross-list tickets between their sites, so all three of these lines can be booked through any of the three sites.  Agee Bus tickets can only be purchased at gotobus.com.
 
 Daily departures:
 
@@ -44,11 +44,11 @@ Daily arrivals:
 
 [ TODO: I need to figure out which of the NYC services actually stop in Philly, H'burg, or EWR.  I have also not really checked which days of the week all these things operate.]
 
-Fullington and Greyhound routes use the bus station downtown, located just off North Atherton near the Westgate building.  Flixbus only serves the airport, so you need to arrange transport from the airport; it's about a 15-minute drive to campus, and an Uber will run about $25.  Agee Bus drops in the Walmart parking lot on North Atherton; downtown is then a short CATA ride away.  Fullington, Greyhound, and Flixbus operate standard passenger coaches, with a bathroom on board; Agee Bus runs (at least sometimes?) smaller 10-seater vans, which are unmarked on the outside.
+Fullington and Greyhound routes use the bus station downtown, located just off North Atherton near the Westgate building.  Flixbus only serves the airport, so you need to arrange transport from the airport; it's about a 15-minute drive to campus, and an Uber will run about $25.  Agee Bus drops in the Walmart parking lot on North Atherton; downtown is then a short CATA ride away.  Fullington, Greyhound, and Flixbus operate standard passenger coaches, with a bathroom on board; Agee Bus runs (TODO: at least sometimes?) smaller 10-seater vans, which are unmarked on the outside.
 
 ### Fullington Tours
 
-In addition to these regularly scheduled routes, Fullington operates some sporadic "tour" routes designed to give you a weekend in a big city cities.  If you're hoping to go to NYC or Philly and are flexible on the dates, these are a good option.  These run only four or five weekends each year.
+In addition to these regularly scheduled routes, Fullington operates some sporadic "tour" routes designed to give you a weekend in a big city.  If you're hoping to go to NYC or Philly and are flexible on the dates, these are a good option.  These run only four or five weekends each year.
 For example, the Big Apple Express leaves State College at 4:15 PM on Friday, arriving New York at 9:15 PM.  The return leaves NYC at 10:00 PM on Sunday, arriving in State College at 2:45 AM.
 
 [TODO: Fullington has never made it easy to find the dates of these routes without searching every single Friday.  I probably need to call them.  I have a sinking fear that these routes are now defunct and have been replaced with the single-day tour options.]
@@ -83,7 +83,7 @@ For many years, Megabus ran affordable and frequent routes to State College.  Ho
 
 ## By train
 
-State College does not have a train station, so you will need to get to another city to catch the train -- the closest ones, in Tyrone and Lewistown, are both about a 35 minutes' drive way. There are four Amtrak routes most useful when traveling from State College, of which two are actually in Central PA:
+State College does not have a train station, so you will need to get to another city to catch the train -- the closest ones, in Tyrone and Lewistown, are each about a 35 minutes' drive way. There are four Amtrak routes most useful when traveling from State College, of which two actually run through Central PA:
 
 <ul>
 <li>the *Pennsylvanian*, which passes closest to State College, offers service from Pittsburgh to NYC via Philadelphia, but has only one daily train in each direction. This should increase to two trains daily in late 2026 or early 2027.</li>
@@ -99,7 +99,9 @@ If you're headed east, you have basically two options: either catch the train in
 
 ![Closest stations](maps/local_map.png)
 
-Huntington and Altoona stations are also nearby and could make sense depending on your starting point.  Note that Altoona is the only staffed station in the vicinity, so if you want to check bags on the Pennsylvanian, you need to go here or Harrisburg.  The stations in Lewistown, Tyrone, and Hungtingdon are more akin to bus shelters by the tracks.  
+Huntington and Altoona stations are also nearby and could make sense depending on your starting point.  Note that Altoona is the only staffed station in the vicinity, so if you want to check bags on the Pennsylvanian, you need to go here or Harrisburg.  The stations in Lewistown, Tyrone, and Hungtingdon are more akin to bus shelters by the tracks.
+
+
 
 A final option is the "Thruway bus" service operated by Amtrak.  You can buy a ticket directly from "State College" (station code: STC) on amtrak.com.  What you receive is a single booking that puts you on bus from downtown State College to a train station, where you transfer to the next train. The bus is actually one of the Greyhound or Fullington routes enumerated above, not a special bus operated by Amtrak.
 If you're headed east, the transfer takes place in Harrisburg, where the bus and train stations are the first and second floors of the same building, so transferring is very simple.  Booking both tickets through Amtrak entitles you to a replacement ticket in case you miss the connection, though low bus frequencies mean you may be stuck awhile.
@@ -148,11 +150,11 @@ The options to reach Philadelphia are:
 
 ### Pittsburgh 
 
-The possibilities for Pittsburgh are:
+The possibilities to/from Pittsburgh are:
 <ul>
 <li>The Fullington and Greyhound routes listed above</li>
-<li>Direct Amtrak from Tyrone</li>
-<li>Use the Amtrak Thruway service from State College.  It's not great: catch the Greyhound downtown at 1:25 PM and take a short ride to Altoona.  Wait in Altoona for three hours, until you catch the westbound Pennsylvanian.  (If you're crazy enough to do this, you would probably be interested in the Altoona Railroaders Memorial Museum, which is right there, and a nice way to spend the layover.)
+<li>Direct Amtrak to/from Tyrone</li>
+<li>Use the Amtrak Thruway service from State College.  It's not great: catch the Greyhound downtown at 1:25 PM and take a short ride to Altoona.  Wait in Altoona for three hours, until you catch the westbound Pennsylvanian.  (If you're crazy enough to do this, you are likely to be interested in the Altoona Railroaders Memorial Museum, which is right there, and a nice way to spend the layover.)
 </li>
 </ul>
 
@@ -163,7 +165,7 @@ There is only one way to get to DC without a long detour through Philly: take th
 
 ### Chicago and points west:
 
-There are two realistic options to get to Chicago, which is the hub for Amtrak's major routes to the west coast.  (Well, OK, I guess you could fly to Chicago.)
+There are two realistic options to get to Chicago, which is the hub for Amtrak's major routes across the midwest and to the west coast.  (Well, OK, I guess you could fly to Chicago.)
 
 <ul>
 <li>A Flixbus route leaves State College at 4:25 PM and arrives in Chicago at 6:10 AM, making stops in Columbus, Indianapolis, and others.</li>
@@ -171,7 +173,7 @@ There are two realistic options to get to Chicago, which is the hub for Amtrak's
 <ul>
 <li>Catch the westbound train in Tyrone at 4:51 PM, arriving in Pittsburgh at 8:05 PM, which leaves you with a 4-hour layover until the next train.
 Although the Pittsburgh station and its immediate environs are not particularly charming at this hour, you can store your luggage at the counter in the station and spend a couple hours in the city.</li>
-<li>Use any of the four daily bus routes to Pittsburgh to arrive a little earlier, and have a little extra time there.  (Note: if you don't book this through Amtrak, you won't have a guaranteed connection.)</li>
+<li>Use any of the four daily bus routes to Pittsburgh to arrive a little earlier, and have a little extra time there.  (Note: these can't be booked through Amtrak, so if you miss the connection you'll be out of luck.)</li>
 <li>Use the Amtrak Thruway service, which has a long connection in Altoona; see Pittsburgh above.
 </li>
 </ul>
