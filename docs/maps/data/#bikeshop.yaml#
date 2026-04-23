@@ -1,0 +1,20 @@
+---
+metadata:
+  width: 600
+  height: 300
+  lat: 40.79444
+  long: -77.8616040
+  zoom: 12
+freezethaw:
+  type: marker
+  name: Freeze/Thaw Cycles
+  file: cc_approx.gpx
+  desc: The College Avenue Connector
+rx:
+  type: route
+  name: R/RC/RP
+  color: red
+  file: rx_approx.gpx
+  desc: Buses to Waupelani area
+
+

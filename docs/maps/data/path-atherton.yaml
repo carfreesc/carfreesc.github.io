@@ -1,0 +1,13 @@
+---
+metadata:
+  width: 400
+  height: 250
+  lat: 40.7836
+  long: -77.8183
+  zoom: 13
+orchard:
+  type: route
+  name: South Atherton Bike Path
+  color: blue
+  file: bike/south_atherton.gpx
+  desc: South Atherton Bike Path
