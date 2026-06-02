@@ -59,9 +59,7 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * You can also bike to Musser Gap or Shingletown Gap, and these are both served by CATAGO!'s Boalsburg zone.
 
-* The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)g
-
-* **Penn State football** plays at Beaver Stadium.  I stay as far as possible away from the stadium on game days and have no advice to offer.
+* The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)
 
 ## Miscellany
 
