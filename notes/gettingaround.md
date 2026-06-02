@@ -1,25 +1,24 @@
 # Getting around State College and Penn State without a car
 
-A [2019 CityLab study](https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free) ranked State College as the \#2 city in the nation for car-free living.  While this is probably a bit too optimistic, it is certainly possible to do many things here without a car, using the robust bus and bike networks.  
-This page aims to provide some practical information about getting around the area without a car.
-
 # Basic orientation
 
 The core downtown and campus area of State College is compact enough that you really don't need a car to get around: you can walk from one side to the other in less than an hour, and there are a variety of bus and bike routes if you don't want to walk.  However, even if you live nearby, you'll sometimes need to get further out for groceries, medical appointments, recreation, etc.  This can be trickier.
 
 The downtown part of State College is roughly laid out in a grid -- though the roads are aligned with the local mountain ridges rather than on a compass grid.  The busiest "east-west" street is College Avenue (really SW-NE).  This forms the boundary between the downtown area and the Penn State campus.
 
+If you are moving here and hoping to avoid driving, you should think carefully about locations before you arrive.  Some areas offer much better bike and bus connectivity than others, even at comparable distances from downtown.  (As a general rule, the more students in a neighborhood, the better the transit.)
+
 TODO: Very basic map of downtown
 
 There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go.
 
-A few roads have been designated as "bicycle routes".  These are generally places where connectivity of the biking network would favor bicycle infrastructure, but where for practical/financial/political reasons none actually exists.  In my estimation these routes are generally no better for riding than other random roads -- and in some cases, like Easterly/Westerly, are arguably worse -- and I have omitted them from the map.
+A few roads have been designated as "bicycle routes".  These are better understood as it-would-be-nice-if-it-were-a-bicycle routes: they represent gaps in the cycling network, but where no actual improvements have been made.  These roads are generally fine to ride on, though they don't offer any particular advantages.  The exception is Easterly/Westerly, which is a designated bicycle route but not a good place to ride.  This issue will be ameliorated by the completion of a multi-use path along the road in late 2026.
 
 The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers regular bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
 
-TODO: A map with labelings of main neighborhoods and the bigger apartment complexes.
+TODO: A map with labelings of main neighborhoods and the bigger apartment complexes?  Maybe not the right site for it.
 
-Much recent development has been along North Atherton Street, to the northwest side of town. Unfortunately this road is very unpleasant to walk or bike on, and a round of recent upgrades did not help. It is generally possible to reach destinations on N Atherton either by taking the bus, or by biking in on a cross street through Park Forest.
+Much recent development has been along North Atherton Street, to the northwest side of town. Unfortunately this road is somewhat unpleasant to walk or bike on. It is generally possible to reach destinations on N Atherton either by taking the bus, or by biking in on a cross street through Park Forest.
 
 # Bike routes
 
@@ -29,7 +28,9 @@ The crowdsourced site OpenStreetMaps has more accurate coverage of the local bik
 
 ## Off-road
 
-* The **Orchard Park** bike path runs from near the high school out to the southwest side of town (Cato Park, Harner Farm, YMCA,...).  At the north end it connects to Gill St which provides a pleasant (if hilly) route onto the west side of campus, with access to Pollock over the IST bridge.
+Here is a brief overview of the main off-road bicycle routes.
+
+* The **Orchard Park** bike path runs from near the high school out to the southwest side of town (Cato Park, Waupelani area, Harner Farm, YMCA,...).  At the north end it connects to Gill St which provides a pleasant (if hilly) route onto the west side of campus, with access to Pollock over the IST bridge.
 
 ``` {.include}
 maps/output/path-orchard.div
@@ -37,64 +38,29 @@ maps/output/path-orchard.div
 
 * Several paths go through and around the PSU **golf courses**.  A north/south route along the old Corl St connects the western edge of downtown to the Tudek/Circleville and Blue Course paths.  Another path follows College Avenue  most of the way from campus to Blue Course, with connections possible to Gill St and others.  To the east one has access to campus, including through the IST bridge to Pollock Rd.
 
-* The **South Atherton** bike path goes from around Atherton/University out to Boalsburg, about five miles.  It connects to downtown via a cut-through to Garner St.  It is not the best path, crossing a lot of turn-offs for businesses and featuring a couple rather violent curb cuts, but it's the best option in this direction. You will see the more hardcore cyclists riding on the road instead, but not me.  The crossing signal at Rolling Ridge has been removed for months and a no pedestrian signs has been put up in its place.   Maybe we are not supposed to use the path anymore?  Baffling.
+* The **South Atherton** bike path goes from around Atherton/University out to Boalsburg, about five miles.  It connects to downtown via a cut-through to Garner St.  It is not the best path, crossing a lot of turn-offs for businesses, but it's a good option in this direction. 
 
 ``` {.include}
 maps/output/path-atherton.div
 ```
 
+* The **Blue Course** bike path follows Blue Course Dr, from Radio Park elementary, skirting the western edge of the golf course, and ending near Orchard Park.  [ TODO: Update this for 2026!]
 
-* The **Blue Course** bike path follows Blue Course Dr, from Radio Park elementary, skirting the western edge of the golf course, and ending near Orchard Park.
-
-* The **Tudek/Circleville** bikeway runs from Tudek Park and Radio Park west to Valley Vista (and a bit beyond, with access to the Scotia gamelands off Sleepy Hollow).  At the eastern end, it has easy connections to both the golf course paths (leading to campus and downtown) and the blue course path.  At the western end, it connects to the Valley Vista multi-use path, which provides a route north towards Grays Woods.
+* The **Tudek/Circleville** bikeway runs from Tudek Park and Radio Park west to Valley Vista (and a bit beyond, with access to the Scotia gamelands off Sleepy Hollow).  At the eastern end, it has easy connections to both the golf course paths (leading to campus and downtown) and the Blue Course path.  At the western end, it connects to the Valley Vista multi-use path, which provides a route north towards Grays Woods.
 
 ``` {.include}
 maps/output/path-circlevillepsu.div
 ```
 
-* There are two parallel north/south paths on the western side of town, one along **Valley Vista** and one on **Circleville**.   The path on Valley Vista connects to the Tudek path and the rest of the network at the intersection with Science Park. The Circleville Park begins further north but reaches all the way to Grays Woods. You can get from Valley Vista to the Circleville path by cutting through Circleville Park; take the turn-off for "Little Lion Drive" which is Park Forest Middle School.  Together, these paths will get you from downtown all the way to Grays Woods with virtually no riding on a road.  It's about seven or eight miles.
+* There are two parallel north/south paths on the western side of town, one along **Valley Vista** and one on **Circleville**.   The path on Valley Vista connects to the Tudek path and the rest of the network at the intersection with Science Park. The Circleville Park begins further north but reaches all the way to Grays Woods. You can get from Valley Vista to the Circleville path by cutting through Circleville Park; take the turn-off for Little Lion Drive by Park Forest Middle School.  Together, these paths will get you from downtown all the way to Grays Woods with virtually no riding on a road.  It's about seven or eight miles.  [ TODO: Is the new school construction going to break this connection?]
 
 ## Roads
-
-The most difficult place to navigate on a bike is downtown, where there are few bike lanes and more traffic. I've color-coded this map according to how much I like various streets.
-
-Let me opine on a few specific roads.
-
-* **Foster Avenue** is just a block up from Beaver Ave and is my go-to route for getting places in town: take Foster to the correct cross street and then head in. (Yes, I live south of downtown.) It is a designated bike route for (almost) its entire length, although there is no bike lane except for one small stretch.  However, it is not a through street for cars, which are blocked by Central Parklet and an island in Atherton St.  It is usually pretty quiet traffic-wise, although party-wise it gets a little rowdy on the weekends through frat row.  For some reason Google Maps is not aware that you can bike Foster end-to-end so it spits out some weird detours; ignore it.
-
-The worst crossing on this route is at Atherton, which does not have a light but does have a pedestrian island in the middle, wide enough to accommodate a bike.  There is also a sign suspended over the road gently suggesting that cars might consider yielding to pedestrians, though it seems to have little effect.
-
-* **Calder Way** is an alley between Beaver and College with a lot less traffic than either.  However, many businesses receive their deliveries there and riding can still be a little dicey.  It is also one-way through much of downtown.  There are rumblings about turning it into a better bike and ped route in the future, but this is years down the road.  Note that Calder is now blocked by a fence at Atherton for reasons beyond my understanding.
-
-* Most cross streets to Beaver and College in the downtown area are basically fine to ride on.  Some I find especially convenient depending on how far west I am and which one-ways are the right way are **Gill**, **Garner**, **Allen**, **Hetzel**, and **Locust**.  The big roads to avoid are **Atherton** and **University**.  On the west side, **Buckhout** is bad between College and Beaver, as this block is part of State Route 26.
-
-* **Allen St** is a conundrum.  On the downtown side of Foster, it has no bike lane, but I ride it all the time.  Just take the whole lane if you need to.  On the out-of-town side of Foster, it has a bike lane, but I avoid it: cars often blast down the hill and there's a weird intersection at McCormick.  I find Pugh a block over to be a bit more peaceful.
-
-* **Garner** is my usual route from downtown to parts south.  There is a bike lane most of the way, although unfortunately coming into town you are unceremoniously dumped into the slightly treacherous intersection with Beaver.  Be careful: if continuing straight towards College you have to cross traffic and get in the middle lane as you approach the intersection, since a right turn lane appears.  Not infrequently the cars in the right turn lane go straight anyway, so you may need to swap places with them again as the road narrows back to one lane.   It's a tricky stretch, so surely the planners at least painted the bike lane to indicate where the paths of traffic cross?  Nope! In the face of difficulty, they simply threw up their hands: the bike lane evaporates completely and there are not even sharrows on that stretch.  You'll still find it marked as a bike route on the CRCOG map, though. (If you want to play it safe, make the Foster -> College cut a block over on Hetzel instead.)
-
-Headed south, you should resist the temptation to bomb down the hill to Easterly since a) there is a stop sign at the bottom and b) cars tend thorough to roll the stop signs at the crosses; I usually take the middle of lane.  Note that at end the of the bike lane you can cut through to the path on S Atherton after a small bit of sidewalk.
-
-* **Sparks** is a designated bike route for some reason and has some sharrows and climbing lanes on a couple blocks.  It's the busiest north/south street in this vicinity since it connects College to Westerly.  There is no reason to ride here unless it's your destination; go a block over to Gill, which also connects campus to Westerly, but not for cars. 
-
-* **Easterly/Westerly Parkway** is designated as a bicycle route on the COG map.  Again they did slap down some sharrows, but it's a narrow, curving road with a not unfast traffic and not much of a shoulder.  A bike path should be built in 2025 from University Dr in the east to the existing Orchard Park path, which should make this a pleasant ride through that stretch.  West of the high school and out to Greentree will not improve and I don't recommend it.
-
-## Campus
-
-There are relatively few roads on campus, but most of them are fine to ride on.  The basic PSU biking rule is that riding on the sidewalks is allowed, but when you're on a sidewalk next to a road, you should be on the road instead.  As with all things, there is an official PSU policy with the details: [SY16 Regulations for Bicycles / Skateboards / Scooters / In-Line Skates / Roller Skates / Electric Personal Assistive Mobility Devices](https://policy.psu.edu/policies/sy16).
-
-* **Pollock** cuts east-west across campus (this is the road in front of the HUB).  It has no bike lane, but gates in the middle mean it is closed to cars for most of the day (except for OPP and bigwigs with a permit to park at Old Main).  It also connects to the IST building, a (walk-your-)bikable bridge over Atherton.
-
-* **Curtin** is another east-west street, but a lot busier.  It's basically rideable, but prefer Pollock when you can.
-
-* **Shortlidge** is the extension of Garner onto campus.  It has a climbing lane for bikes and is a fine option to go north/south or connect back into town.
 
 # Bus service
 
 CATA provides a variety of bus routes around town, as well as CATAGO! and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  If you are a PSU faculty, staff, or graduate student, and you agree to forego having a good parking spot on campus, you can participate in the RidePASS program and get a pass at a more reasonable rate, subsidized by PSU.
 
-A note: CATA buses are easy with kids, no car seat required.  CATAGO! vehicles are mostly Ford E350 vans, which are 12-seater vans.  They are equipped with bike racks.  The CATA line is that a car seat is not required for children; I guess this is because it is transit.  If you were riding this as a private vehicle it would be required.
-The vehicles are old and not ideal for car seats.  They is no LATCH connector as in a modern car.
-If you can manage to get one to the pick-up point it is possible to install it.  The seatbelts in the vehicles are lap belts only, which do lock in place.
+All CATA buses and CATAGO vehicles have easy-to-use bicycle racks on the front that can accommodate any standard bike.  Combining a bus trip with a bike ride greatly expands the area you can easily reach, and it's worth getting in the habit of using these racks.
 
 ## Bus routes
 
@@ -104,11 +70,11 @@ maps/output/bus.div
 
 ### BL/WL/RL (Blue Loop/White Loop/Red Link)
 
-These three routes are subsidized by Penn State and offer free (for everybody), high frequency service around parts of campus and downtown. The RL is geared toward getting people from the 
+These three routes are subsidized by Penn State and offer free (for everybody), high frequency service around parts of campus and downtown.
 
 ### AC  (Atherton Street Connector)
 
-This bus offers service back and forth on Atherton St between (roughly) Hills Plaza to the south and Colonnade to the north.  It has connections to CATAGO! at:
+This bus offers service back and forth on Atherton St between (roughly) Hills Plaza to the south and Colonnade to the north.  
 
 ### CC (College Avenue Connector)
 
@@ -118,7 +84,7 @@ This bus offers service along College Ave from Nittany Mall to the east to (curr
 
 These two buses are run by PSU Transportation, not CATA, but they are free for anybody to ride.  Ignore the names, which have almost no connection to their current routes.
 
-The schedules for these buses are listed here.  Unfortunately PSU has not made the necessary route and tracking data publicly available, so they are unknown to Google maps.  It will tell you that there is no way to reach the hospital, Innovation Park, or even the Palmer Museum using transit.  This is not true!  Remember the PSU shuttles.
+The schedules for these buses are listed here.  Unfortunately PSU has not made the necessary route and tracking data publicly available, so they are unknown to Google maps.The shuttles presentla represent the only transit to the Arboretum, the Palmer Museum, Innovation Park, and the hospital.
 
 ### N/NE (Martin St/Aaron Dr)
 
@@ -140,7 +106,7 @@ This bus runs all over the place late at night when the other routes have ended 
 
 These three routes cover various parts of the Waupelani Drive area and environs.
 
-The schedules are scientifically designed 
 
+# CATAGO / Extended CATAGO
 
-
+It looks like I didn't write anything about CATAGO yet.

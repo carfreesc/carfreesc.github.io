@@ -1,5 +1,7 @@
 # Getting to State College and Penn State
 
+[ TODO: The organization of this page is a mess.  I think there are really four main sections: 1) getting here by bus; 2) getting here by train+; 3) getting here from airports; and 4) lists of possible routes for NYC and other particular destinations.  I do not know how to best present it. ]
+
 State College can be a bit difficult to reach by any means other than a long drive or an expensive flight.  Happily, several other options are available: intercity bus service remains fairly robust, and Amtrak trains are not too far away.  This page is an attempt to aggregate the various options for getting to and from town.  Please report any errors, omissions, updates, or suggestions.
 
 ## By bus
@@ -127,7 +129,8 @@ Current timetables for the Pennsylvanian -- including only the big cities and th
 | 4:50 PM | New York | 10:52 AM |
 
 A final option is the "Thruway bus" service operated by Amtrak.  You can buy a ticket directly from "State College" (station code: STC) on amtrak.com.  What you receive is a single booking that puts you on bus from downtown State College to a train station, where you transfer to the next train. The bus is actually one of the Greyhound or Fullington routes enumerated above, not a special bus operated by Amtrak.
-If you're headed east, the transfer takes place in Harrisburg, where the bus and train stations are the first and second floors of the same building, so transferring is very simple.  Booking both tickets through Amtrak entitles you to a replacement ticket in case you miss the connection.  There aren't too many buses from Harrisburg to State College, but schedules are currently arranged so that even if you miss your scheduled bus, there is at least one more running later in the day.
+If you're headed east, the transfer takes place in Harrisburg, where the bus and train stations are the first and second floors of the same building, so transferring is very simple.  If you're headed west, you take a quick bus trip to Altoona and then have a 3+ hour layover, which is less attractive.
+Booking both tickets through Amtrak entitles you to a replacement ticket in case you miss the connection.  There aren't too many buses from Harrisburg to State College, but schedules are currently arranged so that even if you miss your scheduled bus, there is at least one more running later in the day.
 
 ## Options for specific destinations
 
@@ -161,7 +164,7 @@ Inbound to State College
 | Agee Bus | 5:00 PM | 9:25 PM | 4:25 | |
 | Flixbus | 9:30 PM | 1:50 AM | 4:20 | |
 
-Note that there are buses leaving Harrisburg for State College as late as 5:30 PM, so if you have some risk tolerance, you can actually do bus+train with a departure from NYC as late as 1:30 PM, instead of the 7:17 AM departure required for the Thruway bus.  The catch is that Amtrak won't sell you a single ticket for the trip, so the connection is at your own risk.
+Note that there are buses leaving Harrisburg for State College as late as 5:30 PM, so if you have some risk tolerance, you can actually do bus+train with a departure from NYC as late as 12:57 PM, instead of the 7:17 AM departure required for the Thruway bus.  The catch is that Amtrak won't sell you a single ticket for the trip, so the connection is at your own risk.
 
 ### Philadelphia
 
@@ -198,7 +201,8 @@ There are two realistic options to get to Chicago, which is the hub for Amtrak's
 <ul>
 <li>Catch the westbound train in Tyrone at 4:51 PM, arriving in Pittsburgh at 8:05 PM, which leaves you with a 4-hour layover until the next train.
 Although the Pittsburgh station and its immediate environs are not particularly charming at this hour, you can store your luggage at the counter in the station and spend a couple hours in the city.</li>
-<li>Use any of the four daily bus routes to Pittsburgh to arrive a little earlier, and have a little extra time there.  (Note: these can't be booked through Amtrak, so if you miss the connection you'll be out of luck.)</li>
+<li>Use any of the four daily bus routes to Pittsburgh to arrive a little earlier, and have a little extra time in the city.  Note: these can't be booked through Amtrak, so if you miss the connection you'll be out of luck.  For example, a Greyhound leaves State College at 1:25 PM, arriving in Pittsburgh at 6:10 PM.  Weekday Pirates games are usually at 6:40 PM, so you can ditch your bags at the train station and make it to PNC in time for the first pitch, before coming back to the train station for the late westbound departure.
+</li>
 <li>Use the Amtrak Thruway service, which has a long connection in Altoona; see Pittsburgh above.
 </li>
 </ul>
@@ -216,7 +220,7 @@ The local airport is the State College Regional Airport (SCE), located about fiv
 <ul>
 <li>The easy option is to take an Uber or Lyft (~$25)</li>
 <li>If the timing works, you can catch one of the Fullington routes that hits the airport on the way in/out of town.  Currently buses leave the airport for downtown at 5:30 AM, 9:15 AM, and 4:55 PM.</li>
-<li>The enterprising traveler could walk from the airport (in non-CATA Benner Township) into Patton Twp.  He would then be in the Centre Area North zone of the new Extended CATAGO service, and eligible for a ride into an area served by regular CATA buses, probably either Medlar Field or Hills Plaza.  This requires booking a day ahead. (I haven't done this yet; please send a report if you are successful. I am told that CATA won't pick you up at the boundary and I'm not sure exactly how far you need to walk.)
+<li>The enterprising traveler could walk from the airport (in non-CATA Benner Township) into Patton Twp.  He would then be in the Centre Area North zone of the new Extended CATAGO service, and eligible for a ride into an area served by regular CATA buses, probably either Medlar Field or Hills Plaza.  This requires booking a day ahead. (I haven't done this yet; please send a report if you are successful. I am told that CATA won't pick you up at the border, and I'm not sure exactly how far they require you to walk to get a ride.)
 </li>
 </ul>
 
@@ -226,11 +230,11 @@ In the past there have been bus routes directly from State College to JFK airpor
 
 ### EWR
 
-Several of the Flixbus routes listed above (with origin "New York") stop at Newark Airport.  Consult flixbus.com for schedules.  Certain runs of the Keystone Service also stop here, as do many NEC trains; you can transfer to such a train in Philadelphia.
+Several of the Flixbus routes listed above (with origin "New York") stop at Newark Airport.  Consult flixbus.com for schedules.  Certain runs of the Keystone Service also stop here, as do many NEC trains; you can transfer to/from such a train in Philadelphia.
 
 ### PHL
 
-While there is no service directly from the airport, it's easy to get to from the airport to the train station on a direct SEPTA train.
+While there is no service directly from the airport, it's easy to get to from the airport to the train station by SEPTA.
 
 ### PIT
 
