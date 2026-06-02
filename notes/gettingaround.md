@@ -110,3 +110,19 @@ These three routes cover various parts of the Waupelani Drive area and environs.
 # CATAGO / Extended CATAGO
 
 It looks like I didn't write anything about CATAGO yet.
+
+# Other transportation
+
+## Rental bikes
+
+There is a network of shared eBikes available for rent all over town and campus, Spin bikes.  I have never ridden one, but the service seems to be very popular and I see the bikes all over the place.  I do not know exactly what area has reliable coverage.
+
+## Rental cars
+
+It is probably unavoidable: sometimes you need a car.  There are several car rental options not too remote from downtown.  If you're a PSU employee, you can get very good deals on personal car rentals through [National and Enterprise using the Big Ten discount](https://pennstateoffice365.sharepoint.com/sites/NationalEnterpriseCarRentalAgreement) (at time of writing, the base rate is about $200/wk).  They have a rental office at College and Blue Course which is a couple miles walking or can be reached by several bus lines from downtown.  Note: you can rent a car for quite a few week(ends)s per year before you would save money by owning one.
+
+## Carshares
+
+Zipcar and the Enterprise Carshare used to operate here, but we no longer have a carshare of any kind.  If you are a PSU employee, there is the PSU Fleet program, but those cars are only available to use for university purposes.
+
+
