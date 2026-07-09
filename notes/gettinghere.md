@@ -50,7 +50,7 @@ Fullington and Greyhound routes use the bus station downtown, located just off N
 
 Be warned that some Fullington routes from the Port Authority in New York don't use a proper gate, and leave from "Area X".  This is a spot on 41st street under an overpass, between 8th and 9th.  Check your ticket.  [TODO: Is this situation resolved yet?]
 
-Tickets can be booked at the websites of the respective companies; note that Flixbus is now the corparate parent of Greyhound, and Greyhound and Fullington cross-list tickets between their sites, so all three of these lines can be booked through any of the three sites.  Agee Bus tickets can only be purchased at gotobus.com.
+Tickets can be booked at the websites of the respective companies;  Flixbus is now the corparate parent of Greyhound, and Greyhound and Fullington cross-list tickets between their sites, so all three of these lines can be booked through any of the three sites.  Agee Bus tickets can only be purchased at gotobus.com.
 
 ### Fullington Tours
 
@@ -113,7 +113,7 @@ Since the routes are a bit meandering in the vicinity of State College -- the tr
 
 There are a handful of other stations that might make sense, depending on your precise situation.  Huntingdon and Altoona stations are relatively nearby.  Of the four stations within an hour's drive, only Altoona is staffed, so if you want to check bags on the Pennsylvanian, you need to go there or Harrisburg.   Another option is Middletown station, which is slightly past Harrisburg, and combines frequent eastbound service with bountiful and cheap long-term parking; this can be a good option for a trip to the NEC.
 
-Note that the world-famous [Horseshoe Curve](https://www.railroadcity.org/horseshoecurve) lies a few miles west of the Altoona station, so you won't go around it on any eastbound trip from the Centre Region unless you board all the way in Johnstown.
+The world-famous [Horseshoe Curve](https://www.railroadcity.org/horseshoecurve) lies a few miles west of the Altoona station, so you won't go around it on any eastbound trip from the Centre Region unless you board all the way in Johnstown.
 
 Current timetables for the Pennsylvanian -- including only the big cities and the local stations -- are as follows:
 
@@ -136,7 +136,7 @@ Booking both tickets through Amtrak entitles you to a replacement ticket in case
 
 ### New York
 
-The daily options to reach New York are the following.  Note that different routes use different stops in both State College and New York; pay attention when booking.
+The daily options to reach New York are the following.  Different routes use different stops in both State College and New York; pay attention when booking.
 
 Outbound to New York
 
@@ -164,7 +164,7 @@ Inbound to State College
 | Agee Bus | 5:00 PM | 9:25 PM | 4:25 | |
 | Flixbus | 9:30 PM | 1:50 AM | 4:20 | |
 
-Note that there are buses leaving Harrisburg for State College as late as 5:30 PM, so if you have some risk tolerance, you can actually do bus+train with a departure from NYC as late as 12:57 PM, instead of the 7:17 AM departure required for the Thruway bus.  The catch is that Amtrak won't sell you a single ticket for the trip, so the connection is at your own risk.
+In fact, there are buses leaving Harrisburg for State College as late as 5:30 PM, so if you have some risk tolerance, you can actually do bus+train with a departure from NYC as late as 12:57 PM, instead of the 7:17 AM departure required for the Thruway bus.  The catch is that Amtrak won't sell you a single ticket for the trip, so the connection is at your own risk.
 
 ### Philadelphia
 
