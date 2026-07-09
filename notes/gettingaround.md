@@ -12,13 +12,11 @@ TODO: Very basic map of downtown
 
 There is a network of bicycle routes of various kinds.   There are a few nice off-road, fairly long distance routes that connect various parts of town over distances of a couple miles. Closer to downtown, the bike options consist primarily of unprotected lanes on roadways.  The ["Next Generation Safety and Mobility Plan"](https://statecollegepa.civilspace.io/en/projects/next-generation-connectivity-and-mobility-plan-nextgen-plan) envisions some improvements in this area -- stay tuned.  Really, State College's greatest bicycling asset is that it's just not that big and you can usually find a combination of quiet residental streets and the bike paths to take you where you need to go.
 
-A few roads have been designated as "bicycle routes".  These are better understood as it-would-be-nice-if-it-were-a-bicycle routes: they represent gaps in the cycling network, but where no actual improvements have been made.  These roads are generally fine to ride on, though they don't offer any particular advantages.  The exception is Easterly/Westerly, which is a designated bicycle route but not a good place to ride.  This issue will be ameliorated by the completion of a multi-use path along the road in late 2026.
+A few other roads have been designated as "bicycle routes".  These should mostly be understood as it-would-be-nice-if-it-were-a-bicycle routes: they are just roads, with no actual bicycle improvements, seemingly designated to fill gaps between actual bike routes.  These roads are generally fine to ride on, though they don't offer any particular advantages.  The exception is Easterly/Westerly, which is a designated bicycle route but not a good place to ride.  This issue will be ameliorated by the completion of a multi-use path along the road in late 2026.
 
-The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers regular bus service between the denser housing developments and downtown, with other areas served by CATAGO! paratransit, in which you request a ride and a smaller vehicle will be dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
+The local bus service is provided by the Centre Area Transit Authority (CATA).  CATA nowadays offers regular bus service between many areas and downtown, with other less populous parts of town served by CATAGO paratransit, in which you request a ride by app or phone call, and a smaller vehicle is dispatched to pick you up and deliver you to a stop to transfer to a regular bus.  This can be convenient, although the necessary transfer means it's often not the speediest option.
 
 TODO: A map with labelings of main neighborhoods and the bigger apartment complexes?  Maybe not the right site for it.
-
-Much recent development has been along North Atherton Street, to the northwest side of town. Unfortunately this road is somewhat unpleasant to walk or bike on. It is generally possible to reach destinations on N Atherton either by taking the bus, or by biking in on a cross street through Park Forest.
 
 # Bike routes
 
@@ -58,7 +56,7 @@ maps/output/path-circlevillepsu.div
 
 # Bus service
 
-CATA provides a variety of bus routes around town, as well as CATAGO! and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  If you are a PSU faculty, staff, or graduate student, and you agree to forego having a good parking spot on campus, you can participate in the RidePASS program and get a pass at a more reasonable rate, subsidized by PSU.
+CATA provides a variety of bus routes around town, as well as CATAGO and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.20 for a ride; you can pay cash or buy tokens at various locations around town and campus.  Many of the apartment complexes provide passes to residents.  It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  If you are a PSU faculty, staff, or graduate student, and you agree to forego having a good parking spot on campus, you can participate in the RidePASS program and get a pass at a more reasonable rate, subsidized by PSU.
 
 All CATA buses and CATAGO vehicles have easy-to-use bicycle racks on the front that can accommodate any standard bike.  Combining a bus trip with a bike ride greatly expands the area you can easily reach, and it's worth getting in the habit of using these racks.
 
@@ -84,7 +82,7 @@ This bus offers service along College Ave from Nittany Mall to the east to (curr
 
 These two buses are run by PSU Transportation, not CATA, but they are free for anybody to ride.  Ignore the names, which have almost no connection to their current routes.
 
-The schedules for these buses are listed here.  Unfortunately PSU has not made the necessary route and tracking data publicly available, so they are unknown to Google maps.The shuttles presentla represent the only transit to the Arboretum, the Palmer Museum, Innovation Park, and the hospital.
+The schedules for these buses are listed here.  Unfortunately PSU has not made the necessary route and tracking data publicly available, so they are unknown to Google maps.The shuttles presentla represent the only transit to the Arboretum, the Palmer Museum, Innovation Park, and the hospital. [TODO: I think PSU nixed service to the hospital and innopark this summer.  What do they still do?]
 
 ### N/NE (Martin St/Aaron Dr)
 
@@ -105,6 +103,8 @@ This bus runs all over the place late at night when the other routes have ended 
 ### R/RC/RP (Waupelani)
 
 These three routes cover various parts of the Waupelani Drive area and environs.
+
+### [ TODO: Update whatever they are running now, UP and whatever the reincarnation of the VN is called. ]
 
 
 # CATAGO / Extended CATAGO

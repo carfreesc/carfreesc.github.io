@@ -57,6 +57,8 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * One of the great advantages of living in State College is our proximity to the woods.  A few trailheads are reachable by biking or transit, though this may be a case where you want to rent a car.  The Penn State-Circleville bike path gives you access to the Scotia gamelands off Sleepy Hollow road, and the Blue Course path will put you pretty near the entrance to Musser Gap (especially once the extension of this path is completed, hopefully in 2025).
 
+[ TODO: Expand on this.  There are some trails you can get to by regular bus.  R/RP/RC(?) to Musser Gap via The Yards, W to Circleville/Valley Vista and hike/bike to Scotia via Sleepy Hollow, CC to Mount Nittany in Lemont.  Regular CATAGO gets pretty close to Shingletown Gap and Galbraith Gap.  CATAGO Extended will get you to Jo Hays and lots of other places; need to cross-reference with Purple Lizard to make a good list.
+
 * You can also bike to Musser Gap or Shingletown Gap, and these are both served by CATAGO!'s Boalsburg zone.
 
 * The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)
