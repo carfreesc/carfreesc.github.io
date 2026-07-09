@@ -197,7 +197,7 @@ There are two realistic options to get to Chicago, which is the hub for Amtrak's
 
 <ul>
 <li>A Flixbus route leaves State College at 4:25 PM and arrives in Chicago at 6:10 AM, making stops in Columbus, Indianapolis, and others.</li>
-<li>An Amtrak train leaves Pittsburgh at 11:59 PM and arrives in Chicago at 8:45 AM the next morning.  To reach Pittsburgh, you could...
+<li>An Amtrak train leaves Pittsburgh at 11:59 PM and arrives in Chicago at 8:45 AM the next morning. Most of the long-distance routes from Chicago leave in the early afternoon, so there is a comfortable time for connection. To reach Pittsburgh, you could...
 <ul>
 <li>Catch the westbound train in Tyrone at 4:51 PM, arriving in Pittsburgh at 8:05 PM, which leaves you with a 4-hour layover until the next train.
 Although the Pittsburgh station and its immediate environs are not particularly charming at this hour, you can store your luggage at the counter in the station and spend a couple hours in the city.</li>
