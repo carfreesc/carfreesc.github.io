@@ -2,78 +2,402 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Getting to/from State College without a car</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car-free State College</title>
+<meta name="description" content="A practical, unofficial guide to getting to and around State College and Penn State without a car.">
 
 <style>
-  body {
-    margin: 0;
-    background: #fdfdfd;
-    color: #222;
-    font-family: Georgia, "Times New Roman", serif;
+  :root {
+    --paper: #fbfaf7;
+    --surface: #ffffff;
+    --ink: #242424;
+    --muted: #66645f;
+    --faint: #8a8882;
+    --line: #ddd9d0;
+    --accent: #17666a;
+    --accent-hover: #0f4f53;
+    --accent-soft: #e9f2f1;
+    --serif: Georgia, "Times New Roman", Times, serif;
+    --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --measure: 46rem;
+    --wide: 62rem;
   }
 
-  .page {
-    max-width: 640px;
-    margin: 80px auto;
-    padding: 0 20px;
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    background: var(--paper);
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.68;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.15em;
+  }
+
+  a:hover { color: var(--accent-hover); }
+
+  a:focus-visible,
+  summary:focus-visible {
+    outline: 3px solid rgba(23, 102, 106, 0.3);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+    padding: 0.65rem 0.8rem;
+    background: var(--ink);
+    color: white;
+    font-family: var(--sans);
+    font-size: 0.9rem;
+  }
+
+  .skip-link:focus { left: 0.75rem; top: 0.75rem; }
+
+  .site-header {
+    border-bottom: 1px solid var(--line);
+    background: rgba(251, 250, 247, 0.96);
+  }
+
+  .site-header-inner {
+    width: min(calc(100% - 2.5rem), var(--wide));
+    min-height: 4.1rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .site-brand {
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.92rem;
+    font-weight: 720;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .site-brand:hover { color: var(--accent); }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 0.25rem 1.15rem;
+    font-family: var(--sans);
+    font-size: 0.91rem;
+  }
+
+  .site-nav a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .site-nav a:hover {
+    color: var(--ink);
+    text-decoration: underline;
+    text-underline-offset: 0.22em;
+  }
+
+  .page-shell {
+    width: min(calc(100% - 2.5rem), var(--measure));
+    margin: 0 auto;
+    padding: 4.2rem 0 5rem;
+  }
+
+  article > :first-child { margin-top: 0; }
+
+  h1, h2, h3, h4 {
+    color: #1f1f1d;
+    text-wrap: balance;
   }
 
   h1 {
-    font-size: 2.4em;
-    font-weight: normal;
-    margin-bottom: 0.2em;
+    margin: 0 0 1.6rem;
+    font-family: var(--serif);
+    font-size: 3.15rem;
+    line-height: 1.07;
+    font-weight: 500;
+    letter-spacing: -0.025em;
   }
 
-  .byline {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 2em;
+  /* Several source files use additional level-1 headings for major sections.
+     Keep the first H1 as the page title, but render later H1s like sections. */
+  article > h1:not(:first-child) {
+    margin: 3.3rem 0 1rem;
+    padding-top: 0.25rem;
+    font-family: var(--sans);
+    font-size: 1.65rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.015em;
   }
+
+  h2 {
+    margin: 3.3rem 0 1rem;
+    padding-top: 0.25rem;
+    font-family: var(--sans);
+    font-size: 1.65rem;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+
+  h3 {
+    margin: 2.4rem 0 0.75rem;
+    font-family: var(--sans);
+    font-size: 1.14rem;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+
+  h4 {
+    margin: 2rem 0 0.6rem;
+    font-family: var(--sans);
+    font-size: 1rem;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+
+  p { margin: 1.05rem 0; }
+
+  ul, ol {
+    padding-left: 1.35rem;
+    margin: 1rem 0 1.35rem;
+  }
+
+  li { margin: 0.35rem 0; }
+  li > p { margin: 0.45rem 0; }
+
+  strong { font-weight: 700; }
 
   hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 2em 0;
-  }
-
-  p {
-    line-height: 1.7;
-    margin: 1.2em 0;
-    font-size: 1.05em;
+    border: 0;
+    border-top: 1px solid var(--line);
+    margin: 3rem 0;
   }
 
   blockquote {
-    margin: 2em 0;
-    padding-left: 1em;
-    border-left: 2px solid #ccc;
-    color: #555;
-    font-style: italic;
+    margin: 2rem 0;
+    padding: 0.05rem 0 0.05rem 1.15rem;
+    border-left: 3px solid #a8c5c3;
+    color: #4f4e49;
+  }
+
+  blockquote > :first-child { margin-top: 0; }
+  blockquote > :last-child { margin-bottom: 0; }
+
+  code {
+    font-size: 0.88em;
+    background: #f0eee8;
+    padding: 0.1em 0.25em;
+    border-radius: 3px;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding: 1rem;
+    background: #f0eee8;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  pre code { padding: 0; background: transparent; }
+
+  figure {
+    width: min(calc(100vw - 2rem), var(--wide));
+    margin: 2.7rem 50%;
+    transform: translateX(-50%);
   }
 
   img {
-    max-width: 100%;
     display: block;
-    margin: 2em auto;
+    max-width: 100%;
+    height: auto;
+    margin: 2.3rem auto;
+    border: 1px solid var(--line);
+    background: var(--surface);
+  }
+
+  figure img { width: 100%; margin: 0; }
+
+  figcaption {
+    margin-top: 0.55rem;
+    color: var(--muted);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+    line-height: 1.4;
+    text-align: center;
   }
 
   table {
-    width: 100%;
+    display: block;
+    width: max-content;
+    max-width: min(calc(100vw - 2rem), var(--wide));
+    overflow-x: auto;
+    margin: 2rem 50%;
+    transform: translateX(-50%);
     border-collapse: collapse;
-    margin: 2em 0;
-    font-size: 0.95em;
+    border-top: 2px solid #bbb7ae;
+    border-bottom: 1px solid #bbb7ae;
+    background: var(--surface);
+    font-family: var(--sans);
+    font-size: 0.88rem;
+    line-height: 1.4;
   }
 
-  td, th {
-    border-bottom: 1px solid #ddd;
-    padding: 6px;
+  th, td {
+    min-width: 7rem;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #e4e0d8;
     text-align: left;
+    vertical-align: top;
   }
 
+  th {
+    color: #33322f;
+    background: #f4f2ed;
+    font-weight: 700;
+  }
+
+  tbody tr:last-child td { border-bottom: 0; }
+
+  .contents {
+    margin: 0 0 3rem;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    padding: 0.8rem 0;
+    font-family: var(--sans);
+    font-size: 0.88rem;
+  }
+
+  .contents summary {
+    cursor: pointer;
+    color: var(--muted);
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
+
+  .contents nav { margin: 0.65rem 0 0.25rem; }
+  .contents ul { margin: 0.25rem 0; padding-left: 1.2rem; }
+  .contents li { margin: 0.22rem 0; }
+  .contents a { text-decoration: none; }
+  .contents a:hover { text-decoration: underline; }
+
+  .site-footer {
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-family: var(--sans);
+    font-size: 0.82rem;
+  }
+
+  .site-footer-inner {
+    width: min(calc(100% - 2.5rem), var(--wide));
+    margin: 0 auto;
+    padding: 1.5rem 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .site-footer a { color: var(--muted); }
+
+  /* Pandoc turns the author's include markers into these pre blocks before
+     the separate map-inclusion step runs. Keep them readable in previews. */
+  pre.include {
+    color: var(--faint);
+    background: transparent;
+    border-style: dashed;
+  }
+
+  @media (max-width: 700px) {
+    body { font-size: 17px; }
+
+    .site-header-inner {
+      width: min(calc(100% - 1.5rem), var(--wide));
+      padding: 0.8rem 0;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .site-nav {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0.25rem 0.9rem;
+      font-size: 0.86rem;
+    }
+
+    .page-shell {
+      width: min(calc(100% - 2rem), var(--measure));
+      padding: 2.6rem 0 4rem;
+    }
+
+    h1 { margin-bottom: 1.35rem; font-size: 2.45rem; }
+    h2 { margin-top: 2.7rem; }
+
+    figure {
+      width: calc(100vw - 1rem);
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    table {
+      max-width: calc(100vw - 1rem);
+      font-size: 0.82rem;
+    }
+
+    th, td {
+      min-width: 6.5rem;
+      padding: 0.52rem 0.6rem;
+    }
+  }
+
+  @media print {
+    .site-header, .site-footer, .contents, .skip-link { display: none; }
+    .page-shell { width: auto; max-width: none; margin: 0; padding: 0; }
+    a { color: inherit; }
+  }
 </style>
 </head>
 
 <body>
-<div class="page">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-brand" href="index.html">Car-free State College</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="gettinghere.html">Getting here</a>
+      <a href="gettingaround.html">Getting around</a>
+      <a href="tips.html">Tips &amp; destinations</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content" class="page-shell">
+<article>
 <h1 id="car-free-state-college">Car-free State College</h1>
 <p>A <a
 href="https://www.bloomberg.com/news/articles/2019-09-24/the-best-and-worst-u-s-places-to-live-car-free">2019
@@ -98,7 +422,14 @@ CRCOG map. It is missing CATAGO, CATAGO Extended, and Spin zones. Should
 anything else be here? It is also very ugly and unreadable.</p>
 <p>It probably would make sense to include this as an interactive map
 using Leaflet or similar. ]</p>
-</div>
+</article>
+</main>
 
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <span>An unofficial local guide to State College and Penn State.</span>
+    <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
+  </div>
+</footer>
 </body>
 </html>
