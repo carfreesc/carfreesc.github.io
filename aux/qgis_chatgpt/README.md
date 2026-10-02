@@ -137,3 +137,60 @@ ERROR 6: The PNG driver does not support update access to existing datasets.
 
 If the PNG is successfully created and the exporter continues to the next
 route, this is harmless GDAL chatter and can be ignored.
+
+## Homepage interactive overview map
+
+The homepage Leaflet map is a separate product from the individual static
+bikeway PNGs. It combines four systems in one interactive map:
+
+* the full CRCOG bikeway layer (`CR_Bikeways.json`);
+* CATA fixed-route geometry;
+* the Beaver Avenue and College Avenue Penn State shuttle tracks; and
+* the Boalsburg, Houserville/Lemont, and Centre Area West CATAGO zones; and
+* hand-maintained landmark pins from `overview_sources/landmarks.csv`.
+
+The additional source files live under `overview_sources/`. The generated web
+payload is `../../docs/maps/overview/overview-data.js`; the Leaflet behavior and
+styles live beside it as `overview-map.js` and `overview-map.css`.
+
+### Landmarks
+
+`overview_sources/landmarks.csv` is deliberately simple so landmarks can be
+added without touching Python or JavaScript. It has five columns:
+
+```text
+name,lat,lon,category,notes
+Old Main,40.79646,-77.86282,campus,Penn State
+Mount Nittany Medical Center,40.819137,-77.843297,hospital,
+```
+
+Coordinates are WGS84 decimal degrees. `name`, `lat`, and `lon` are required.
+`category` and `notes` may be left blank. Blank categories become `landmark`.
+Lines beginning with `#` and blank lines are ignored.
+
+The built-in pin colors recognize `hospital`, `campus`, `transit`, `park`,
+`shopping`, and `landmark`. Other category names are allowed and simply use the
+neutral landmark pin; their category name still appears in the popup. The
+landmark layer has its own checkbox in Leaflet's layer control and is on by
+default. Hovering a pin shows its name, and clicking it opens the category and
+optional notes.
+
+To rebuild the interactive map after replacing any source data, run:
+
+```sh
+make overview
+```
+
+This regenerates `overview-data.js` and then rebuilds `docs/index.html`. Open
+`docs/index.html` directly, or serve `docs/` with a small local web server if
+you want to test it exactly as GitHub Pages will serve it:
+
+```sh
+python -m http.server --directory ../../docs 8000
+```
+
+Then visit <http://localhost:8000/>.
+
+The map uses Leaflet 1.9.4 from jsDelivr and OpenStreetMap tiles. All overlay
+geometry is stored locally in the repository, so future data refreshes only
+require replacing the GIS source files and rerunning `make overview`.

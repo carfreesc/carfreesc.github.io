@@ -10,7 +10,7 @@ $(LOCAL):
 	mkdir -p $(LOCAL)
 
 index: | $(LOCAL)
-	pandoc $(PANDOC_COMMON) index.md --metadata title="Car-free State College" -o $(LOCAL)/index.html
+	pandoc $(PANDOC_COMMON) index.md --metadata title="Car-free State College" --metadata leaflet=true -o $(LOCAL)/index.html
 	cp $(LOCAL)/index.html $(LIVE)/
 
 gettinghere: | $(LOCAL)

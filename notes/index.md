@@ -7,9 +7,8 @@ This page aims to provide some practical information about getting around the ar
 * [Getting around State College](gettingaround.html)
 * [Practical tips for living with a car](tips.html)
 
-![Local transit](maps/mapall.png)
-
-[ TODO: This map shows CATA, PSU shuttles, and all bike routes from CRCOG map.  It is missing CATAGO, CATAGO Extended, and Spin zones.  Should anything else be here?
-It is also very ugly and unreadable.
-
-It probably would make sense to include this as an interactive map using Leaflet or similar. ]
+<div class="overview-map-shell">
+  <div id="overview-map" aria-label="Interactive map of Centre Region bus routes, bikeways, Penn State shuttles, and CATAGO zones"></div>
+  <p class="overview-map-note">Toggle layers at upper right; click a route or zone for details.</p>
+  <noscript><p class="overview-map-note">The interactive transportation map requires JavaScript.</p></noscript>
+</div>
