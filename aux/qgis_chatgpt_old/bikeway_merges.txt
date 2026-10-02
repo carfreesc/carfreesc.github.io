@@ -1,0 +1,17 @@
+# Extra route merges for export_bikeway_maps.py
+#
+# Syntax:
+#   Name of output map:
+#     Exact Map Name from CR_Bikeways.json
+#     Another exact Map Name
+#
+# Blank lines and # comments are ignored.
+# The output name can be anything you like. Source names must match the
+# CRCOG "Map Name" field exactly. One source route may appear in only one
+# custom group.
+
+Foster Avenue Bikeway:
+  East Foster Ave Bike Route
+  West Foster Ave Bike Lane
+  West Foster Ave Bike Route
+  Sidney Friedman Parklet Path

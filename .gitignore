@@ -1,1 +1,5 @@
 *~
+# Local PyQGIS review/build products
+aux/qgis_chatgpt/review/
+aux/qgis_chatgpt/.site-build/
+aux/qgis_chatgpt/__pycache__/

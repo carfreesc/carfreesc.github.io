@@ -30,27 +30,27 @@ Here is a brief overview of the main off-road bicycle routes.
 
 * The **Orchard Park** bike path runs from near the high school out to the southwest side of town (Cato Park, Waupelani area, Harner Farm, YMCA,...).  At the north end it connects to Gill St which provides a pleasant (if hilly) route onto the west side of campus, with access to Pollock over the IST bridge.
 
-``` {.include}
-maps/output/path-orchard.div
-```
+![](maps/bikeways/orchard-park.png){alt="Map of the Orchard Park bikeway" .route-map}
 
 * Several paths go through and around the PSU **golf courses**.  A north/south route along the old Corl St connects the western edge of downtown to the Tudek/Circleville and Blue Course paths.  Another path follows College Avenue  most of the way from campus to Blue Course, with connections possible to Gill St and others.  To the east one has access to campus, including through the IST bridge to Pollock Rd.
 
+![](maps/bikeways/psu-golf-course-paths.png){alt="Map of bicycle paths through and around the Penn State golf courses" .route-map}
+
 * The **South Atherton** bike path goes from around Atherton/University out to Boalsburg, about five miles.  It connects to downtown via a cut-through to Garner St.  It is not the best path, crossing a lot of turn-offs for businesses, but it's a good option in this direction. 
 
-``` {.include}
-maps/output/path-atherton.div
-```
+![](maps/bikeways/south-atherton.png){alt="Map of the South Atherton bikeway" .route-map}
 
 * The **Blue Course** bike path follows Blue Course Dr, from Radio Park elementary, skirting the western edge of the golf course, and ending near Orchard Park.  [ TODO: Update this for 2026!]
 
+![](maps/bikeways/blue-course.png){alt="Map of the Blue Course bikeway" .route-map}
+
 * The **Tudek/Circleville** bikeway runs from Tudek Park and Radio Park west to Valley Vista (and a bit beyond, with access to the Scotia gamelands off Sleepy Hollow).  At the eastern end, it has easy connections to both the golf course paths (leading to campus and downtown) and the Blue Course path.  At the western end, it connects to the Valley Vista multi-use path, which provides a route north towards Grays Woods.
 
-``` {.include}
-maps/output/path-circlevillepsu.div
-```
+![](maps/bikeways/tudek-circleville.png){alt="Map of the Tudek and Circleville bikeway" .route-map}
 
 * There are two parallel north/south paths on the western side of town, one along **Valley Vista** and one on **Circleville**.   The path on Valley Vista connects to the Tudek path and the rest of the network at the intersection with Science Park. The Circleville Park begins further north but reaches all the way to Grays Woods. You can get from Valley Vista to the Circleville path by cutting through Circleville Park; take the turn-off for Little Lion Drive by Park Forest Middle School.  Together, these paths will get you from downtown all the way to Grays Woods with virtually no riding on a road.  It's about seven or eight miles.  [ TODO: Is the new school construction going to break this connection?]
+
+![](maps/bikeways/valley-vista-circleville.png){alt="Map of the Valley Vista and Circleville paths" .route-map}
 
 ## Roads
 
