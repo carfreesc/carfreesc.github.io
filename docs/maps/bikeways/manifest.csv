@@ -1,0 +1,8 @@
+route_name,png,feature_count,object_ids,source_map_names,path_types
+Blue Course,blue-course.png,1,10,Blue Course Dr Bikeway,Shared Use Path
+Foster Avenue Bikeway,foster-avenue-bikeway.png,4,24; 25; 26; 27,East Foster Ave Bike Route; Sidney Friedman Parklet Path; West Foster Ave Bike Lane; West Foster Ave Bike Route,Bike Lane; Bike Route; Shared Use Path
+Orchard Park,orchard-park.png,1,97,Orchard Park Bikeway,Shared Use Path
+PSU Golf Course Paths,psu-golf-course-paths.png,4,145; 150; 227; 340,Blue and White Trail; White Course to Duff,Shared Use Path
+South Atherton,south-atherton.png,1,45,South Atherton St Bikeway,Shared Use Path
+Tudek/Circleville,tudek-circleville.png,3,225; 317; 319,Tudek/Circleville Bikeway,Shared Use Path
+Valley Vista / Circleville,valley-vista-circleville.png,4,151; 277; 279; 280,Circleville Park Path; Circleville Path; Circleville Road Shared Use Path; Valley Vista Path,Shared Use Path
