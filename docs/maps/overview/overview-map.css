@@ -1,0 +1,194 @@
+.overview-map-shell {
+  width: min(calc(100vw - 2rem), 72rem);
+  margin: 2.6rem 50% 1.2rem;
+  transform: translateX(-50%);
+}
+
+#overview-map {
+  width: 100%;
+  height: 38rem;
+  min-height: 26rem;
+  border: 1px solid var(--line, #ddd9d0);
+  border-radius: 8px;
+  background: #e9eee8;
+  font-family: var(--sans, system-ui, sans-serif);
+  overflow: hidden;
+}
+
+/* The site-wide img rule must not affect Leaflet's OSM tile images. */
+#overview-map .leaflet-tile {
+  margin: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.overview-map-note {
+  margin: 0.55rem 0 0;
+  color: var(--muted, #66645f);
+  font-family: var(--sans, system-ui, sans-serif);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+#overview-map .leaflet-control-layers {
+  border: 1px solid rgba(36, 36, 36, 0.16);
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.14);
+}
+
+#overview-map .leaflet-control-layers-expanded {
+  padding: 0.6rem 0.7rem 0.55rem;
+  color: #262522;
+  font: 13px/1.45 var(--sans, system-ui, sans-serif);
+}
+
+#overview-map .leaflet-control-layers label {
+  margin: 0.16rem 0;
+}
+
+#overview-map .leaflet-popup-content-wrapper,
+#overview-map .leaflet-popup-tip {
+  background: #fffefa;
+  color: #282724;
+}
+
+#overview-map .leaflet-popup-content {
+  margin: 0.8rem 0.9rem;
+  font: 13px/1.45 var(--sans, system-ui, sans-serif);
+  min-width: 12rem;
+  max-width: 19rem;
+}
+
+#overview-map .map-popup-title {
+  margin-bottom: 0.18rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+#overview-map .map-popup-meta {
+  color: #5f5d58;
+  font-size: 0.8rem;
+}
+
+#overview-map .map-popup-description {
+  margin-top: 0.38rem;
+}
+
+#overview-map .overview-legend {
+  padding: 0.5rem 0.58rem;
+  border: 1px solid rgba(36, 36, 36, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 254, 250, 0.95);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12);
+  color: #393834;
+  font: 12px/1.35 var(--sans, system-ui, sans-serif);
+}
+
+#overview-map .overview-legend strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#overview-map .legend-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+  margin: 0.18rem 0;
+}
+
+#overview-map .legend-line {
+  width: 1.55rem;
+  height: 0;
+  border-top: 3px solid;
+}
+
+#overview-map .legend-line.bus { border-color: #c56a22; }
+#overview-map .legend-line.shuttle { border-color: #b23a48; border-top-style: dashed; }
+#overview-map .legend-line.shared { border-color: #17666a; border-top-width: 4px; }
+#overview-map .legend-line.lane { border-color: #2f8fa3; }
+#overview-map .legend-line.route { border-color: #7aaebe; border-top-style: dashed; }
+
+#overview-map .legend-pin {
+  position: relative;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin: 0 0.33rem 0.18rem 0.16rem;
+  border: 2px solid #fffefa;
+  border-radius: 50% 50% 50% 0;
+  background: #6b6257;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+  transform: rotate(-45deg);
+}
+
+#overview-map .landmark-marker {
+  background: transparent;
+  border: 0;
+}
+
+#overview-map .landmark-pin {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fffefa;
+  border-radius: 50% 50% 50% 0;
+  background: #6b6257;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.38);
+  transform: rotate(-45deg);
+}
+
+#overview-map .landmark-pin > span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fffefa;
+}
+
+/* Common landmark categories. Any other category uses the neutral default. */
+#overview-map .landmark-hospital { background: #9c3d3d; }
+#overview-map .landmark-campus { background: #3d5f80; }
+#overview-map .landmark-transit { background: #9a6b31; }
+#overview-map .landmark-park { background: #4c7b52; }
+#overview-map .landmark-shopping { background: #7a5a8a; }
+#overview-map .landmark-landmark { background: #6b6257; }
+
+#overview-map .legend-area {
+  width: 1.55rem;
+  height: 0.78rem;
+  border: 1px solid #55855a;
+  background: rgba(115, 164, 113, 0.22);
+}
+
+#overview-map .leaflet-control-attribution {
+  font: 10px/1.35 var(--sans, system-ui, sans-serif);
+}
+
+@media (max-width: 700px) {
+  .overview-map-shell {
+    width: calc(100vw - 1rem);
+    margin-top: 2rem;
+  }
+
+  #overview-map {
+    height: 31rem;
+    min-height: 24rem;
+    border-radius: 5px;
+  }
+
+  #overview-map .overview-legend {
+    display: none;
+  }
+
+  #overview-map .leaflet-control-layers-expanded {
+    font-size: 12px;
+  }
+}
