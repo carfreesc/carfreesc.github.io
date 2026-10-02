@@ -381,6 +381,8 @@
     a { color: inherit; }
   }
 </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="maps/overview/overview-map.css">
 </head>
 
 <body>
@@ -413,15 +415,20 @@ College</a></li>
 <li><a href="gettingaround.html">Getting around State College</a></li>
 <li><a href="tips.html">Practical tips for living with a car</a></li>
 </ul>
-<figure>
-<img src="maps/mapall.png" alt="Local transit" />
-<figcaption aria-hidden="true">Local transit</figcaption>
-</figure>
-<p>[ TODO: This map shows CATA, PSU shuttles, and all bike routes from
-CRCOG map. It is missing CATAGO, CATAGO Extended, and Spin zones. Should
-anything else be here? It is also very ugly and unreadable.</p>
-<p>It probably would make sense to include this as an interactive map
-using Leaflet or similar. ]</p>
+<div class="overview-map-shell">
+<div id="overview-map"
+aria-label="Interactive map of Centre Region bus routes, bikeways, Penn State shuttles, and CATAGO zones">
+
+</div>
+<p class="overview-map-note">
+Toggle layers at upper right; click a route or zone for details.
+</p>
+<noscript>
+<p class="overview-map-note">
+The interactive transportation map requires JavaScript.
+</p>
+</noscript>
+</div>
 </article>
 </main>
 
@@ -431,5 +438,8 @@ using Leaflet or similar. ]</p>
     <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
   </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="maps/overview/overview-data.js"></script>
+<script src="maps/overview/overview-map.js"></script>
 </body>
 </html>
