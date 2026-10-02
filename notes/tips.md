@@ -71,6 +71,14 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and with the pending withdrawal of Spring Township from CATA you probably won't even be able to get there on CATAGO! in the future either.  It is possible to bike (or even walk), but it is pretty unpleasant and involves a stretch through the grounds of the state prison.  If somebody reading this knows a better option please tell me.
 
+(Kid stuff next)
+
+* **Millbrook Marsh** nature center is a nice spot with a lot of kids' programming.  You can bike there pretty easily from campus by taking Park to Orchard.  A lower-stress, kid-friendly option is to take the CC to the Squirrel Drive stop, bike through the parking lot behind Hickey's and through the College Twp building parking lot, and then use the bike path along the expressway for about a mile.  (This goes faster if you bring your bike on the bus.)
+
+* **Get Air** is a trampoline park and popular birthday party venue.  It's a very easy trip on the CC.
+
+* **Bernel Road Park** and the nearby **Nittany Valley Sports Centre**  are both popular for kids and essentially unreachable with them by bike, bus, or even ordinary CATAGO.  However, they are both included in the Extended north CATAGO zone.  Remember that you need to call a day ahead to schedule both directions!
+
 ## Car math
 
 If you're deciding whether get a car here, you should bear in mind that parking will be quite expensive, even if you don't drive much.  If you anticipate only having a car for grocery trips, you would probably save a lot of money by just taking a taxi to the grocery store every trip
