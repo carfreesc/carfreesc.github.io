@@ -104,7 +104,7 @@ State College does not have a train station, so you will need to get to another 
 <li>(PA also has the Lakeshore Limited, which travels from Chicago to Boston with a stop in Erie, but there's no practical way to connect to it from State College.)</li>
 </ul>
 
-![Amtrak in Pennsylvania](maps/pa_map.png)
+![Some relevant Amtrak stops](maps/pa_map.png)
 
 If you're headed east, you have basically two options: either catch the train in Lewistown (35 minutes' drive; but there is only one daily train), or make the longer trip to Harrisburg (90 minutes from here, but with more or less hourly service to NYC).  If you're headed west, the sensible option is generally to catch the train in Tyrone (35 minutes).  Of course you could catch an eastbound train in Tyrone if you like, but you will spend more than an hour on the train getting to Lewistown, and you should've just gone there in the first place.
 

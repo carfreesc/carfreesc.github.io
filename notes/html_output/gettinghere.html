@@ -316,10 +316,27 @@
     width: min(calc(100% - 2.5rem), var(--wide));
     margin: 0 auto;
     padding: 1.5rem 0 2.4rem;
+  }
+
+  .site-footer-main {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
+  }
+
+  .site-footer-links {
+    display: flex;
+    gap: 0.45rem 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .site-footer-disclaimer {
+    max-width: var(--measure);
+    margin: 0.8rem 0 0;
+    color: var(--faint);
+    font-size: 0.76rem;
+    line-height: 1.45;
   }
 
   .site-footer a { color: var(--muted); }
@@ -923,8 +940,8 @@ State College.)
 </li>
 </ul>
 <figure>
-<img src="maps/pa_map.png" alt="Amtrak in Pennsylvania" />
-<figcaption aria-hidden="true">Amtrak in Pennsylvania</figcaption>
+<img src="maps/pa_map.png" alt="Some relevant Amtrak stops" />
+<figcaption aria-hidden="true">Some relevant Amtrak stops</figcaption>
 </figure>
 <p>If you’re headed east, you have basically two options: either catch
 the train in Lewistown (35 minutes’ drive; but there is only one daily
@@ -1550,8 +1567,14 @@ train from IAD or BWI.</p>
 
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <span>An unofficial local guide to State College and Penn State.</span>
-    <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
+    <div class="site-footer-main">
+      <span>An unofficial local guide to State College and Penn State.</span>
+      <span class="site-footer-links">
+        <a href="https://github.com/carfreesc/carfreesc.github.io/issues/new?template=correction.md&amp;title=Correction%3A+">Suggest a correction</a>
+        <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
+      </span>
+    </div>
+    <p class="site-footer-disclaimer">This is an independent community guide. The views expressed here are those of the authors and do not necessarily reflect those of their employers or organizations with which they are affiliated.</p>
   </div>
 </footer>
 </body>

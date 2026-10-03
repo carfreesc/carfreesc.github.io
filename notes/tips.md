@@ -19,14 +19,13 @@ If you are a car-free enthusiast of local foods, do not despair; there are sever
 
 * The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall.  (There also used to be a winter market in the borough building but it seems to have ended with COVID.)  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the brutal curb cuts will not be kind to ripe fruit) and one on North Atherton on Saturdays, which is reachable by the AC bus.
 
-* [**Centre Markets**](https://www.centremarkets.com/) lets you place an order ahead of the farmers market and have it delivered.  They have a wide range of produce and meat, as well as prepared foods from local vendors. You can also combine your order with an order from Nature's Pantry, a natural foods store out E College that is not a great ride but is now accessible via the College Ave circulator.
-
+* [**CentreMarkets**](https://www.centremarkets.com/) lets you place an order with various local farmers and vendors and have it delivered for a fee, or pick up at their store in Pine Grove Mills.  They have a wide range of produce and meat, as well as prepared foods from local vendors.
 
 * Several local **CSAs** and farms offer weekly home delivery or delivery through local-food aggregators.  The exact lineup changes from year to year, but it is worth looking around before assuming that joining a CSA requires a weekly car trip to a farm.
 
 * **Vale Wood Farms** offers weekly home delivery of milk and other dairy products in the State College area, with no delivery fee or minimum order.  You can set up a standing order and change it by noon the day before delivery; if you won't be home, leave a cooler out.
 
-* **Mark's Custom Meats** in Howard delivers to State College a couple times a week.
+* **Mark's Custom Meats** in Howard used to deliver to State College a couple times a week.  Maybe not anymore?
 
 There are some grocery stores with easy bike access.  You would be surprised how much you can fit in a bike trailer or even panniers.
 
@@ -80,9 +79,11 @@ Doctors and dentists are spread throughout town.  There are a few concentrations
 
 * **Millbrook Marsh** nature center is a nice spot with a lot of kids' programming.  You can bike there pretty easily from campus by taking Park to Orchard.  A lower-stress, kid-friendly option is to take the CC to the Squirrel Drive stop, bike through the parking lot behind Hickey's and through the College Twp building parking lot, and then use the bike path along the expressway for about a mile.  (This goes faster if you bring your bike on the bus.)
 
-* **Get Air** is a trampoline park and popular birthday party venue.  It's a very easy trip on the CC.
+* **Get Air** is a trampoline park and popular birthday party venue.  It's a very easy trip on the CC bus.
 
-* **Bernel Road Park** and the nearby **Nittany Valley Sports Centre**  are both popular for kids and essentially unreachable with them by bike, bus, or even ordinary CATAGO.  However, they are both included in the Centre Area North Expansion Zone.  Remember that you need to call a day ahead to schedule both directions!
+* Most of the major local parks are pretty easy to get to by bike or bus.  The exception is...
+
+* **Bernel Road Park** (the "airport park" -- it's pretty fun) and the nearby **Nittany Valley Sports Centre**  are both popular for kids and essentially unreachable with them by bike, bus, or even ordinary CATAGO.  However, they are both included in the Centre Area North Expansion Zone.  Remember that you need to call a day ahead to schedule both directions!
 
 ### Bike repairs and shops
 

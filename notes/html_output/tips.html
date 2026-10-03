@@ -316,10 +316,27 @@
     width: min(calc(100% - 2.5rem), var(--wide));
     margin: 0 auto;
     padding: 1.5rem 0 2.4rem;
+  }
+
+  .site-footer-main {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
+  }
+
+  .site-footer-links {
+    display: flex;
+    gap: 0.45rem 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .site-footer-disclaimer {
+    max-width: var(--measure);
+    margin: 0.8rem 0 0;
+    color: var(--faint);
+    font-size: 0.76rem;
+    line-height: 1.45;
   }
 
   .site-footer a { color: var(--muted); }
@@ -464,13 +481,12 @@ bigger than the downtown one: there is a large market in Boalsburg on
 Tuesdays (five easy miles out the South Atherton path, but the brutal
 curb cuts will not be kind to ripe fruit) and one on North Atherton on
 Saturdays, which is reachable by the AC bus.</p></li>
-<li><p><a href="https://www.centremarkets.com/"><strong>Centre
-Markets</strong></a> lets you place an order ahead of the farmers market
-and have it delivered. They have a wide range of produce and meat, as
-well as prepared foods from local vendors. You can also combine your
-order with an order from Nature’s Pantry, a natural foods store out E
-College that is not a great ride but is now accessible via the College
-Ave circulator.</p></li>
+<li><p><a
+href="https://www.centremarkets.com/"><strong>CentreMarkets</strong></a>
+lets you place an order with various local farmers and vendors and have
+it delivered for a fee, or pick up at their store in Pine Grove Mills.
+They have a wide range of produce and meat, as well as prepared foods
+from local vendors.</p></li>
 <li><p>Several local <strong>CSAs</strong> and farms offer weekly home
 delivery or delivery through local-food aggregators. The exact lineup
 changes from year to year, but it is worth looking around before
@@ -481,8 +497,8 @@ milk and other dairy products in the State College area, with no
 delivery fee or minimum order. You can set up a standing order and
 change it by noon the day before delivery; if you won’t be home, leave a
 cooler out.</p></li>
-<li><p><strong>Mark’s Custom Meats</strong> in Howard delivers to State
-College a couple times a week.</p></li>
+<li><p><strong>Mark’s Custom Meats</strong> in Howard used to deliver to
+State College a couple times a week. Maybe not anymore?</p></li>
 </ul>
 <p>There are some grocery stores with easy bike access. You would be
 surprised how much you can fit in a bike trailer or even panniers.</p>
@@ -599,12 +615,15 @@ behind Hickey’s and through the College Twp building parking lot, and
 then use the bike path along the expressway for about a mile. (This goes
 faster if you bring your bike on the bus.)</p></li>
 <li><p><strong>Get Air</strong> is a trampoline park and popular
-birthday party venue. It’s a very easy trip on the CC.</p></li>
-<li><p><strong>Bernel Road Park</strong> and the nearby <strong>Nittany
-Valley Sports Centre</strong> are both popular for kids and essentially
-unreachable with them by bike, bus, or even ordinary CATAGO. However,
-they are both included in the Centre Area North Expansion Zone. Remember
-that you need to call a day ahead to schedule both directions!</p></li>
+birthday party venue. It’s a very easy trip on the CC bus.</p></li>
+<li><p>Most of the major local parks are pretty easy to get to by bike
+or bus. The exception is…</p></li>
+<li><p><strong>Bernel Road Park</strong> (the “airport park” – it’s
+pretty fun) and the nearby <strong>Nittany Valley Sports Centre</strong>
+are both popular for kids and essentially unreachable with them by bike,
+bus, or even ordinary CATAGO. However, they are both included in the
+Centre Area North Expansion Zone. Remember that you need to call a day
+ahead to schedule both directions!</p></li>
 </ul>
 <h3 id="bike-repairs-and-shops">Bike repairs and shops</h3>
 <p>There are several bicycle shops in and around State College:</p>
@@ -739,8 +758,14 @@ construction notice</a>.</p></li>
 
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <span>An unofficial local guide to State College and Penn State.</span>
-    <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
+    <div class="site-footer-main">
+      <span>An unofficial local guide to State College and Penn State.</span>
+      <span class="site-footer-links">
+        <a href="https://github.com/carfreesc/carfreesc.github.io/issues/new?template=correction.md&amp;title=Correction%3A+">Suggest a correction</a>
+        <a href="https://github.com/carfreesc/carfreesc.github.io">Source on GitHub</a>
+      </span>
+    </div>
+    <p class="site-footer-disclaimer">This is an independent community guide. The views expressed here are those of the authors and do not necessarily reflect those of their employers or organizations with which they are affiliated.</p>
   </div>
 </footer>
 </body>
