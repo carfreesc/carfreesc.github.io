@@ -194,3 +194,44 @@ Then visit <http://localhost:8000/>.
 The map uses Leaflet 1.9.4 from jsDelivr and OpenStreetMap tiles. All overlay
 geometry is stored locally in the repository, so future data refreshes only
 require replacing the GIS source files and rerunning `make overview`.
+
+## Amtrak orientation maps
+
+`build_amtrak_maps.py` rebuilds the two static Amtrak maps used on the
+getting-here page:
+
+* `../../docs/maps/pa_map.png` -- the broad Pennsylvania / Northeast Corridor
+  view; and
+* `../../docs/maps/local_map.png` -- the zoomed central-Pennsylvania view.
+
+The route geometry comes from Amtrak's official GTFS Schedule feed at
+`https://content.amtrak.com/content/gtfs/GTFS.zip`. The script reads
+`routes.txt`, `trips.txt`, and especially `shapes.txt`, so the rendered lines
+follow Amtrak's detailed published route alignments rather than hand-drawn
+straight segments. Amtrak station coordinates are likewise read from
+`stops.txt`; only the State College reference point is hand-specified.
+
+The display list lives in `amtrak_stations.csv`. Its `stop_code` values select
+Amtrak stations by their three-letter code, while the two `show_*` columns
+control which labels appear on the statewide and local maps.
+
+The statewide map labels State College plus Pittsburgh, Altoona, Tyrone,
+Huntingdon, Lewistown, Harrisburg, Middletown, Philadelphia, and New York. The
+local map shows State College and the nearby Altoona, Tyrone, Huntingdon,
+Lewistown, Harrisburg, and Middletown stations.
+
+To download the current feed and rebuild both maps:
+
+```sh
+make amtrak
+```
+
+For a pinned or offline build, download an Amtrak GTFS zip and run:
+
+```sh
+python build_amtrak_maps.py --gtfs /path/to/GTFS.zip --prefix-path /usr
+```
+
+The PNGs overwrite the existing files in `docs/maps/`, so the existing Markdown
+and generated HTML continue to use the new maps without any path changes. If
+only the maps changed, no Pandoc rebuild is needed.
