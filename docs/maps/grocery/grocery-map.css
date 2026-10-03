@@ -1,0 +1,149 @@
+.grocery-map-shell {
+  width: min(calc(100vw - 2rem), 72rem);
+  margin: 2.6rem 50% 1.25rem;
+  transform: translateX(-50%);
+}
+
+#grocery-map {
+  width: 100%;
+  height: 34rem;
+  min-height: 25rem;
+  border: 1px solid var(--line, #ddd9d0);
+  border-radius: 8px;
+  background: #e9eee8;
+  font-family: var(--sans, system-ui, sans-serif);
+  overflow: hidden;
+}
+
+/* The site-wide img rule must not affect Leaflet's OSM tile images. */
+#grocery-map .leaflet-tile {
+  margin: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.grocery-map-note {
+  margin: 0.55rem 0 0;
+  color: var(--muted, #66645f);
+  font-family: var(--sans, system-ui, sans-serif);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+#grocery-map .leaflet-control-layers {
+  border: 1px solid rgba(36, 36, 36, 0.16);
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.14);
+}
+
+#grocery-map .leaflet-control-layers-expanded {
+  padding: 0.6rem 0.7rem 0.55rem;
+  color: #262522;
+  font: 13px/1.45 var(--sans, system-ui, sans-serif);
+}
+
+#grocery-map .leaflet-control-layers label {
+  margin: 0.16rem 0;
+}
+
+#grocery-map .leaflet-popup-content-wrapper,
+#grocery-map .leaflet-popup-tip {
+  background: #fffefa;
+  color: #282724;
+}
+
+#grocery-map .leaflet-popup-content {
+  margin: 0.8rem 0.9rem;
+  font: 13px/1.45 var(--sans, system-ui, sans-serif);
+  min-width: 12rem;
+  max-width: 19rem;
+}
+
+#grocery-map .grocery-popup-title {
+  margin-bottom: 0.18rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+#grocery-map .grocery-popup-meta {
+  color: #5f5d58;
+  font-size: 0.8rem;
+}
+
+#grocery-map .grocery-popup-description {
+  margin-top: 0.38rem;
+}
+
+#grocery-map .grocery-legend {
+  padding: 0.5rem 0.58rem;
+  border: 1px solid rgba(36, 36, 36, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 254, 250, 0.95);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12);
+  color: #393834;
+  font: 12px/1.35 var(--sans, system-ui, sans-serif);
+}
+
+#grocery-map .grocery-legend strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#grocery-map .grocery-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  white-space: nowrap;
+  margin: 0.18rem 0;
+}
+
+#grocery-map .grocery-legend-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border: 2px solid #fffefa;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(36, 36, 36, 0.18);
+}
+
+#grocery-map .grocery-legend-dot.supermarket { background: #17666a; }
+#grocery-map .grocery-legend-dot.specialty { background: #7a5a8a; }
+#grocery-map .grocery-legend-dot.general-retail { background: #9a6b31; }
+
+#grocery-map .leaflet-control-attribution {
+  font: 10px/1.35 var(--sans, system-ui, sans-serif);
+}
+
+.grocery-map-error {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: 2rem;
+  color: #5f5d58;
+  text-align: center;
+  font: 0.9rem/1.5 var(--sans, system-ui, sans-serif);
+}
+
+@media (max-width: 700px) {
+  .grocery-map-shell {
+    width: calc(100vw - 1rem);
+    margin-top: 2rem;
+  }
+
+  #grocery-map {
+    height: 30rem;
+    min-height: 23rem;
+    border-radius: 5px;
+  }
+
+  #grocery-map .grocery-legend {
+    display: none;
+  }
+
+  #grocery-map .leaflet-control-layers-expanded {
+    font-size: 12px;
+  }
+}
