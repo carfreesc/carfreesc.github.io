@@ -50,8 +50,6 @@ Here is a brief overview of the main off-road bicycle routes.
 
 ![](maps/bikeways/valley-vista-circleville.png){alt="Map of the Valley Vista and Circleville paths" .route-map}
 
-## Roads
-
 # Bus service
 
 CATA provides a variety of bus routes around town, as well as CATAGO and CATARIDE paratransit to fill in the gaps in the bus system.  The basic fare is $2.50 for a ride; you can pay exact cash, use tickets/tokens or the Token Transit app, or tap a contactless card or phone.  Many of the apartment complexes provide passes to residents.  It is also possible to buy passes directly.  These are very expensive -- you basically break even if you commute by CATA twice a day every weekday and come out ahead only if you use the bus even more than that.  If you are a PSU faculty, staff, or graduate student, and you agree to forego having a good parking spot on campus, you can participate in the RidePASS program and get a pass at a more reasonable rate, subsidized by PSU.

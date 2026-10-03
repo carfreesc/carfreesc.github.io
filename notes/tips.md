@@ -4,9 +4,17 @@
 
 ### Groceries and Markets
 
-Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  There are a variety of smaller grocery options near downtown, and using these regularly can help reduce your need to go to the supermarket too frequently:
+Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.
+Broadly speaking, the options for supermarkets, ranked by distance from downtown are:
+* **Weis** on Westerly (take the R or the UP; or bike on Gill St and the path by the high school);
+* **Weis** and **Giant** in Northland center, a little ways out N Atherton (take the W/N/AC, or bike);
+* **Aldi**, **Trader Joe's**, and **Wegmans**, even further out N Atherton (take the AC);
+* **Weis** and **Giant** in Hills Plaza, out S Atherton (take the S Atherton bike path, or use the AC);
+* **Aldi** out the Benner Pike (right on the CC)
 
-* **McLanahan's** is a smaller grocery store right downtown at Calder and Allen.  Some locals  perceive it as a student grocery store and never set foot there.  Don't make this mistake -- it has a nice if somewhat small selection of groceries and is a great place to pick up a couple items without a full shopping trip.
+There are a variety of smaller grocery options closer to downtown, and using these regularly can help reduce your need to go to the supermarket too frequently:
+
+* **McLanahan's** operates two smaller grocery stores right downtown.  Some locals  perceive it as a student grocery store and never set foot there.  Don't make this mistake -- it has a nice if somewhat small selection of groceries and is a great place to pick up a couple items without a full shopping trip.
 * **Target** has a smaller store in town with many useful things that will save you a trip to the land of big boxes out N Atherton.
 * **The Cheese Shoppe** sells cheeses and coffee.  They have better cheese than any of the supermarkets.
 * **International Market** on Allen has a pretty wide array of international products.
@@ -18,7 +26,7 @@ Grocery shopping presents a bit of a challenge: the bus service is oriented arou
 
 If you are a car-free enthusiast of local foods, do not despair; there are several ways to get local produce without driving.  Sometimes this may entail a delivery fee; at these times, it may help to reflect on how much money you are saving by not having a car.
 
-* The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall.  (There also used to be a winter market in the borough building but it seems to have ended with COVID.)  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the brutal curb cuts will not be kind to ripe fruit) and one on North Atherton on Saturdays, which is reachable by the AC bus.
+* The **Downtown Farmers Market** happens on Locust Lane every Friday spring through fall.  Unfortunately the last few years the further-away markets have grown bigger than the downtown one: there is a large market in Boalsburg on Tuesdays (five easy miles out the South Atherton path, but the brutal curb cuts will not be kind to ripe fruit) and one on North Atherton on Saturdays, which is reachable by the AC bus.
 
 * [**CentreMarkets**](https://www.centremarkets.com/) lets you place an order with various local farmers and vendors and have it delivered for a fee, or pick up at their store in Pine Grove Mills.  They have a wide range of produce and meat, as well as prepared foods from local vendors.
 
@@ -28,19 +36,11 @@ If you are a car-free enthusiast of local foods, do not despair; there are sever
 
 * **Mark's Custom Meats** in Howard used to deliver to State College a couple times a week.  Maybe not anymore?
 
-There are some grocery stores with easy bike access.  You would be surprised how much you can fit in a bike trailer or even panniers.
-
-* **Weis Markets** is located on Westerly right next to the high school.  It is accessible via the Orchard Park bike path.  From the downtown side, ride Gill south until it ends and turns into a bike path.
-
-* **Weis** and **Giant** both have stores in Hills Plaza, off the South Atherton bike path.
-
-* **Wegmans**, **Trader Joe's**, and **Weis** all have locations in the vicinity of North Atherton.  It is possible to access all of these through Park Forest or using the Atherton Connector.
-
 ### Medical
 
 Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
 
-* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves an unpleasant stretch on Park Avenue.  CATA no longer serves the hospital with fixed-route service, and in August 2026 Penn State also ended Beaver Avenue shuttle service to the hospital and Innovation Park.  CATA now operates a dedicated demand-response hospital service from 7 AM to 8 PM on weekdays; you need to book by 5 PM the day before.  CATAGO also serves the hospital as a designated destination from its ordinary service zones.  Penn State faculty, staff, and students can use the hospital demand-response service for free when the trip begins or ends on campus.
+* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves an unpleasant stretch on Park Avenue.  Neither CATA nor PSU is currently offering scheduled bus service there.  The only transit option is a sui generis CATAGO service which is rather inconvenient from anywhere near downtown.  The rules keep changing, so check the CATA site for current details.
 
 * The **Geisinger Healthplex State College** (better known as **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.  The facility also lost CATA service recently, but can still be reached by CATAGO.  It's a very pleasant bike ride from downtown, almost entirely off-road (Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end).  If you're actually sick, this may not be very appealing, since it's a seven-mile ride with a considerable climb along Valley Vista.
 
