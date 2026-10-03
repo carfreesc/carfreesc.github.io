@@ -60,10 +60,6 @@ All CATA buses and CATAGO vehicles have easy-to-use bicycle racks on the front t
 
 ## Bus routes
 
-``` {.include}
-maps/output/bus.div
-```
-
 ### BL/WL/RL (Blue Loop/White Loop/Red Link)
 
 These three routes are subsidized by Penn State and offer free (for everybody), high frequency service around parts of campus and downtown.
@@ -88,11 +84,11 @@ These routes serve several apartment complexes in the vicinity of Aaron Drive.  
 
 ### V/VE (Vairo Blvd express)
 
-These routes serve the apartment complexes off Vairo Blvd with service to downtown.  The express VE skips some inbound stops.)
+These routes serve the apartment complexes off Vairo Blvd with service to downtown.  The express VE skips some inbound stops.
 
 ### H/HU (Toftrees)
 
-The HU shuttles between Toftrees and campus, while the H runs from downtown, through campus, through Toftrees, and out to Colonnade.  If you are at College and Allen and trying to get to Colonnade, you may be tempted to get on the H when you see the headsign that reads "Trader Joe's".  This is a trap -- this is an extremely slow way to get to Trader Joe's.  Just keep waiting for the next N, V, or AC.
+The HU shuttles between Toftrees and campus, while the H runs from downtown, through campus, through Toftrees, and out to Colonnade.  If you are at College and Allen and trying to get to Colonnade, you may be tempted to get on the H when you see the headsign that reads "Trader Joe's".  This is a trap -- this is an extremely slow way to get to Trader Joe's.  Just keep waiting for the next N, V, or AC.  (Trivia: "H" is for Hospital, where this route went a long time ago.)
 
 ### NV (Havershire/Martin/Vairo/Toftrees)
 
