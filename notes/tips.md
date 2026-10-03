@@ -4,7 +4,7 @@
 
 ### Groceries and Markets
 
-Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  My own strategy is to make only infrequent trips to the supermarket and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options near downtown:
+Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  There are a variety of smaller grocery options near downtown, and using these regularly can help reduce your need to go to the supermarket too frequently:
 
 * **McLanahan's** is a smaller grocery store right downtown at Calder and Allen.  Some locals  perceive it as a student grocery store and never set foot there.  Don't make this mistake -- it has a nice if somewhat small selection of groceries and is a great place to pick up a couple items without a full shopping trip.
 * **Target** has a smaller store in town with many useful things that will save you a trip to the land of big boxes out N Atherton.
@@ -117,11 +117,11 @@ CRPR offers classes about winter cycling, as does PSU transportation.
 
 It gets dark early in the winter.  It will be totally dark by the time of the evening commute.  Good bike lights, front and back, are necessary.
 
-State College is fairly hilly.  If you don't think you'll be able to make it up the hills, you might consider an eBike, or using the "Spin" eBike sharing program that's available in many parts of town.
+State College is fairly hilly.  If you're concerned, you might consider an eBike, or using the "Spin" eBike sharing program that's available in many parts of town.
 
-If you're ever feeling nervous about traffic, you usually have the option of riding on the sidewalk.  In the borough, sidewalk riding is allowed everywhere except the "downtown business district", defined in ordinances as the area shaded below.  On campus, sidewalk riding is allowed outside the "Bicycle Exclusion Zone", which is bounded by Curtin to the north and Pollock to the south.  You can also just walk your bike on the sidewalk.
+If you're ever feeling nervous about traffic, you usually have the option of riding on the sidewalk.  In the borough, sidewalk riding is allowed everywhere except the "downtown business district".  On campus, sidewalk riding is allowed unless the sidewalk is right next to a road.  You can also just walk your bike on the sidewalk.
 
-On football weekends, Arts Fest, and the first couple weeks of every semester, State College is flooded with tourists and students who don't know the roads.  Expect all manner of crazy driving: wrong-way drivers, drivers speeding down unsigned alleys and blowing across real streets, etc.
+On football weekends, Arts Fest, and the first couple weeks of every semester, State College is flooded with tourists and students who don't know the roads and may be drunk.  Expect all manner of crazy driving and proceed with caution.
 
 ## Links
 
