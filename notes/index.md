@@ -5,7 +5,7 @@ This page aims to provide some practical information about getting around the ar
 
 * [Getting to and from State College](gettinghere.html)
 * [Getting around State College](gettingaround.html)
-* [Practical tips for living with a car](tips.html)
+* [Practical tips for living without a car](tips.html)
 
 <div class="overview-map-shell">
   <div id="overview-map" aria-label="Interactive map of Centre Region bus routes, bikeways, Penn State shuttles, and CATAGO zones"></div>

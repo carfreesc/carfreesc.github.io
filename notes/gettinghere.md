@@ -1,6 +1,6 @@
 # Getting to State College and Penn State
 
-State College can be a bit difficult to reach by any means other than a long drive or an expensive flight.  Happily, several other options are available: intercity bus service remains fairly robust, and Amtrak trains are not too far away.  This page is an attempt to aggregate the various options for getting to and from town.  Please report any errors, omissions, updates, or suggestions.
+State College can be a bit difficult to reach by any means other than a long drive or an expensive flight.  Happily, several other options are available: intercity bus service remains fairly robust, and Amtrak trains are not too far away.  This page is an attempt to aggregate the various options for getting to and from town.  Please [report any errors, omissions, updates, or suggestions on GitHub](https://github.com/carfreesc/carfreesc.github.io/issues).
 
 ## By bus
 

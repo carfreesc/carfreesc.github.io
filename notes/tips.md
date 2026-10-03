@@ -1,6 +1,8 @@
-# Specific Destinations
+# Tips for car-free living
 
-## Medical
+## Specific Destinations
+
+### Medical
 
 Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
 
@@ -16,7 +18,7 @@ Doctors and dentists are spread throughout town.  There are a few concentrations
 
 * There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which is very easily accessed from downtown by bike or on the CC bus.  There are optometrists and dentists downtown and in Scenery Park.
 
-## Groceries and Markets
+### Groceries and Markets
 
 Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  My own strategy is to make only infrequent trips to the supermarket and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options near downtown:
 
@@ -51,7 +53,7 @@ There are some grocery stores with easy bike access.  You would be surprised how
 * **Wegmans**, **Trader Joe's**, and **Weis** all have locations in the vicinity of North Atherton.  It is possible to access all of these through Park Forest or using the Atherton Connector.
 
 
-## Entertainment
+### Entertainment
 
 * One of the great advantages of living in State College is our proximity to the woods.  A surprising number of trailheads are reachable by some combination of bus, CATAGO, walking, and biking.  None of these is quite the same as being dropped at a trailhead by car, but several are genuinely practical:
 
@@ -69,7 +71,7 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)
 
-## Miscellany
+### Miscellany
 
 * The easiest hardware store to get to from downtown is **Ace Hardware** in Hills Plaza off South Atherton.  Lowe's and Home Depot are reachable via the Valley Vista path or the AC bus.
 
@@ -85,13 +87,13 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * **Bernel Road Park** and the nearby **Nittany Valley Sports Centre**  are both popular for kids and essentially unreachable with them by bike, bus, or even ordinary CATAGO.  However, they are both included in the Centre Area North Expansion Zone.  Remember that you need to call a day ahead to schedule both directions!
 
-## Car math
+### Car math
 
 If you're deciding whether to get a car here, you should bear in mind that parking will be quite expensive, even if you don't drive much.  If you anticipate only having a car for grocery trips, you would probably save a lot of money by just taking a taxi to the grocery store every trip
 
 AAA estimates the annual average cost of car ownership at [more than $12,000 per year](https://newsroom.aaa.com/2023/08/annual-new-car-ownership-costs-boil-over-12k/).  That will pay for a great many Ubers and rental cars.  Even if you are coming as a student and have a car back home already, a parking pass in a downtown garage costs $100/month.  Unless you are doing a lot of driving you are likely to come out ahead by Ubering everywhere.
 
-## Bike repairs and shops
+### Bike repairs and shops
 
 There are several bicycle shops in and around State College:
 
@@ -103,7 +105,7 @@ There are several bicycle shops in and around State College:
 
 I won't opine on these here.  I've had good experiences at every single one.  You can read some reviews online to get a feel for which might be the most up your alley.
 
-## Bike rules
+### Bike rules
 
 * You need to follow [state law](https://www.penndot.pa.gov/TravelInPA/active-transportation/Pages/Bicycle-Safety-and-Pennsylvania-Laws.aspx) for biking.  This is basic stuff about riding on the right side of the road and stopping at signals.  You need a front light and rear reflector if riding at night.
 
@@ -113,7 +115,7 @@ I won't opine on these here.  I've had good experiences at every single one.  Yo
 
 * The Borough and PSU both require that you register your bicycle; you can do it at any of the bike shops or online.  I think in theory you could be fined if you don't, but mostly it helps the police track the bike if it's stolen.  Speaking of which, a good bike lock is essential.
 
-## Snow and hills
+### Snow and hills
 
 Snow is typically cleared pretty quickly and the roads are salted to the point that they are fine to bike on, but you'll probably want to take extra care to avoid ice and traffic after a storm.  Most of the major off-road paths are theoretically cleared in the winter.  The exceptions I am aware of are in the golf course (both the gravel path parallel to College, and the rump Corl Street running north/south) and the path along 322 from Scenery Park towards Lemont. A short stretch of the connection from the S Atherton bike path to Garner runs on private sidewalks, which have not reliably been cleared the last couple years.  In my experience the other paths are  cleared pretty quickly, but people who actually commute on them might have better information.  I did have a couple very icy trips on S Atherton in 2022.  Sidewalks and roads on campus are reliably cleared early and quickly.
 
@@ -129,24 +131,24 @@ If you're ever feeling nervous about traffic, you usually have the option of rid
 
 On football weekends, Arts Fest, and the first couple weeks of every semester, State College is flooded with tourists and students who don't know the roads.  Expect all manner of crazy driving: wrong-way drivers, drivers speeding down unsigned alleys and blowing across real streets, etc.
 
-# Links
+## Links
 
-* **CentreBike** is the main local advocacy group.
+* [**CentreBike**](https://centrebike.org/) is the main local advocacy group.
 
-* **NMBA** is the mountain bikers.
+* [**NMBA**](https://nittanymba.org/) is the mountain bikers.
 
-* **Organized rides** take place all the time.
+* [**Organized rides**](https://www.statecollegepa.us/classes-rides-and-events) take place all the time.
 
-* The **State College Borough Council** are the people with the ability to make things better for us.  You should attend their meetings and complain.
+* The [**State College Borough Council**](https://www.statecollegepa.us/borough-council-mayor) are the people with the ability to make things better for us.  You should attend their meetings and complain.
 
 * Other nearby cities are difficult to reach without a car. CATA organizes commuter carpools to some.
 
-# The future
+## The future
 
 Several exciting projects are in the works.
 
-## **The Next Generation Safety and Mobility Plan** was adopted by the State College Borough in 2024.  This lays out a longer-term version for the expansion of transportation alternatives in the borough.  The adoption of the plan does not actually get anything specific budgeted or scheduled for construction.
+### **The Next Generation Safety and Mobility Plan** was adopted by the State College Borough in 2024.  This lays out a longer-term vision for the expansion of transportation alternatives in the borough.  The adoption of the plan does not actually get anything specific budgeted or scheduled for construction.
 
-## The **E College Avenue Path** has received state funding and is in the early stages of planning.  It will provide an off-road bike path from campus along E College as far as Puddintown Rd.  This is currently a pretty major corridor with extremely poor conditions for cycling and pedestrian.
+### The **E College Avenue Path** has received state funding and is in the early stages of planning.  It will provide an off-road bike path from campus along E College as far as Puddintown Rd.  This is currently a pretty major corridor with extremely poor conditions for cycling and walking.
 
-## The **Westerly Parkway Path** should be built in 2026.
+### The **Easterly/Westerly Parkway and Blue Course Drive shared-use paths** are under construction.  The Borough has said work on the Easterly/Westerly Parkway segments is tentatively scheduled through November 13, 2026.  When complete, the project will connect the existing Orchard Park bikeway with University Drive and extend the network along Blue Course Drive.  [Borough construction notice](https://www.statecollegepa.us/680/News-Announcements?contentId=52d3676a-f410-450b-9299-eb510d79badb).
