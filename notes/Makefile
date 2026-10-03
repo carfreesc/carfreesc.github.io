@@ -10,7 +10,7 @@ $(LOCAL):
 	mkdir -p $(LOCAL)
 
 index: | $(LOCAL)
-	pandoc $(PANDOC_COMMON) index.md --metadata title="Car-free State College" --metadata leaflet=true -o $(LOCAL)/index.html
+	pandoc $(PANDOC_COMMON) index.md --metadata title="Car-free State College" --metadata leaflet=true --metadata overview=true -o $(LOCAL)/index.html
 	cp $(LOCAL)/index.html $(LIVE)/
 
 gettinghere: | $(LOCAL)
@@ -22,7 +22,7 @@ gettingaround: | $(LOCAL)
 	cp $(LOCAL)/gettingaround.html $(LIVE)/
 
 tips: | $(LOCAL)
-	pandoc $(PANDOC_GUIDE) tips.md --metadata title="Tips for car-free living" -o $(LOCAL)/tips.html
+	pandoc $(PANDOC_GUIDE) tips.md --metadata title="Tips for car-free living" --metadata leaflet=true --metadata grocery=true -o $(LOCAL)/tips.html
 	cp $(LOCAL)/tips.html $(LIVE)/
 
 .PHONY: all index gettinghere gettingaround tips

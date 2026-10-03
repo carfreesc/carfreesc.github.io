@@ -11,9 +11,10 @@ Grocery shopping presents a bit of a challenge: the bus service is oriented arou
 * **The Cheese Shoppe** sells cheeses and coffee.  They have better cheese than any of the supermarkets.
 * **International Market** on Allen has a pretty wide array of international products.
 
-``` {.include}
-maps/output/grocery.div
-```
+<div class="grocery-map-shell">
+  <div id="grocery-map" role="region" aria-label="Map of grocery stores in the State College area"></div>
+  <p class="grocery-map-note">Click a store for details. Use the layer control to show or hide store types. The inventory is maintained in <code>docs/maps/grocery/stores.csv</code>; corrections are welcome.</p>
+</div>
 
 If you are a car-free enthusiast of local foods, do not despair; there are several ways to get local produce without driving.  Sometimes this may entail a delivery fee; at these times, it may help to reflect on how much money you are saving by not having a car.
 

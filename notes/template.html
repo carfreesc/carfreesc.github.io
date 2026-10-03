@@ -400,7 +400,12 @@
 </style>
 $if(leaflet)$
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+$endif$
+$if(overview)$
 <link rel="stylesheet" href="maps/overview/overview-map.css">
+$endif$
+$if(grocery)$
+<link rel="stylesheet" href="maps/grocery/grocery-map.css">
 $endif$
 </head>
 
@@ -449,8 +454,13 @@ $endfor$
 </footer>
 $if(leaflet)$
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+$endif$
+$if(overview)$
 <script src="maps/overview/overview-data.js"></script>
 <script src="maps/overview/overview-map.js"></script>
+$endif$
+$if(grocery)$
+<script src="maps/grocery/grocery-map.js"></script>
 $endif$
 </body>
 </html>
