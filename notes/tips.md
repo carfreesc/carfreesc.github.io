@@ -2,22 +2,6 @@
 
 ## Specific Destinations
 
-### Medical
-
-Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
-
-* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves an unpleasant stretch on Park Avenue.  CATA no longer serves the hospital with fixed-route service, and in August 2026 Penn State also ended Beaver Avenue shuttle service to the hospital and Innovation Park.  CATA now operates a dedicated demand-response hospital service from 7 AM to 8 PM on weekdays; you need to book by 5 PM the day before.  CATAGO also serves the hospital as a designated destination from its ordinary service zones.  Penn State faculty, staff, and students can use the hospital demand-response service for free when the trip begins or ends on campus.
-
-* The **Geisinger Healthplex State College** (better known as **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.  The facility also lost CATA service recently, but can still be reached by CATAGO.  It's a very pleasant bike ride from downtown, almost entirely off-road (Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end).  If you're actually sick, this may not be very appealing, since it's a seven-mile ride with a considerable climb along Valley Vista.
-
-* Mount Nittany has a large new location in Toftrees with many specialties.  This is also not served by CATA fixed-route service, but can be reached by CATAGO.  Like Geisinger Grays Woods, the healthy patient can get here by a beautiful bike ride on the Bellefonte Central Rail Trail (through the PSU arboretum).  There is a stretch through Toftrees where you have to ride on dirt.  As of July 2026, inexplicably, there was still no bike rack anywhere in sight.
-
-* **Scenery Park** has a variety of medical facilities.  There is easy access via the AC bus, which turns around in the vicinity, or by the S Atherton bike path.
-
-* There are a few urgent care facilities.  One is operated by Mount Nittany medical in Hills Plaza, reachable from downtown by taking Garner to the S Atherton bike path.  You can also get there on the AC.  Geisinger ConvenientCare is at 1630 N. Atherton, in the North Atherton shopping area.
-
-* There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which is very easily accessed from downtown by bike or on the CC bus.  There are optometrists and dentists downtown and in Scenery Park.
-
 ### Groceries and Markets
 
 Grocery shopping presents a bit of a challenge: the bus service is oriented around getting passengers to/from downtown, but there is no supermarket there.  If you're hoping to shop by bus the schedules and connections can be challenging, but you can explore your options on Google maps.  My own strategy is to make only infrequent trips to the supermarket and get fresh items and small shops more often elsewhere.  Your mileage may vary.  There are a variety of grocery options near downtown:
@@ -52,46 +36,53 @@ There are some grocery stores with easy bike access.  You would be surprised how
 
 * **Wegmans**, **Trader Joe's**, and **Weis** all have locations in the vicinity of North Atherton.  It is possible to access all of these through Park Forest or using the Atherton Connector.
 
+### Medical
+
+Doctors and dentists are spread throughout town.  There are a few concentrations of medical offices.
+
+* The hospital in town is **Mount Nittany Medical Center**.  It's doable by bike but involves an unpleasant stretch on Park Avenue.  CATA no longer serves the hospital with fixed-route service, and in August 2026 Penn State also ended Beaver Avenue shuttle service to the hospital and Innovation Park.  CATA now operates a dedicated demand-response hospital service from 7 AM to 8 PM on weekdays; you need to book by 5 PM the day before.  CATAGO also serves the hospital as a designated destination from its ordinary service zones.  Penn State faculty, staff, and students can use the hospital demand-response service for free when the trip begins or ends on campus.
+
+* The **Geisinger Healthplex State College** (better known as **Geisinger Grays Woods**) is located in the Grays Woods development off I-99 a bit to the northwest of downtown.  The facility also lost CATA service recently, but can still be reached by CATAGO.  It's a very pleasant bike ride from downtown, almost entirely off-road (Tudek/Circleville + Valley Vista + Circleville paths with only a short stretch on Scotia Rd at the end).  If you're actually sick, this may not be very appealing, since it's a seven-mile ride with a considerable climb along Valley Vista.
+
+* Mount Nittany has a large new location in Toftrees with many specialties.  This is also not served by CATA fixed-route service, but can be reached by CATAGO.  Like Geisinger Grays Woods, the healthy patient can get here by a beautiful bike ride on the Bellefonte Central Rail Trail (through the PSU arboretum).  There is a stretch through Toftrees where you have to ride on dirt.  As of July 2026, inexplicably, there was still no bike rack anywhere in sight.
+
+* **Scenery Park** has a variety of medical facilities.  There is easy access via the AC bus, which turns around in the vicinity, or by the S Atherton bike path.
+
+* There are a few urgent care facilities.  One is operated by Mount Nittany medical in Hills Plaza, reachable from downtown by taking Garner to the S Atherton bike path.  You can also get there on the AC.  Geisinger ConvenientCare is at 1630 N. Atherton, in the North Atherton shopping area.
+
+* There are doctors and dentists in many other places too.  Mount Nittany has some primary care doctors at a facility on Blue Course, which is very easily accessed from downtown by bike or on the CC bus.  There are optometrists and dentists downtown and in Scenery Park.
 
 ### Entertainment
 
-* One of the great advantages of living in State College is our proximity to the woods.  A surprising number of trailheads are reachable by some combination of bus, CATAGO, walking, and biking.  None of these is quite the same as being dropped at a trailhead by car, but several are genuinely practical:
+* One of the great advantages of living in State College is our proximity to the woods.  A number of trailheads are reachable by some combination of bus, CATAGO, walking, and biking.
 
-    * **Scotia:** the Tudek/Circleville path already gives good bike access to the Scotia gamelands via Sleepy Hollow Road.  If you want to shorten the ride, take the W bus toward Farmstead/Valley Vista with your bike and start from the west side of town.
+* **Scotia:** the Tudek/Circleville path provides access to the Scotia gamelands via Sleepy Hollow Road.  If you want to shorten the ride, take the W bus toward Farmstead/Valley Vista with your bike.  Note that only designated trails in Scotia allow cycling; consult the current Purple Lizard map for details.
 
-    * **Musser Gap:** the R/RC/RP family serves The Yards and the Waupelani area, from which you can continue toward Musser Gap by bike or on foot.  The Blue Course path extension now under construction will make this connection substantially better once it reaches Whitehall Road and the Whitehall Regional Park network.
+* **Musser Gap:** the R/RC/RP family serves The Yards and the Waupelani area, from which you can continue toward Musser Gap by bike or on foot; it's about a mile from the bus stop to the parking area.  The Blue Course path extension now under construction will make this connection substantially better once it reaches Whitehall Road and the Whitehall Regional Park network.
 
-    * **Mount Nittany:** the CC reaches Lemont, which puts the Mount Nittany trail system within a manageable walk or very short bike ride.  This is probably the cleanest actual bus-to-hike trip in the area.
+* **Mount Nittany:** the CC bus reaches Lemont, which puts you fairly close to the Mount Nittany trailhead.
 
-    * **Shingletown and Galbraith Gaps:** Centre Area East CATAGO service gets you into the Boalsburg area and can get you substantially closer to these southern trailheads.  Check the current CATAGO zone map before planning around a particular pickup or drop-off point.
+* **Shingletown and Galbraith Gaps:** Centre Area East CATAGO service gets you into the Boalsburg area and can get you substantially closer to these southern trailheads.
 
-    * **Jo Hays Vista and farther-out trailheads:** the new CATAGO Expansion Zones make some destinations on the outer edge of the participating townships plausible without a car.  Expansion-zone trips have to be reserved by 5 PM the previous day, and the boundary matters, so check the current map before counting on this.
+* **Jo Hays Vista and farther-out trailheads:** the new CATAGO Expansion Zones make some more distant options possible.  The Joys Hays Vista parking lot on 26 is just this side of the Huntingdon county line and can be reached by CATAGO.
 
-  Since every CATA bus and CATAGO vehicle has a bike rack, some of these work much better as bike+transit trips than as pure walking trips.  This is an area where the possibilities are still evolving; if you discover a particularly good connection, please let me know.
-
-* The **State College Spikes** play at Lubrano Park, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)
+* The **State College Spikes** play at Medlar Field, which has service on the CATA BL late enough to get you home from a game.  (Note that the RL now ends too early to be much help.)
 
 ### Miscellany
 
 * The easiest hardware store to get to from downtown is **Ace Hardware** in Hills Plaza off South Atherton.  Lowe's and Home Depot are reachable via the Valley Vista path or the AC bus.
 
-* **Meyer Dairy** on South Atherton is a local landmark.  It is not easy to reach despite being across from the bike path: I think the easiest route is to take Rolling Ridge north, ride through the KBB parking lot, and then jump a curb and cross a little grass to get to the dairy.
+* **Meyer Dairy** on South Atherton is a local landmark.  It is not easy to reach despite being across from the bike path. The safest option is to take the Atherton bike path out to Hills Plaza, turn north on Rolling Ridge, cross Atherton, ride through the KBB parking lot, and then jump a curb and cross a little grass to get to the dairy.
 
-* The **DMV** is located in Pleasant Gap, about eight miles out of town.  The former G bus route is long-gone, and Spring Township withdrew from CATA service in 2025, so ordinary CATAGO no longer reaches the DMV.  Centre County Transportation Services now provides replacement transportation in the affected communities, but it is not nearly as simple as taking a regular CATA route from State College.  It is possible to bike (or even walk), but it is pretty unpleasant and involves a stretch through the grounds of the state prison.  If somebody reading this knows a better option please tell me.
+* The **DMV** is located in Pleasant Gap, about eight miles out of town.  It is possible to bike (or even walk), but it is pretty unpleasant and involves a stretch through the grounds of the former state prison.  If somebody reading this knows a better option please tell me.
 
-(Kid stuff next)
+### Kid stuff
 
 * **Millbrook Marsh** nature center is a nice spot with a lot of kids' programming.  You can bike there pretty easily from campus by taking Park to Orchard.  A lower-stress, kid-friendly option is to take the CC to the Squirrel Drive stop, bike through the parking lot behind Hickey's and through the College Twp building parking lot, and then use the bike path along the expressway for about a mile.  (This goes faster if you bring your bike on the bus.)
 
 * **Get Air** is a trampoline park and popular birthday party venue.  It's a very easy trip on the CC.
 
 * **Bernel Road Park** and the nearby **Nittany Valley Sports Centre**  are both popular for kids and essentially unreachable with them by bike, bus, or even ordinary CATAGO.  However, they are both included in the Centre Area North Expansion Zone.  Remember that you need to call a day ahead to schedule both directions!
-
-### Car math
-
-If you're deciding whether to get a car here, you should bear in mind that parking will be quite expensive, even if you don't drive much.  If you anticipate only having a car for grocery trips, you would probably save a lot of money by just taking a taxi to the grocery store every trip
-
-AAA estimates the annual average cost of car ownership at [more than $12,000 per year](https://newsroom.aaa.com/2023/08/annual-new-car-ownership-costs-boil-over-12k/).  That will pay for a great many Ubers and rental cars.  Even if you are coming as a student and have a car back home already, a parking pass in a downtown garage costs $100/month.  Unless you are doing a lot of driving you are likely to come out ahead by Ubering everywhere.
 
 ### Bike repairs and shops
 
@@ -103,7 +94,7 @@ There are several bicycle shops in and around State College:
 * **Trek Bicycle State College** is at 321 Benner Pike, near the mall
 * **The Bike Den** is a great resource on campus (inside the west parking deck) with classes and tools available to the public.
 
-I won't opine on these here.  I've had good experiences at every single one.  You can read some reviews online to get a feel for which might be the most up your alley.
+I won't opine on these here.  I've had good experiences at several.  You can read some reviews online to get a feel for which might be the most up your alley.
 
 ### Bike rules
 
@@ -147,8 +138,8 @@ On football weekends, Arts Fest, and the first couple weeks of every semester, S
 
 Several exciting projects are in the works.
 
-### **The Next Generation Safety and Mobility Plan** was adopted by the State College Borough in 2024.  This lays out a longer-term vision for the expansion of transportation alternatives in the borough.  The adoption of the plan does not actually get anything specific budgeted or scheduled for construction.
+* **The Next Generation Safety and Mobility Plan** was adopted by the State College Borough in 2024.  This lays out a longer-term vision for the expansion of transportation alternatives in the borough.  The adoption of the plan does not actually get anything specific budgeted or scheduled for construction.
 
-### The **E College Avenue Path** has received state funding and is in the early stages of planning.  It will provide an off-road bike path from campus along E College as far as Puddintown Rd.  This is currently a pretty major corridor with extremely poor conditions for cycling and walking.
+* The **E College Avenue Path** has received state funding and is in the early stages of planning.  It will provide an off-road bike path from campus along E College as far as Puddintown Rd.  This is currently a pretty major corridor with extremely poor conditions for cycling and walking.
 
-### The **Easterly/Westerly Parkway and Blue Course Drive shared-use paths** are under construction.  The Borough has said work on the Easterly/Westerly Parkway segments is tentatively scheduled through November 13, 2026.  When complete, the project will connect the existing Orchard Park bikeway with University Drive and extend the network along Blue Course Drive.  [Borough construction notice](https://www.statecollegepa.us/680/News-Announcements?contentId=52d3676a-f410-450b-9299-eb510d79badb).
+* The **Easterly/Westerly Parkway and Blue Course Drive shared-use paths** are under construction.  The Borough has said work on the Easterly/Westerly Parkway segments is tentatively scheduled through November 13, 2026.  When complete, the project will connect the existing Orchard Park bikeway with University Drive and extend the network along Blue Course Drive.  [Borough construction notice](https://www.statecollegepa.us/680/News-Announcements?contentId=52d3676a-f410-450b-9299-eb510d79badb).
